@@ -1,0 +1,39 @@
+.header {
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-bottom: 0;
+  }
+
+  .header .headerColumn {
+    flex: 1;
+  }
+
+  .header .headerColumnRight {
+    text-align: right;
+  }
+}
+
+.header .headerTitle {
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .header .headerTitle {
+    font-size: 5rem;
+  }
+}
+
+.header .headerLink {
+  display: inline-block;
+}
+
+.header a:hover {
+  text-decoration: none;
+  color: #20EEDA;
+}

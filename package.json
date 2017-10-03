@@ -1,0 +1,35 @@
+{
+  "name": "aquellex.ws",
+  "description": "Source code for http://aquellex.ws/",
+  "version": "1.0.0",
+  "author": "Aquellex <aquellex@f0xpa.ws>",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "gatsby": "^1.9.45",
+    "gatsby-link": "^1.6.17",
+    "gatsby-plugin-canonical-urls": "^1.0.6",
+    "gatsby-plugin-react-helmet": "^1.0.5",
+    "gatsby-remark-copy-linked-files": "^1.5.7",
+    "gatsby-remark-responsive-iframe": "^1.4.8",
+    "gatsby-remark-smartypants": "^1.4.8",
+    "gatsby-source-filesystem": "^1.5.2",
+    "gatsby-transformer-json": "^1.0.8",
+    "gatsby-transformer-remark": "^1.7.15",
+    "normalize.css": "^5.0.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2"
+  }
+}

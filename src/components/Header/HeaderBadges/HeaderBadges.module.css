@@ -1,0 +1,12 @@
+.headerBadges {
+  padding: 0;
+}
+
+.headerBadges a {
+  display: inline-block;
+  height: 35px;
+}
+
+.headerBadges img {
+  margin: 0;
+}
