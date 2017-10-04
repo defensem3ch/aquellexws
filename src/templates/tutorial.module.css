@@ -1,0 +1,38 @@
+.tutorial {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/**
+ * 1. Table of contents should appear at the right.
+ */
+
+@media (min-width: 768px) {
+  .tutorial {
+    flex-direction: row-reverse; /* 1 */
+    align-items: stretch;
+  }
+}
+
+/**
+ * 1. 1/3 width for ToC, 2/3 width for content.
+ */
+
+.tutorialTableOfContents {
+  flex: 1; /* 1 */
+  margin-top: 40px;
+}
+
+.tutorialContent {
+  flex: 2; /* 1 */
+}
+
+.tutorialTableOfContents ul,
+.tutorialTableOfContents p:last-of-type {
+  margin: 0;
+}
+
+.tutorialTableOfContents ul {
+  padding-left: 1.25rem;
+}

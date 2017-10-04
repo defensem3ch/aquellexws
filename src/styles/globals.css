@@ -85,6 +85,11 @@ p {
   margin: 1rem 0;
 }
 
+strong {
+  font-weight: normal;
+  color: #dcffba;
+}
+
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
