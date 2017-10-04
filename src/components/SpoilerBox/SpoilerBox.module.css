@@ -1,0 +1,18 @@
+.spoilerBox {
+  padding: 5px;
+  color: #100213;
+  background-color: #6CAF83;
+}
+
+.spoilerBox .spoilerBoxToggle {
+  display: block;
+  margin-bottom: 3px;
+  cursor: pointer;
+  color: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px dotted #0f0f0f;
+}
+.spoilerBox .spoilerBoxToggle:hover {
+  text-decoration: none;
+}
