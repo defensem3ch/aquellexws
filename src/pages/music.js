@@ -20,6 +20,7 @@ const MusicPage = ({ data }) => {
         ]}
       />
       <Page title="MUSIC" updated={buildTime}>
+        <h2>MUSIC</h2>
         <h3>ORIGINALS</h3>
         <Music
           title="Ballistic Bunny (feat. Kommisar)"

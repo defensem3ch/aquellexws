@@ -4,6 +4,8 @@ layout: "page"
 title: "ABOUT"
 ---
 
+## ABOUT
+
 ### THE PERSON
 
 <img src="/img/reallife.jpg" alt="reallife.jpg" />

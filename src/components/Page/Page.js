@@ -8,9 +8,6 @@ import styles from './Page.module.css'
 
 const Page = ({ title, updated, children }) => (
   <article>
-    <PageHeader>
-      <h2>{title}</h2>
-    </PageHeader>
     {children}
     <PageFooter updated={updated} />
   </article>
