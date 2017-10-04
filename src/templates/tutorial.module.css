@@ -8,7 +8,7 @@
  * 1. Table of contents should appear at the right.
  */
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .tutorial {
     flex-direction: row-reverse; /* 1 */
     align-items: stretch;
