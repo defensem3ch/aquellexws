@@ -33,6 +33,7 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1rem`
             }
           },
+          'gatsby-remark-autolink-headers',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants'
         ]
