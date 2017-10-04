@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import classnames from 'classnames'
 
-import HeaderLinks from './HeaderLinks/HeaderLinks'
-import HeaderBadges from './HeaderBadges/HeaderBadges'
+import HeaderLinks from './HeaderLinks'
+import HeaderBadges from './HeaderBadges'
 
 import styles from './Header.module.css'
 

@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import PageHeader from './PageHeader/PageHeader'
-import PageFooter from './PageFooter/PageFooter'
+import PageHeader from './PageHeader'
+import PageFooter from './PageFooter'
 
 import styles from './Page.module.css'
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import MinorUpdates from '../components/MinorUpdates/MinorUpdates'
+import MinorUpdates from '../components/MinorUpdates'
 
 const IndexPage = () => (
   <div>
