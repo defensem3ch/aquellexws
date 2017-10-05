@@ -16,7 +16,10 @@ const PageTemplate = ({ data }) => {
           { name: 'author', content: siteMetadata.author.name }
         ]}
       />
-      <Page title={page.frontmatter.title} updated={buildTime}>
+      <Page
+        title={page.frontmatter.title}
+        updated={page.frontmatter.lastUpdated}
+      >
         <div dangerouslySetInnerHTML={{ __html: page.html }} />
       </Page>
     </div>
@@ -47,6 +50,7 @@ export const query = graphql`
         title
         path
         layout
+        lastUpdated
       }
     }
   }

@@ -3,16 +3,20 @@ import PropTypes from 'prop-types'
 
 import styles from './PageFooter.module.css'
 
-const PageFooter = ({ updated }) => (
-  <footer className={styles.pageFooter}>
-    <p>
-      Last Updated: {updated}
-    </p>
-  </footer>
-)
+const PageFooter = ({ updated }) => {
+  const updateTime = new Date(Date.parse(updated)).toLocaleString()
+
+  return (
+    <footer className={styles.pageFooter}>
+      <p>
+        Last Updated: {updateTime}
+      </p>
+    </footer>
+  )
+}
 
 PageFooter.propTypes = {
-  updated: PropTypes.string
+  updated: PropTypes.string.isRequired
 }
 
 export default PageFooter

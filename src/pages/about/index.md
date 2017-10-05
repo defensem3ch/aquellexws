@@ -2,6 +2,7 @@
 path: "/about/"
 layout: "page"
 title: "ABOUT"
+lastUpdated: "2017-10-05T07:53:32.913Z"
 ---
 
 ## ABOUT
