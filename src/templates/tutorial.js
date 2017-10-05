@@ -12,7 +12,7 @@ const TutorialTemplate = ({ data }) => {
   return (
     <div className={styles.tutorial}>
       <Helmet
-        title={`${page.frontmatter.title} · ${siteMetadata.title}`}
+        title={`${page.frontmatter.title} · Tutorials · ${siteMetadata.title}`}
         meta={[
           { name: 'description', content: page.excerpt },
           { name: 'author', content: siteMetadata.author.name }
