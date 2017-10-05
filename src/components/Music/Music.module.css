@@ -1,9 +1,12 @@
 .music {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .musicEntryTitle {
   display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
   padding: 0;
   font-size: 1rem;
   color: #fff;
