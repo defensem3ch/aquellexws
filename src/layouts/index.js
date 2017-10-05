@@ -19,7 +19,7 @@ class TemplateWrapper extends React.Component {
   }
 
   render () {
-    const { siteMetadata } = this.props.data.site
+    const { siteMetadata, buildTime } = this.props.data.site
     const { children } = this.props
 
     return (
@@ -37,7 +37,7 @@ class TemplateWrapper extends React.Component {
             {children()}
           </div>
         </div>
-        <Footer />
+        <Footer updated={buildTime} />
       </div>
     )
   }
@@ -62,6 +62,7 @@ export const query = graphql`
           email
         }
       }
+      buildTime
     }
   }
 `
