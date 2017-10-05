@@ -33,10 +33,10 @@ title: "GOODIES"
 
 #### Discord servers
 
-<a href="https://discord.gg/cAgBjHa/" target="_blank">Chiptunes = WIN (the ultimate chillzone)</a>
-<a href="https://discord.gg/dvksbHh/" target="_blank">The Fourth Modulator (chip FM synthesis research)</a>
-<a href="https://discord.gg/dURHtZp/" target="_blank">The PSG Cabal (simple chip-oscillators research)</a>
-<a href="https://discord.gg/XR87eFs/" target="_blank">VGMusic.com (low-level hardware MIDI sequencing community)</a>
+* <a href="https://discord.gg/cAgBjHa/" target="_blank">Chiptunes = WIN (the ultimate chillzone)</a>
+* <a href="https://discord.gg/dvksbHh/" target="_blank">The Fourth Modulator (chip FM synthesis research)</a>
+* <a href="https://discord.gg/dURHtZp/" target="_blank">The PSG Cabal (simple chip-oscillators research)</a>
+* <a href="https://discord.gg/XR87eFs/" target="_blank">VGMusic.com (low-level hardware MIDI sequencing community)</a>
 
 ### TUTORIAL SIDEBAR & INDEX FOR LATER
 
