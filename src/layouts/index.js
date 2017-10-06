@@ -6,6 +6,7 @@ import Helmet from 'react-helmet'
 // React components
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer'
+import Container from '../components/Container'
 
 import 'normalize.css'
 import '../fonts/pxplus_ibm_vga8.css'
@@ -24,20 +25,22 @@ class TemplateWrapper extends React.Component {
 
     return (
       <div className="content">
-        <div className={styles.siteWrapper}>
-          <Helmet
-            title={siteMetadata.title}
-            meta={[
-              { name: 'description', content: siteMetadata.description },
-              { name: 'keywords', content: 'sample, something' },
-            ]}
-          />
-          <Header />
-          <div>
-            {children()}
+        <Container>
+          <div className={styles.siteWrapper}>
+            <Helmet
+              title={siteMetadata.title}
+              meta={[
+                { name: 'description', content: siteMetadata.description },
+                { name: 'keywords', content: 'sample, something' },
+              ]}
+            />
+            <Header />
+            <div>
+              {children()}
+            </div>
           </div>
-        </div>
-        <Footer updated={buildTime} />
+          <Footer updated={buildTime} />
+        </Container>
       </div>
     )
   }

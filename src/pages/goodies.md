@@ -1,6 +1,6 @@
 ---
 path: "/goodies/"
-layout: "page"
+layout: "goodies"
 title: "GOODIES"
 lastUpdated: "2017-10-05T07:53:32.913Z"
 ---
