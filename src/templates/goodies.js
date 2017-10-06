@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import classnames from 'classnames'
 
 import { PageWithSidebar } from '../components/Page'
+import GoodiesSidebar from '../components/GoodiesSidebar'
 import Row from '../components/Row'
 import Col from '../components/Col'
 
@@ -24,19 +25,10 @@ const GoodiesTemplate = ({ data }) => {
         title={page.frontmatter.title}
         updated={page.frontmatter.lastUpdated}
       >
+        <GoodiesSidebar />
         <Row reverse>
           <Col>
             <div dangerouslySetInnerHTML={{ __html: page.html }} />
-          </Col>
-          <Col sm="sm-third">
-            <h3 style={{ marginTop: '40px' }}>TUTORIAL</h3>
-            <ol>
-              <li><Link to="/goodies/tutorial/sample-tutorial-1.html">Interface &amp; humble beginnings</Link></li>
-              <li>Phrase formulation &amp; structuring</li>
-              <li>Single-channel echo buffers</li>
-              <li>BGB setup</li>
-              <li>Game Boy comparison (better than Weixelbaum’s version)</li>
-            </ol>
           </Col>
         </Row>
       </PageWithSidebar>
