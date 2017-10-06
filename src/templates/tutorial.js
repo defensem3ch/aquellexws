@@ -2,6 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Page from '../components/Page'
+import Row from '../components/Row'
+import Col from '../components/Col'
 
 import styles from './tutorial.module.css'
 
@@ -18,13 +20,17 @@ const TutorialTemplate = ({ data }) => {
           { name: 'author', content: siteMetadata.author.name }
         ]}
       />
-      <div className={styles.tutorialTableOfContents}>
-        <h4>Table of Contents</h4>
-        <div dangerouslySetInnerHTML={{ __html: page.tableOfContents }} />
-      </div>
-      <div className={styles.tutorialContent}>
-        <div dangerouslySetInnerHTML={{ __html: page.html }} />
-      </div>
+      <Row reverse>
+        <Col lg="lg-third" className={styles.tutorialTableOfContents}>
+          <div>
+            <h4 style={{ marginTop: '40px' }}>Table of Contents</h4>
+            <div dangerouslySetInnerHTML={{ __html: page.tableOfContents }} />
+          </div>
+        </Col>
+        <Col>
+          <div dangerouslySetInnerHTML={{ __html: page.html }} />
+        </Col>
+      </Row>
     </div>
   )
 }

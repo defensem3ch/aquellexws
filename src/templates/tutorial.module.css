@@ -20,12 +20,7 @@
  */
 
 .tutorialTableOfContents {
-  flex: 1; /* 1 */
   margin-top: 40px;
-}
-
-.tutorialContent {
-  flex: 2; /* 1 */
 }
 
 .tutorialTableOfContents ul,

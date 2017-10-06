@@ -1,7 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Link from 'gatsby-link'
+import classnames from 'classnames'
 
-import Page from '../components/Page'
+import { PageWithSidebar } from '../components/Page'
+import Row from '../components/Row'
+import Col from '../components/Col'
 
 const GoodiesTemplate = ({ data }) => {
   const page = data.markdownRemark
@@ -16,12 +20,26 @@ const GoodiesTemplate = ({ data }) => {
           { name: 'author', content: siteMetadata.author.name }
         ]}
       />
-      <Page
+      <PageWithSidebar
         title={page.frontmatter.title}
         updated={page.frontmatter.lastUpdated}
       >
-        <div dangerouslySetInnerHTML={{ __html: page.html }} />
-      </Page>
+        <Row reverse>
+          <Col>
+            <div dangerouslySetInnerHTML={{ __html: page.html }} />
+          </Col>
+          <Col sm="sm-third">
+            <h3 style={{ marginTop: '40px' }}>TUTORIAL</h3>
+            <ol>
+              <li><Link to="/goodies/tutorial/sample-tutorial-1.html">Interface &amp; humble beginnings</Link></li>
+              <li>Phrase formulation &amp; structuring</li>
+              <li>Single-channel echo buffers</li>
+              <li>BGB setup</li>
+              <li>Game Boy comparison (better than Weixelbaum’s version)</li>
+            </ol>
+          </Col>
+        </Row>
+      </PageWithSidebar>
     </div>
   )
 }

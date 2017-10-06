@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import ResponsiveEmbed from 'react-responsive-embed'
 
-import Page from '../components/Page'
+import { Page } from '../components/Page'
 import Music from '../components/Music'
 import SpoilerBox from '../components/SpoilerBox'
 import SoundCloudEmbedFrame from '../components/SoundCloudEmbedFrame'

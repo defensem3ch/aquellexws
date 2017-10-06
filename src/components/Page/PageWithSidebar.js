@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import Container from '../Container'
 import PageHeader from './PageHeader'
 import PageFooter from './PageFooter'
 
