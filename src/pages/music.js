@@ -29,7 +29,7 @@ const MusicPage = ({ data }) => {
         </SpoilerBox>
         {/* ATTENTION #2: Only include the `src` attribute here. */}
         <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337789973&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
-        <span>audio file unavailable until further notice &#8729; <a href="mailto:william.mon.98@gmail.com">e-mail me for project files</a></span>
+        <span>audio file unavailable until further notice &#8729; <a href="mailto:aquellex@f0xpa.ws">e-mail me for project files</a></span>
       </Music>
 
       <Music
@@ -61,7 +61,7 @@ const MusicPage = ({ data }) => {
           />
         </SpoilerBox>
         <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313709199&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
-        <span><a href="https://soundcloud.com/aquellex/hatred-of-renard" target="_blank">audio file</a> (click on 'more' > 'download') &#8729; <a href="mailto:william.mon.98@gmail.com">e-mail me for project files</a></span>
+        <span><a href="https://soundcloud.com/aquellex/hatred-of-renard" target="_blank">audio file</a> (click on 'more' > 'download') &#8729; <a href="mailto:aquellex@f0xpa.ws">e-mail me for project files</a></span>
       </Music>
 
       <Music
@@ -76,7 +76,7 @@ const MusicPage = ({ data }) => {
           />
         </SpoilerBox>
         <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/291092079&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
-        <span><a href="https://subsequenceradio.bandcamp.com/track/crystal-chamber-combustion" target="_blank">audio file</a> (donate, or <a href="mailto:william.mon.98@gmail.com">ask</a>) &#8729; <a href="mailto:william.mon.98@gmail.com">e-mail me for project files</a></span>
+        <span><a href="https://subsequenceradio.bandcamp.com/track/crystal-chamber-combustion" target="_blank">audio file</a> (donate, or <a href="mailto:aquellex@f0xpa.ws">ask</a>) &#8729; <a href="mailto:aquellex@f0xpa.ws">e-mail me for project files</a></span>
       </Music>
 
       <Music
