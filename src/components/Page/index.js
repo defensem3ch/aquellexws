@@ -1,2 +1,1 @@
-export { default as Page } from './Page'
-export { default as PageWithSidebar } from './PageWithSidebar'
+export { default } from './Page'

@@ -1,18 +1,19 @@
-import React from 'react'
+import * as React from 'react'
 import Helmet from 'react-helmet'
 
 import Page from '../components/Page'
+import Container from '../components/Container'
 import Row from '../components/Row'
 import Col from '../components/Col'
-
-import styles from './tutorial.module.css'
+import SpoilerBox from '../components/SpoilerBox'
+import GoodiesSidebar from '../components/GoodiesSidebar'
 
 const TutorialTemplate = ({ data }) => {
   const page = data.markdownRemark
   const { siteMetadata, buildTime } = data.site
 
   return (
-    <div className={styles.tutorial}>
+    <div>
       <Helmet
         title={`${page.frontmatter.title} · Tutorials · ${siteMetadata.title}`}
         meta={[
@@ -20,17 +21,22 @@ const TutorialTemplate = ({ data }) => {
           { name: 'author', content: siteMetadata.author.name }
         ]}
       />
-      <Row reverse>
-        <Col lg="lg-third" className={styles.tutorialTableOfContents}>
-          <div>
-            <h4 style={{ marginTop: '40px' }}>Table of Contents</h4>
-            <div dangerouslySetInnerHTML={{ __html: page.tableOfContents }} />
-          </div>
-        </Col>
-        <Col>
-          <div dangerouslySetInnerHTML={{ __html: page.html }} />
-        </Col>
-      </Row>
+      <Page
+        title={page.frontmatter.title}
+        updated={page.frontmatter.lastUpdated}
+      >
+        <Row reverse>
+          <Col lg="lg-third">
+            <GoodiesSidebar />
+          </Col>
+          <Col>
+            <SpoilerBox title="Table of Contents">
+              <div dangerouslySetInnerHTML={{ __html: page.tableOfContents }} />
+            </SpoilerBox>
+            <div dangerouslySetInnerHTML={{ __html: page.html }} />
+          </Col>
+        </Row>
+      </Page>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import classnames from 'classnames'
 
-import { PageWithSidebar } from '../components/Page'
+import Page from '../components/Page'
 import GoodiesSidebar from '../components/GoodiesSidebar'
 import Row from '../components/Row'
 import Col from '../components/Col'
@@ -21,17 +21,19 @@ const GoodiesTemplate = ({ data }) => {
           { name: 'author', content: siteMetadata.author.name }
         ]}
       />
-      <PageWithSidebar
+      <Page
         title={page.frontmatter.title}
         updated={page.frontmatter.lastUpdated}
       >
-        <GoodiesSidebar />
         <Row reverse>
+          <Col lg="lg-third">
+            <GoodiesSidebar />
+          </Col>
           <Col>
             <div dangerouslySetInnerHTML={{ __html: page.html }} />
           </Col>
         </Row>
-      </PageWithSidebar>
+      </Page>
     </div>
   )
 }

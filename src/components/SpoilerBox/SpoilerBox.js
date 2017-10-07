@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import * as React from 'react'
+import * as PropTypes from 'prop-types'
 
 import styles from './SpoilerBox.module.css'
 
@@ -13,7 +13,7 @@ class SpoilerBox extends React.Component {
   }
 
   render () {
-    const { children } = this.props
+    const { title, children } = this.props
 
     return (
       <div className={styles.spoilerBox}>
@@ -21,7 +21,7 @@ class SpoilerBox extends React.Component {
           className={styles.spoilerBoxToggle}
           onClick={() => { this.setState({ visible: !this.state.visible }) }}
         >
-          YouTube Video
+          {title}
         </a>
         <div
           className={styles.spoilerBoxContent}
@@ -34,6 +34,10 @@ class SpoilerBox extends React.Component {
       </div>
     )
   }
+}
+
+SpoilerBox.propTypes = {
+  title: PropTypes.string.isRequired
 }
 
 export default SpoilerBox
