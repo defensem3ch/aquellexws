@@ -1,0 +1,8 @@
+.pageTitle {
+  margin: 1rem 0;
+  color: #dcffba;
+  border-bottom: 1px dotted #dcffba;
+}
+.pageTitle h2 {
+  margin: 0;
+}

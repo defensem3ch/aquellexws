@@ -25,15 +25,15 @@ const TutorialTemplate = ({ data }) => {
         title={page.frontmatter.title}
         updated={page.frontmatter.lastUpdated}
       >
-        <Row reverse>
-          <Col lg="lg-third">
-            <GoodiesSidebar />
-          </Col>
+        <Row>
           <Col>
             <SpoilerBox title="Table of Contents">
               <div dangerouslySetInnerHTML={{ __html: page.tableOfContents }} />
             </SpoilerBox>
             <div dangerouslySetInnerHTML={{ __html: page.html }} />
+          </Col>
+          <Col lg="lg-third">
+            <GoodiesSidebar />
           </Col>
         </Row>
       </Page>

@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import ResponsiveEmbed from 'react-responsive-embed'
 
-import { Page } from '../components/Page'
+import Page from '../components/Page'
 import Music from '../components/Music'
 import SpoilerBox from '../components/SpoilerBox'
 import SoundCloudEmbedFrame from '../components/SoundCloudEmbedFrame'
@@ -11,8 +11,9 @@ import SoundCloudEmbedFrame from '../components/SoundCloudEmbedFrame'
 const MusicPage = ({ data }) => {
   const { siteMetadata, buildTime } = data.site
   return (
-    <div>
-      <h2>MUSIC</h2>
+    <Page
+      title="MUSIC"
+    >
       <h3>ORIGINALS</h3>
       <Music
         title="Ballistic Bunny (feat. Kommisar)"
@@ -110,7 +111,7 @@ const MusicPage = ({ data }) => {
         <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262626889&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
         <span><a href="https://soundcloud.com/aquellex/candy-explosion" target="_blank">audio file</a> (click on 'more' > 'download') &#8729; <a href="http://2a03.free.fr/dl.php?file=5167">project files</a></span>
       </Music>
-    </div>
+    </Page>
   )
 }
 

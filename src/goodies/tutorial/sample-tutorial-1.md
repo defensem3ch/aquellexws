@@ -2,7 +2,7 @@
 path: "/goodies/tutorial/sample-tutorial-1.html"
 layout: "tutorial"
 title: "Example Tutorial Page"
-lastUpdated: "2017-10-03T15:30:00.000Z"
+lastUpdated: "2017-10-03T15:30:00Z"
 ---
 
 ## Example Tutorial Page

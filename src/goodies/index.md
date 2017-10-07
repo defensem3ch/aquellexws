@@ -5,8 +5,6 @@ title: "GOODIES"
 lastUpdated: "2017-10-05T07:53:32.913Z"
 ---
 
-## GOODIES
-
 ### Comrades
 
 <a href="http://www.notepad.org" target="_blank"><img src="/img/notepad.gif"></a>
