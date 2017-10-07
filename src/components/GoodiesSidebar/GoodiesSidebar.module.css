@@ -2,11 +2,15 @@
   margin-top: 40px;
   padding: 1rem;
   overflow-y: auto;
-  background-color: #dcffba;
+  background-color: #F47829;
   color: #000;
 }
 
 .goodiesSidebar .goodiesSidebarTitle {
   background-color: #0C071E;
-  color: #dcffba;
+  color: #F47829;
+}
+
+.goodisSidebar a {
+	color: #00B5EF;
 }

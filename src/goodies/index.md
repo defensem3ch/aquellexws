@@ -7,9 +7,7 @@ lastUpdated: "2017-10-05T07:53:32.913Z"
 
 ## GOODIES
 
-### INDEX
-
-#### Comrades
+### Comrades
 
 <a href="http://www.notepad.org" target="_blank"><img src="/img/notepad.gif"></a>
 <a href="https://defensemech.com/" target="_blank"><img src="/img/defense.gif"></a>
@@ -22,7 +20,7 @@ lastUpdated: "2017-10-05T07:53:32.913Z"
 * <a href="https://soundcloud.com/kommisar/" target="_blank">Kommisar</a>
 * <a href="http://takaperry.com/" target="_blank">Taka Perry</a>
 
-#### External sites & tools
+### External sites & tools
 
 * <a href="https://github.com/Eiyeron/lsdpatch/releases/" target="_blank">Eiyeron's LSDPatcher fork</a>
 * <a href="https://github.com/urbster1/lsdfonts/" target="_blank">LSDJ fonts (use LSDPatcher)</a>
@@ -30,17 +28,10 @@ lastUpdated: "2017-10-05T07:53:32.913Z"
 * <a href="http://2a03.free.fr/?p=pub&dir=aquellex" target="_blank">Miscellaneous files</a>
 * <a href="https://tommitytom.co.uk/lsdj" target="_blank">Online LSDJ patcher (WARNING: palette patching doesn't work yet)</a>
 
-#### Discord servers
+### Discord servers
 
 * <a href="https://discord.gg/cAgBjHa/" target="_blank">Chiptunes = WIN (the ultimate chillzone)</a>
 * <a href="https://discord.gg/dvksbHh/" target="_blank">The Fourth Modulator (chip FM synthesis research)</a>
 * <a href="https://discord.gg/dURHtZp/" target="_blank">The PSG Cabal (simple chip-oscillators research)</a>
 * <a href="https://discord.gg/XR87eFs/" target="_blank">VGMusic.com (low-level hardware MIDI sequencing community)</a>
 
-### TUTORIAL SIDEBAR & INDEX FOR LATER
-
-1. Interface & humble beginnings
-2. Phrase formulation & structuring
-3. Single-channel echo buffers
-4. BGB setup
-5. Game Boy comparison (better than Weixelbaum's version)

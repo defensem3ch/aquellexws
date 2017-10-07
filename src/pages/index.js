@@ -18,6 +18,8 @@ const IndexPage = () => (
     </MinorUpdates>
 
     <NewsUpdates>
+      <h3>07.10.2017 // Moved to Netlify for hosting and implemented Gatsby.js &amp; React.js!</h3>
+      <p>Special thanks to <a href="https://twitter.com/resir014">resir014</a> for spending his free time helping me out making my site better! He also made the website more responsive for mobile devices. &#9786;</p>
       <h3>25.08.2017 // Added spoiler tags to YouTube Videos in the music section</h3>
       <p>I realised how much memory is consumed when trying to load too many embedded videos in one page. Hopefully, adding a spoiler tag can alleviate memory problems. If problems still persist, do not hestitate to get in touch with me. You may also want to try refreshing the cache (Ctrl+F5) first, however. Cheers!</p>
 
