@@ -1,6 +1,6 @@
 ---
 path: "/Gqkq21vtXYE2B+FOX1rU1q02UMQzHj1KZNcXH74Q934="
-layout: "about"
+layout: "page"
 title: "SECRETS"
 lastUpdated: "2017-10-08T04:02:00.000Z"
 ---
