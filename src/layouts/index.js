@@ -35,7 +35,7 @@ class TemplateWrapper extends React.Component {
                 { name: 'keywords', content: 'sample, something' },
               ]}
             />
-            <Konami easterEgg={() => navigateTo('/goodies/secrets')} />
+            <Konami easterEgg={() => navigateTo('/Gqkq21vtXYE2B+FOX1rU1q02UMQzHj1KZNcXH74Q934=')} />
             <Header />
             <div>
               {children()}
