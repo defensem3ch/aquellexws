@@ -6,8 +6,6 @@ import NewsUpdates from '../components/NewsUpdates'
 
 const IndexPage = () => (
   <div>
-    <h2>NEWS</h2>
-
     <span>Site updates:</span><br />
     <MinorUpdates>
       <p>30.09.2017 // Changed web rating from G-PG to PG-14 because of my social media links. Also changed my contact e-mail to aquellex@f0xpa.ws.</p>
