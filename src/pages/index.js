@@ -1,11 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import Page from '../components/Page'
 import MinorUpdates from '../components/MinorUpdates'
 import NewsUpdates from '../components/NewsUpdates'
 
 const IndexPage = () => (
   <div>
+    <Page title="NEWS"></Page>
     <span>Site updates:</span><br />
     <MinorUpdates>
       <p>30.09.2017 // Changed web rating from G-PG to PG-14 because of my social media links. Also changed my contact e-mail to aquellex@f0xpa.ws.</p>
