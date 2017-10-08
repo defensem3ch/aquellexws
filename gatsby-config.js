@@ -49,7 +49,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: `https://aquellex.ws`
+        siteUrl: `https://www.aquellex.ws`
       }
     },
     'gatsby-transformer-json',
