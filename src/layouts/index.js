@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
+import Link, { navigateTo } from 'gatsby-link'
 import Helmet from 'react-helmet'
+import Konami from 'react-konami'
 
 // React components
 import Header from '../components/Header/Header'
@@ -34,6 +35,7 @@ class TemplateWrapper extends React.Component {
                 { name: 'keywords', content: 'sample, something' },
               ]}
             />
+            <Konami easterEgg={() => navigateTo('/goodies/secrets')} />
             <Header />
             <div>
               {children()}
