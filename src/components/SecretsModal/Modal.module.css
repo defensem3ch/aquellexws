@@ -1,0 +1,10 @@
+.modalCloseButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+.modalCloseButton:hover,
+.modalCloseButton:focus {
+  text-decoration: none;
+}
