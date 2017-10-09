@@ -4,12 +4,6 @@ import PropTypes from 'prop-types'
 import Modal from '../Modal'
 
 class SecretsModal extends React.Component {
-  static propTypes = {
-    isOpen: PropTypes.bool,
-    label: PropTypes.string.isRequired,
-    children: PropTypes.node.isRequired
-  }
-
   constructor () {
     super()
 
