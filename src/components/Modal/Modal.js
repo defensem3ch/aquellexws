@@ -13,7 +13,7 @@ class Modal extends React.Component {
     const { isOpen, label, children } = this.props
 
     return (
-      <ReactModal contentLabel={label}>
+      <ReactModal contentLabel={label} isOpen={isOpen}>
         {children}
       </ReactModal>
     )
