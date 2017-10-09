@@ -14,7 +14,7 @@ const Footer = ({ updated }) => {
       <div className={styles.footerInner}>
         <p>&copy; 2014-{formattedYear}, Aquellex</p>
         <p>HTML design by Aquellex &amp; <a href="https://twitter.com/TC_Halogen" target="_blank">TC_Halogen</a></p>
-        <p>React.js implementation by <a href="https://twitter.com/resir014" target="_blank">resir014</a></p>
+        <p>Gatsby.js implementation by <a href="https://twitter.com/resir014" target="_blank">resir014</a></p>
         <p>My E-mail: <a href="mailto:aquellex@f0xpa.ws">aquellex@f0xpa.ws</a></p>
       </div>
     </footer>
