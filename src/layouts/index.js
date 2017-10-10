@@ -37,6 +37,8 @@ class TemplateWrapper extends React.Component {
               ]}
             />
             <Konami konami={[76, 79, 67, 82, 73, 65, 78]} easterEgg={() => window.open("https://twitter.com/locrian_memes")} />
+            <Konami konami={[77, 85, 70, 71, 79]} easterEgg={() => window.location.href = 'https://www.youtube.com/watch?v=NtSgWZbL_kE'
+} />
             <SecretsModal />
             <Header />
             <div>
