@@ -35,8 +35,10 @@ const MusicPage = ({ data }) => {
               allowfullscreen
             />
           </SpoilerBox>
-          {/* ATTENTION #2: Only include the `src` attribute here. */}
-          <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337789973&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          <SpoilerBox title="SoundCloud Player">
+            {/* ATTENTION #2: Only include the `src` attribute here. */}
+            <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337789973&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          </SpoilerBox>
           <span>audio file unavailable until further notice &#8729; <a href="mailto:aquellex@f0xpa.ws">e-mail me for project files</a></span>
         </Music>
 
@@ -51,7 +53,9 @@ const MusicPage = ({ data }) => {
               allowfullscreen
             />
           </SpoilerBox>
-          <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337537370&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          <SpoilerBox title="SoundCloud Player">
+            <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337537370&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          </SpoilerBox>
           <span><a href="https://chiptuneswin.bandcamp.com/track/tachyon-beam-cannon" target="_blank">audio file</a> &#8729; <a href="http://2a03.free.fr/dl.php?file=5458" target="_blank">project files</a></span>
         </Music>
 
@@ -68,7 +72,9 @@ const MusicPage = ({ data }) => {
               allowfullscreen
             />
           </SpoilerBox>
-          <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313709199&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          <SpoilerBox title="SoundCloud Player">
+            <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313709199&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          </SpoilerBox>
           <span><a href="https://soundcloud.com/aquellex/hatred-of-renard" target="_blank">audio file</a> (click on 'more' > 'download') &#8729; <a href="mailto:aquellex@f0xpa.ws">e-mail me for project files</a></span>
         </Music>
 
@@ -83,7 +89,9 @@ const MusicPage = ({ data }) => {
               allowfullscreen
             />
           </SpoilerBox>
-          <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/291092079&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          <SpoilerBox title="SoundCloud Player">
+            <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/291092079&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          </SpoilerBox>
           <span><a href="https://subsequenceradio.bandcamp.com/track/crystal-chamber-combustion" target="_blank">audio file</a> (donate, or <a href="mailto:aquellex@f0xpa.ws">ask</a>) &#8729; <a href="mailto:aquellex@f0xpa.ws">e-mail me for project files</a></span>
         </Music>
 
@@ -99,7 +107,9 @@ const MusicPage = ({ data }) => {
               allowfullscreen
             />
           </SpoilerBox>
-          <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/274331592&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          <SpoilerBox title="SoundCloud Player">
+            <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/274331592&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          </SpoilerBox>
           <span><a href="https://chiptuneswin.bandcamp.com/track/wanderflux" target="_blank">audio file</a> &#8729; <a href="http://2a03.free.fr/dl.php?file=5193">project files</a></span>
         </Music>
 
@@ -115,7 +125,9 @@ const MusicPage = ({ data }) => {
               allowfullscreen
             />
           </SpoilerBox>
-          <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262626889&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          <SpoilerBox title="SoundCloud Player">
+            <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262626889&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+          </SpoilerBox>
           <span><a href="https://soundcloud.com/aquellex/candy-explosion" target="_blank">audio file</a> (click on 'more' > 'download') &#8729; <a href="http://2a03.free.fr/dl.php?file=5167">project files</a></span>
         </Music>
       </Page>
