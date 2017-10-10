@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link, { navigateTo } from 'gatsby-link'
 import Helmet from 'react-helmet'
+import Konami from 'react-konami'
 
 // React components
 import Header from '../components/Header/Header'
@@ -35,6 +36,7 @@ class TemplateWrapper extends React.Component {
                 { name: 'keywords', content: 'sample, something' },
               ]}
             />
+            <Konami konami={[76, 79, 67, 82, 73, 65, 78]} easterEgg={() => window.open("https://twitter.com/locrian_memes")} />
             <SecretsModal />
             <Header />
             <div>
