@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link, { navigateTo } from 'gatsby-link'
 import Helmet from 'react-helmet'
-import Konami from 'react-konami'
 
 // React components
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer'
 import Container from '../components/Container'
+import SecretsModal from '../components/SecretsModal'
 
 import 'normalize.css'
 import '../fonts/pxplus_ibm_vga8.css'
@@ -35,7 +35,7 @@ class TemplateWrapper extends React.Component {
                 { name: 'keywords', content: 'sample, something' },
               ]}
             />
-            <Konami easterEgg={() => navigateTo('/Gqkq21vtXYE2B+FOX1rU1q02UMQzHj1KZNcXH74Q934=')} />
+            <SecretsModal />
             <Header />
             <div>
               {children()}
