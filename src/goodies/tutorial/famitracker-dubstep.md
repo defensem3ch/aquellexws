@@ -5,6 +5,8 @@ title: "The Guide to Making NES/Famicom Dubstep in FamiTracker"
 lastUpdated: "2017-10-11T11:00:00Z"
 ---
 
+WARNING: THIS PAGE IS REALLY MESST AT THE MOMENT - WE'LL FIX THOSE AS SOON AS POSSIBLE - Aquellex & resir014
+
 Written by <a href=https://soundcloud.com/dj-dimeback>Thomas Palensky</a>
 
 Document version: 1.1
