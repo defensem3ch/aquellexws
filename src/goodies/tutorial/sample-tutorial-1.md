@@ -1,5 +1,5 @@
 ---
-path: "/goodies/tutorial/sample-tutorial-1.html"
+path: "/goodies/tutorial/sample-tutorial-1"
 layout: "tutorial"
 title: "Example Tutorial Page"
 lastUpdated: "2017-10-03T15:30:00Z"
