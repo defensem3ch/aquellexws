@@ -32,8 +32,8 @@ The duty cycle you use will also have an effect on the sound of the wub. 12.5% s
 Thirdly, I recommend writing the song using the speed 1 formula, mainly for the benefit of the non-dubstep instruments.
 
 You should also calculate the associated tempo.<br>
-The equation: Engine Speed*2.5/8<br>
-If you get a decimal, use the closest whole value or use Engine Speed*2.5/4 instead.
+The equation: Engine Speed\*2.5/8<br>
+If you get a decimal, use the closest whole value or use Engine Speed\*2.5/4 instead.
 
 ### USING VOLUME SEQUENCES
 
@@ -77,7 +77,7 @@ x-# represents the output note relative to x.
 ╚═════════════════╩═════════════════╝
 ```
 
-*Might be out of tune.
+\*Might be out of tune.
 
 As you can see, it works very similarly to the DPCM steps. Of course, this means you're limited to what notes you can produce, but it shouldn't be too hard to get around restrictions like this.
 
