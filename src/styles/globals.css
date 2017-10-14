@@ -120,12 +120,17 @@ pre {
   overflow-x: auto;
 }
 
+.gatsby-highlight pre,
+.gatsby-highlight code {
+  font-family: 'pxplus_ibm_vga8regular', monospace;
+}
+
 /**
  * Main content
  */
 
 .content {
-  font-family: 'pxplus_ibm_vga8regular', sans-serif;
+  font-family: 'pxplus_ibm_vga8regular', monospace;
 }
 
 footer {
