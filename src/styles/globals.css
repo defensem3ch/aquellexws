@@ -124,7 +124,7 @@ th {
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, .25);
 }
 
 /**
