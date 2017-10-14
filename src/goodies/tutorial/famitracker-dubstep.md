@@ -53,29 +53,26 @@ I have devised a chart that tells you the resulted note from each step size.<br>
 The base note is represented by variable x.<br>
 x-# represents the output note relative to x.
 
-```
-╔═══════════════════════════════════╗
-║       === THE WUB CHART ===       ║
-╠═════════════════╦═════════════════╣
-║    Sequence     ║   Output note   ║ MML String in the shape of a square wave:
-╠═════════════════╬═════════════════╣
-║ 2 steps         ║ x               ║ 15 0
-║ 3 steps         ║ x-7             ║ 15 0 0 / 15 15 0
-║ 4 steps         ║ x-12            ║ 15 15 0 0
-║ 5 steps         ║ x-16*           ║ 15 15 0 0 0 / 15 15 15 0 0
-║ 6 steps         ║ x-19            ║ 15 15 15 0 0 0
-║ 7 steps         ║ x-22            ║ 15 15 15 0 0 0 0 / 15 15 15 15 0 0 0
-║ 8 steps         ║ x-24            ║ 15 15 15 15 0 0 0 0
-║ 9 steps         ║ x-26            ║ 15 15 15 15 0 0 0 0 0 / 15 15 15 15 15 0 0 0 0
-║ 10 steps        ║ x-28*           ║ 15 15 15 15 15 0 0 0 0 0
-║ 11 steps        ║ x-29            ║ 15 15 15 15 15 0 0 0 0 0 0 / 15 15 15 15 15 15 0 0 0 0 0
-║ 12 steps        ║ x-31            ║ 15 15 15 15 15 15 0 0 0 0 0 0
-║ 13 steps        ║ x-32            ║ 15 15 15 15 15 15 0 0 0 0 0 0 0 / 15 15 15 15 15 15 15 0 0 0 0 0 0
-║ 14 steps        ║ x-34            ║ 15 15 15 15 15 15 15 0 0 0 0 0 0 0
-║ 15 steps        ║ x-35            ║ 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0 / 15 15 15 15 15 15 15 15 0 0 0 0 0 0 0
-║ 16 steps        ║ x-36            ║ 15 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0
-╚═════════════════╩═════════════════╝
-```
+
+#### === THE WUB CHART ===
+
+|    Sequence     |   Output note   | MML String in the shape of a square wave: |
+|:--------------- |:--------------- |:------------------------------------------|
+| 2 steps         | x               | 15 0                                      |
+| 3 steps         | x-7             | 15 0 0 / 15 15 0                          |
+| 4 steps         | x-12            | 15 15 0 0                                 |
+| 5 steps         | x-16*           | 15 15 0 0 0 / 15 15 15 0 0                |
+| 6 steps         | x-19            | 15 15 15 0 0 0                            |
+| 7 steps         | x-22            | 15 15 15 0 0 0 0 / 15 15 15 15 0 0 0      |
+| 8 steps         | x-24            | 15 15 15 15 0 0 0 0                       |
+| 9 steps         | x-26            | 15 15 15 15 0 0 0 0 0 / 15 15 15 15 15 0 0 0 0 |
+| 10 steps        | x-28*           | 15 15 15 15 15 0 0 0 0 0                  |
+| 11 steps        | x-29            | 15 15 15 15 15 0 0 0 0 0 0 / 15 15 15 15 15 15 0 0 0 0 0 |
+| 12 steps        | x-31            | 15 15 15 15 15 15 0 0 0 0 0 0 |
+| 13 steps        | x-32            | 15 15 15 15 15 15 0 0 0 0 0 0 0 / 15 15 15 15 15 15 15 0 0 0 0 0 0 |
+| 14 steps        | x-34            | 15 15 15 15 15 15 15 0 0 0 0 0 0 0 |
+| 15 steps        | x-35            | 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0 / 15 15 15 15 15 15 15 15 0 0 0 0 0 0 0 |
+| 16 steps        | x-36            | 15 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0 |
 
 \*Might be out of tune.
 
@@ -83,56 +80,54 @@ As you can see, it works very similarly to the DPCM steps. Of course, this means
 
 I'll use 392 Hz as an example:
 
-```
-╔═══════════════════════════════════╗
-║    === THE 392Hz WUB CHART ===    ║
-╠═════════════════╦═════════════════╣
-║    Sequence     ║   Output note   ║
-╠═════════════════╬═════════════════╣
-║ 2 steps         ║ G-3             ║
-║ 3 steps         ║ C-3             ║
-║ 4 steps         ║ G-2             ║
-║ 5 steps         ║ D#2*            ║
-║ 6 steps         ║ C-2             ║
-║ 7 steps         ║ A-1             ║
-║ 8 steps         ║ G-1             ║
-║ 9 steps         ║ F-1             ║
-║ 10 steps        ║ D#1*            ║
-║ 11 steps        ║ D-1             ║
-║ 12 steps        ║ C-1             ║
-║ 13 steps        ║ B-0             ║
-║ 14 steps        ║ A-0             ║
-║ 15 steps        ║ G#0             ║
-║ 16 steps        ║ G-0             ║
-╚═════════════════╩═════════════════╝
-```
+#### === THE 392Hz WUB CHART ===
+
+╔-----------------------------------╗
+|    === THE 392Hz WUB CHART ===    |
+|-----------------╦-----------------|
+|    Sequence     |   Output note   |
+|-----------------|-----------------|
+| 2 steps         | G-3             |
+| 3 steps         | C-3             |
+| 4 steps         | G-2             |
+| 5 steps         | D#2*            |
+| 6 steps         | C-2             |
+| 7 steps         | A-1             |
+| 8 steps         | G-1             |
+| 9 steps         | F-1             |
+| 10 steps        | D#1*            |
+| 11 steps        | D-1             |
+| 12 steps        | C-1             |
+| 13 steps        | B-0             |
+| 14 steps        | A-0             |
+| 15 steps        | G#0             |
+| 16 steps        | G-0             |
+╚-----------------╩-----------------╝
 
 Remember when I said finding the right engine speed is important for the tuning of the notes?<br>
 If you adjust the engine speed, the tuning of all the notes will change. Adjust it until everything sounds the way you like.<br>
 Let's say you want to transpose the notes a whole step up. Change the engine speed to 448 Hz and you get this:
 
-```
-╔═══════════════════════════════════╗
-║    === THE 448Hz WUB CHART ===    ║
-╠═════════════════╦═════════════════╣
-║    Sequence     ║   Output note   ║
-╠═════════════════╬═════════════════╣
-║ 2 steps         ║ A-3             ║
-║ 3 steps         ║ D-3             ║
-║ 4 steps         ║ A-2             ║
-║ 5 steps         ║ F-2*            ║
-║ 6 steps         ║ D-2             ║
-║ 7 steps         ║ B-1             ║
-║ 8 steps         ║ A-1             ║
-║ 9 steps         ║ G-1             ║
-║ 10 steps        ║ F-1*            ║
-║ 11 steps        ║ E-1             ║
-║ 12 steps        ║ D-1             ║
-║ 13 steps        ║ C#0             ║
-║ 14 steps        ║ B-0             ║
-║ 15 steps        ║ A#0             ║
-║ 16 steps        ║ A-0             ║
-╚═════════════════╩═════════════════╝
-```
+╔-----------------------------------╗
+|    === THE 448Hz WUB CHART ===    |
+|-----------------╦-----------------|
+|    Sequence     |   Output note   |
+|-----------------|-----------------|
+| 2 steps         | A-3             |
+| 3 steps         | D-3             |
+| 4 steps         | A-2             |
+| 5 steps         | F-2*            |
+| 6 steps         | D-2             |
+| 7 steps         | B-1             |
+| 8 steps         | A-1             |
+| 9 steps         | G-1             |
+| 10 steps        | F-1*            |
+| 11 steps        | E-1             |
+| 12 steps        | D-1             |
+| 13 steps        | C#0             |
+| 14 steps        | B-0             |
+| 15 steps        | A#0             |
+| 16 steps        | A-0             |
+╚-----------------╩-----------------╝
 
 And that's it... For now.
