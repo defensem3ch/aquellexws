@@ -102,10 +102,24 @@ li p:last-of-type {
  * Code blocks
  */
 
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  background-color: #000;
+  border-radius: 3px;
+}
+
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
+  background-color: #000;
   overflow-x: auto;
+}
+
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
 }
 
 .gatsby-highlight {
@@ -118,11 +132,6 @@ pre {
 .gatsby-highlight pre {
   margin: 0;
   overflow-x: auto;
-}
-
-.gatsby-highlight pre,
-.gatsby-highlight code {
-  font-family: 'pxplus_ibm_vga8regular', monospace;
 }
 
 /**
