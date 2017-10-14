@@ -5,8 +5,6 @@ title: "The Guide to Making NES/Famicom Dubstep in FamiTracker"
 lastUpdated: "2017-10-11T11:00:00Z"
 ---
 
-WARNING: THIS PAGE IS REALLY MESST AT THE MOMENT - WE'LL FIX THOSE AS SOON AS POSSIBLE - Aquellex & resir014
-
 Written by <a href=https://soundcloud.com/dj-dimeback>Thomas Palensky</a>
 
 Document version: 1.1
@@ -44,20 +42,20 @@ Playing different notes on the keyboard will affect the sound of the tone.<br>
 For the sequence shape, I recommend square waves because it produces the best result.
 
 ### USING ARPEGGIO SEQUENCES
+
 The formula works the same as volume sequences. It also works best on 2A03.<br>
 However, this requires a little more playing around. The note you play on the keyboard also matters.<br>
 I just recommend adjusting the steps in the sequence and playing different notes until it sounds good.
 
 ### THE WUB CHART
+
 I have devised a chart that tells you the resulted note from each step size.<br>
 The base note is represented by variable x.<br>
 x-# represents the output note relative to x.
 
 
-#### === THE WUB CHART ===
-
 |    Sequence     |   Output note   | MML String in the shape of a square wave: |
-|:--------------- |:--------------- |:------------------------------------------|
+|:--------------- |:--------------- |:----------------------------------------- |
 | 2 steps         | x               | 15 0                                      |
 | 3 steps         | x-7             | 15 0 0 / 15 15 0                          |
 | 4 steps         | x-12            | 15 15 0 0                                 |
@@ -80,13 +78,8 @@ As you can see, it works very similarly to the DPCM steps. Of course, this means
 
 I'll use 392 Hz as an example:
 
-#### === THE 392Hz WUB CHART ===
-
-╔-----------------------------------╗
-|    === THE 392Hz WUB CHART ===    |
-|-----------------╦-----------------|
 |    Sequence     |   Output note   |
-|-----------------|-----------------|
+|: -------------- |:--------------- |
 | 2 steps         | G-3             |
 | 3 steps         | C-3             |
 | 4 steps         | G-2             |
@@ -102,17 +95,13 @@ I'll use 392 Hz as an example:
 | 14 steps        | A-0             |
 | 15 steps        | G#0             |
 | 16 steps        | G-0             |
-╚-----------------╩-----------------╝
 
 Remember when I said finding the right engine speed is important for the tuning of the notes?<br>
 If you adjust the engine speed, the tuning of all the notes will change. Adjust it until everything sounds the way you like.<br>
 Let's say you want to transpose the notes a whole step up. Change the engine speed to 448 Hz and you get this:
 
-╔-----------------------------------╗
-|    === THE 448Hz WUB CHART ===    |
-|-----------------╦-----------------|
 |    Sequence     |   Output note   |
-|-----------------|-----------------|
+|:--------------- |:--------------- |
 | 2 steps         | A-3             |
 | 3 steps         | D-3             |
 | 4 steps         | A-2             |
@@ -128,6 +117,5 @@ Let's say you want to transpose the notes a whole step up. Change the engine spe
 | 14 steps        | B-0             |
 | 15 steps        | A#0             |
 | 16 steps        | A-0             |
-╚-----------------╩-----------------╝
 
 And that's it... For now.
