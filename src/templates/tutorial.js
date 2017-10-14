@@ -25,17 +25,20 @@ const TutorialTemplate = ({ data }) => {
         title={page.frontmatter.title}
         updated={page.frontmatter.lastUpdated}
       >
-        <Row>
-          <Col>
-            <SpoilerBox title="Table of Contents">
-              <div dangerouslySetInnerHTML={{ __html: page.tableOfContents }} />
-            </SpoilerBox>
-            <div dangerouslySetInnerHTML={{ __html: page.html }} />
-          </Col>
-          <Col lg="lg-third">
-            <GoodiesSidebar />
-          </Col>
-        </Row>
+        <div
+          style={{
+            width: '300px',
+            float: 'right',
+            marginLeft: '1rem',
+            marginBottom: '1rem'
+          }}
+        >
+          <SpoilerBox title="Table of Contents">
+            <div dangerouslySetInnerHTML={{ __html: page.tableOfContents }} />
+          </SpoilerBox>
+        </div>
+        <div dangerouslySetInnerHTML={{ __html: page.html }} />
+        <GoodiesSidebar />
       </Page>
     </div>
   )
