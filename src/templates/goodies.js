@@ -25,14 +25,8 @@ const GoodiesTemplate = ({ data }) => {
         title={page.frontmatter.title}
         updated={page.frontmatter.lastUpdated}
       >
-        <Row>
-          <Col>
-            <div dangerouslySetInnerHTML={{ __html: page.html }} />
-          </Col>
-          <Col lg="lg-third">
-            <GoodiesSidebar />
-          </Col>
-        </Row>
+        <div dangerouslySetInnerHTML={{ __html: page.html }} />
+        <GoodiesSidebar />
       </Page>
     </div>
   )

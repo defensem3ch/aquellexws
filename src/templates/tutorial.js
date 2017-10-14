@@ -2,6 +2,7 @@ import * as React from 'react'
 import Helmet from 'react-helmet'
 
 import Page from '../components/Page'
+import TutorialPage from '../components/TutorialPage'
 import Container from '../components/Container'
 import Row from '../components/Row'
 import Col from '../components/Col'
@@ -21,22 +22,7 @@ const TutorialTemplate = ({ data }) => {
           { name: 'author', content: siteMetadata.author.name }
         ]}
       />
-      <Page
-        title={page.frontmatter.title}
-        updated={page.frontmatter.lastUpdated}
-      >
-        <Row>
-          <Col>
-            <SpoilerBox title="Table of Contents">
-              <div dangerouslySetInnerHTML={{ __html: page.tableOfContents }} />
-            </SpoilerBox>
-            <div dangerouslySetInnerHTML={{ __html: page.html }} />
-          </Col>
-          <Col lg="lg-third">
-            <GoodiesSidebar />
-          </Col>
-        </Row>
-      </Page>
+      <TutorialPage page={page} />
     </div>
   )
 }
