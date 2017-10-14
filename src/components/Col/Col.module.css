@@ -5,11 +5,16 @@
   padding: 0 1rem;
 }
 
+/**
+ * 1. prevent `<pre>` tags from overflowing
+ */
+
 /* breakpoint-sm */
 @media (min-width: 576px) {
   .col {
     flex-basis: 0;
     flex-grow: 1;
+    min-width: 0; /* 1 */
     max-width: 100%;
   }
 
@@ -33,12 +38,40 @@
 
 /* breakpoint-md */
 @media (min-width: 768px) {
+  .md-fourth {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .md-third {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+  .md-half {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .md-three-fourths {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
 }
 
 /* breakpoint-lg */
 @media (min-width: 992px) {
+  .lg-fourth {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
   .lg-third {
     flex: 0 0 33.33%;
     max-width: 33.33%;
+  }
+  .lg-half {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .lg-three-fourths {
+    flex: 0 0 75%;
+    max-width: 75%;
   }
 }
