@@ -14,7 +14,7 @@ const GoodiesSidebar = () => (
         <li>Phrase formulation &amp; structuring</li>
         <li>Single-channel echo buffers</li>
         <li>BGB setup</li>
-        <li>Game Boy comparison (better than Weixelbaum’s version)</li>
+        <li><Link to="/goodies/tutorial/game-boy-comparison">Game Boy comparison (better than Weixelbaum’s version)</Link></li>
         <li><Link to="/goodies/tutorial/famitracker-dubstep">FamiTracker dubstep tutorial by Dimeback</Link></li>
       </ul>
     </div>
