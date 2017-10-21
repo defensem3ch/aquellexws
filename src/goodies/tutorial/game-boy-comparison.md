@@ -21,7 +21,7 @@ All waveform images provided within this document are recorded with the followin
 * Wave: 50% (square)
 * Note: Lowest pulse note possible on PU1 (displays as C-3 on v4.9.5)
 
-The recordings (and the waveforms) have also been normalised to -0.01dB. No other further post-processing was done. Rendered in 44.1khz 16-bit, then exported to .ogg (Q10).
+The Game Boys were played at their highest volumes. A Steinberg UR22 audio interface was used for recording (unless otherwise noted). The recordings (and the waveforms) have also been normalised to -0.01dB. No other further post-processing was done. Rendered in 44.1khz 16-bit, then exported to .ogg (Q10).
 
 You can expect the following devices:
 
@@ -30,9 +30,17 @@ You can expect the following devices:
 * DMG (stock, prosound, bass boost) [CPU-06 recommended]
 * Pocket (stock, prosound)
 * Light (stock, prosound)
-* GBC (stock, prosound, noise cancel, bass boost) [CPU-04 OR CPU 05 recommended] {DO NOT GET ANYTHING -03 OR LOWER}
+* Color (stock, prosound, noise cancel, bass boost) [CPU-04 OR CPU 05 recommended] {DO NOT GET ANYTHING -03 OR LOWER}
 * Advance (stock, prosound)
 * SP (stock, prosound)
+
+#### Color (noise cancel + bass boost)
+
+Puts the DMG prosound to shame.
+
+|                 Image                   | Variables | Waveform                       | Sound examples |
+|:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
+| ![placeholder.png](/img/placeholder.png)| RCA<br>CPU-05| ![wf_gbc[nc+bb].png](/img/wf_gbc[nc+bb].png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_color_[nc+bb].ogg"><a href="/snd/sndtest_color_[nc+bb].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippos_color_[nc+bb].ogg"><a href="/snd/happyhippos_color_[nc+bb].ogg"> .ogg</a></audio>|
 
 ### HOME
 
@@ -42,6 +50,10 @@ You can expect the following devices:
 
 ### EMULATED
 
+* BGB (PC)
+* VisualBoyAdvance (PC)
+* MasterBoy (Sony PSP)
+
 #### BGB (PC)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -50,15 +62,7 @@ BGB's emulator is better than the stock Color & Color w/ prosound, but is outcla
 
 |                 Image                   | Variables | Waveform                       | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| N/A       | ![wf_bgb.png](/img/wf_bgb1.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_bgb.ogg"><a href="/snd/sndtest_bgb.ogg"> .ogg</a></audio><br>Virtual Insanity <audio controls><source src="/snd/virtual_bgb.ogg"><a href="/snd/virtual_bgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_bgb.ogg"><a href="/snd/happyhippo_bgb.ogg"> .ogg</a></audio>|
-
-#### VisualBoyAdvance (PC)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-#### MasterBoy (Sony PSP)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+| ![placeholder.png](/img/placeholder.png)| N/A       | ![wf_bgb.png](/img/wf_bgb1.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_bgb.ogg"><a href="/snd/sndtest_bgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippos_bgb.ogg"><a href="/snd/happyhippos_bgb.ogg"> .ogg</a></audio>|
 
 ### NOTES
 
