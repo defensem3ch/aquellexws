@@ -11,7 +11,7 @@ Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">Defense Mechanism</a> & <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a><br>
 Happy Hippo track by <a href="http://doussis.com" target="_blank">Stello Doussis</a>
 
-#### PREFACE
+### PREFACE
 
 Due to the lack of up-to-date Game Boy sound comparison guides within the 2007-2015 timeframe, and with said guides showing outdated information that is still being used as a primary source by naïve chiptuners, this page intends to provide a more succinct and raw analysis of hardware recordings while contributing newer sound modifications and variables that are missing from said guides.
 
@@ -21,11 +21,11 @@ All waveform images provided within this document are recorded with the followin
 * Wave: 50% (square)
 * Note: Lowest pulse note possible on PU1 (displays as C-3 on v4.9.5)
 
-The recordings (and the waveforms) have also been normalised to -0.01dB. No other further post-processing was done. All .wav files are 44.1khz 16-bit.
+The recordings (and the waveforms) have also been normalised to -0.01dB. No other further post-processing was done. Rendered in 44.1khz 16-bit, then exported to .ogg (Q10).
 
 You can expect the following devices:
 
-#### PORTABLE
+### PORTABLE
 
 * DMG (stock, prosound, bass boost) [CPU-06 recommended]
 * Pocket (stock, prosound)
@@ -34,35 +34,33 @@ You can expect the following devices:
 * Advance (stock, prosound)
 * SP (stock, prosound)
 
-#### HOME
+### HOME
 
 * Super Game Boy (stock, prosound)
 * Super Game Boy 2 (stock, prosound)
 * Nintendo GameCube GB Player (stock, prosound)
 
-#### EMULATED
+### EMULATED
 
-* BGB
-* VisualBoyAdvance
-* MasterBoy (Sony PSP)
+#### BGB (PC)
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-#### TITLE OF THE HARDWARE IN QUESTION
-
-
-
-Paragraph goes here. The BGB waveform will be used as an example.<br>
 BGB's emulator is better than the stock Color & Color w/ prosound, but is outclassed by the Color bassboost, which also outclasses the DMG prosound.
 
 |                 Image                   | Variables | Waveform                       | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| N/A       | ![wf_bgb.png](/img/wf_bgb1.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_bgb.wav">Your browser does not support audio.</audio><br>Virtual Insanity <audio controls><source src="/snd/virtual_bgb.wav">Your browser does not support audio.</audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_bgb.wav">Your browser does not support audio.</audio>|
+| ![placeholder.png](/img/placeholder.png)| N/A       | ![wf_bgb.png](/img/wf_bgb1.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_bgb.ogg"><a href="/snd/sndtest_bgb.ogg"> .ogg</a></audio><br>Virtual Insanity <audio controls><source src="/snd/virtual_bgb.ogg"><a href="/snd/virtual_bgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_bgb.ogg"><a href="/snd/happyhippo_bgb.ogg"> .ogg</a></audio>|
 
+#### VisualBoyAdvance (PC)
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-#### NOTES
+#### MasterBoy (Sony PSP)
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+### NOTES
 
 If you would like to help contribute more sound data, please do not hesitate to get in touch with me via <a href="mailto:aquellex@f0xpa.ws" target="_blank">e-mail</a>, or join the discussion in <a href="https://discord.io/psgcabal" target="_blank">The PSG Cabal</a> Discord server in #technical for more details.
 
