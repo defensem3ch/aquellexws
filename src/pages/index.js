@@ -10,6 +10,7 @@ const IndexPage = () => (
     <Page title="NEWS"></Page>
     <span>Site updates:</span><br />
     <MinorUpdates>
+      <p>21.10.2017 // Added Ko-Fi link in /about + a few new tutorial scaffolds.</p>
       <p>30.09.2017 // Changed web rating from G-PG to PG-14 because of my social media links. Also changed my contact e-mail to aquellex@f0xpa.ws.</p>
       <p>24.08.2017 // The basic premise in ABOUT is ripe and ready to go!</p>
       <p>24.08.2017 // Originals section in MUSIC is ripe and ready to go!</p>

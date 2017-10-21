@@ -2,7 +2,7 @@
 path: "/about/"
 layout: "page"
 title: "ABOUT"
-lastUpdated: "2017-10-05T07:53:32.913Z"
+lastUpdated: "2017-10-20T03:34:32.913Z"
 ---
 
 ### THE PERSON
@@ -58,3 +58,5 @@ You can find her gallery <a href="https://refsheet.net/aquellex/lindenmorsen" ta
 * Yamaha C3 (grand piano)
 * Roland AX-09 Lucina (keytar)
 * Numark M4 (DJ mixer)
+
+<a href='https://ko-fi.com/A7873Q2W' target='_blank'><img height='20' style='border:0px;height:20px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>

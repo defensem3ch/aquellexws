@@ -2,7 +2,7 @@
 path: "/goodies/tutorial/game-boy-comparison"
 layout: "tutorial"
 title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
-lastUpdated: "2017-20-11T15:55:00Z"
+lastUpdated: "2017-10-20T15:55:00Z"
 ---
 
 Coming soon. For now, here's a .gif of Defense Mechanism.
