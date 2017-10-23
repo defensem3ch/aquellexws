@@ -205,7 +205,7 @@ Believe it or not, BGB's emulator is better than the stock Color & Color w/ pros
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>WAV output</li>| ![wf_bgb.png](/img/wf_bgb1.png)<br>![sg_bgb1.png](/img/sg_bgb1.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_bgb.ogg"><a href="/snd/sndtest_bgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_bgb.ogg"><a href="/snd/happyhippo_bgb.ogg"> .ogg</a></audio>|
+| ![pho_bgb.png](/img/pho_bgb.png)| <li>WAV output</li>| ![wf_bgb.png](/img/wf_bgb1.png)<br>![sg_bgb1.png](/img/sg_bgb1.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_bgb.ogg"><a href="/snd/sndtest_bgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_bgb.ogg"><a href="/snd/happyhippo_bgb.ogg"> .ogg</a></audio>|
 
 ### NOTES
 

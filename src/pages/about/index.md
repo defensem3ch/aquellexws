@@ -21,7 +21,7 @@ I'll catch you later in the cyberspace! You can contact me [here](mailto:aquelle
 
 ### THE MASCOT
 
-![slimefur.jpg](/img/slimefur.jpg)
+![slimefur.jpg](/img/slimefur.png)
 
 ![gameboy.gif](/img/gameboy.gif)
 
