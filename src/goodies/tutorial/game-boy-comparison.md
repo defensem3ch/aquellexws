@@ -2,7 +2,7 @@
 path: "/goodies/tutorial/game-boy-comparison"
 layout: "tutorial"
 title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
-lastUpdated: "2017-10-22T15:55:00Z"
+lastUpdated: "2017-10-24T11:57:00+11:00"
 ---
 
 THIS PAGE IS STILL A WORK IN PROGRESS
@@ -14,6 +14,8 @@ Happy Hippo track by <a href="http://doussis.com" target="_blank">Stello Doussis
 ### PREFACE
 
 Due to the lack of up-to-date Game Boy sound comparison guides within the <a href="http://herbertweixelbaum.com/comparison.htm" target="_blank">2007-2015</a> timeframe, and with said guides showing outdated information that is still being used as a primary source by naïve chiptuners, this page intends to provide a more updated analysis of hardware recordings while contributing newer sound modifications and variables that are missing from said guides.
+
+It should also be noted that this page should really just be used as a guideline & reference, not as a Bible of sorts.
 
 All waveform images provided within this document are recorded with the following configuration:
 
@@ -75,6 +77,8 @@ Use BGB or get yourself a throwaway DMG (or GBC/GBA/GBASP if you need the CPU fi
 
 If you really need to use one as a last resort, don't forget to turn up the bass on the EQ + remove unwanted resonances when post-processing.
 
+On the other hand, the sound is more tolerable than a vanilla Color unit.
+
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
 | ![placeholder.png](/img/placeholder.png)| <li>LCPU-02</li>| ![wf_pocket.png](/img/wf_pocket.png)<br>![sg_pocket.png](/img/sg_pocket.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_pocket.ogg"><a href="/snd/sndtest_pocket.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_pocket.ogg"><a href="/snd/happyhippo_pocket.ogg"> .ogg</a></audio>|
@@ -131,6 +135,8 @@ There is a chance that resonance severity may vary from motherboard to motherboa
 
 * Hiss resonances: 8.2-8.5khz, 9.9-10.4khz, 12.8-13.2khz, 17.3-17.7khz
 * Hum resonances: 0-265hz, 3.2-3.9khz
+
+Don't forget this stereo inversion technique <a href="https://chipmusic.org/forums/topic/6976/gameboy-noise-cancellation-through-stereo-inversion/" target="_blank">here</a>.
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
@@ -189,6 +195,8 @@ See above for resonances, they're still the same.
 
 #### Game Boy Player (prosound)
 
+\*the recording used in question is a Japanese motherboard--I'm still waiting for DEFENSE MECHANISM to record a <a href="https://clyp.it/bswgp3sl" target="_blank">US motherboard</a> + will write more info here eventually\*
+
 On par with, if not better than the Color noise cancel + bass boost, with the added edge of the 'clicking' side-effect being a lot more muted in akin to the GBA series as expected. The background noise is on par with, if not a couple more resonances than the stock DMG & GBAs, but during playback, it's negligable at best, especially when compared with the pocket series.
 
 A magnificent companion for the Color/SP-seasoned composer.
@@ -215,15 +223,17 @@ If you would like to help contribute a more ergonomic design for this page, the 
 
 ### TODO
 
-* Analyse more CPU revisions (yes, they can make a difference, albeit minor)
+* Analyse more CPU revisions (yes, they can make a difference)
 * Note down CPU revisions used from some of DEFENSE MECHANISM's recordings
 * Lights on/off variables for GBASP series
 * DMG (bass boost) [CPU-06 recommended]
 * Pocket (prosound)
 * Light (stock, prosound)
-* Color (prosound) [CPU-04 OR CPU 05 recommended] {DO NOT GET ANY EUROPEAN -02 - CONTAINS A FATAL ENVELOPE BUG}
+* Color (prosound) [CPU-04 OR CPU 05 recommended] {DO NOT GET ANY EUROPEAN -02 - CONTAINS A FATAL ENVELOPE BUG UPON USING P AND V COMMANDS}
 * Advance (prosound)
 * SP (both models) (prosound)
 * VisualBoyAdvance (PC)
 * MasterBoy (Sony PSP)
 * Consider Nanoloop GBA?
+* Add pros/cons/verdict segments
+* Pinpoint more resonances
