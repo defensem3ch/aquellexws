@@ -2,7 +2,7 @@
 path: "/goodies/"
 layout: "goodies"
 title: "GOODIES"
-lastUpdated: "2017-10-16T03:31:20.225Z"
+lastUpdated: "2017-11-01T11:35:00+11:00"
 ---
 
 ### Comrades
@@ -20,6 +20,7 @@ lastUpdated: "2017-10-16T03:31:20.225Z"
 
 ### External sites & tools
 
+* <a href="https://docs.google.com/spreadsheets/d/1KycGaW_DbG41deibG4nAmyu_ZVbQfXqX1XIpWZTMNWg/" target="_blank">DEFENSE MECHANISM's LSDJ upgrade cheat sheet</a>
 * <a href="https://docs.google.com/spreadsheets/d/1sFOvpa6f-OJHAPNBMN0nnz32NkUrG5MlThiQbrS_5-0/" target="_blank">
 Ninjakraken's Nintendo GameBoy DMG-01 Backlight and Bivert Troubleshooting Guide</a>
 * <a href="https://github.com/Eiyeron/lsdpatch/releases/" target="_blank">Eiyeron's LSDPatcher fork</a>

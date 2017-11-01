@@ -103,8 +103,10 @@ li p:last-of-type {
  */
 
 table {
-  margin-bottom: 1rem;
+  display: block;
   width: 100%;
+  overflow-x: auto;
+  margin-bottom: 1rem;
   font-size: 1rem;
   border: 1px solid #fff;
   border-collapse: collapse;
