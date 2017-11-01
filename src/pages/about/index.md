@@ -1,6 +1,5 @@
 ---
-path: "/about/"
-layout: "page"
+layout: page
 title: "ABOUT"
 lastUpdated: "2017-10-20T03:34:32.913Z"
 ---

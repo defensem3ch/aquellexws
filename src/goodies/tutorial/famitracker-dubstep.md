@@ -1,6 +1,6 @@
 ---
-path: "/goodies/tutorial/famitracker-dubstep"
-layout: "tutorial"
+permalink: /goodies/tutorial/famitracker-dubstep
+layout: tutorial
 title: "The Guide to Making NES/Famicom Dubstep in FamiTracker"
 lastUpdated: "2017-10-11T11:00:00Z"
 ---

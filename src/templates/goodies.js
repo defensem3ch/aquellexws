@@ -35,7 +35,7 @@ const GoodiesTemplate = ({ data }) => {
 export default GoodiesTemplate
 
 export const query = graphql`
-  query GoodiesTemplateQuery($path: String!) {
+  query GoodiesTemplateQuery($slug: String!) {
     site {
       siteMetadata {
         title
@@ -48,14 +48,12 @@ export const query = graphql`
       }
       buildTime
     }
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       excerpt
       tableOfContents
       frontmatter {
         title
-        path
-        layout
         lastUpdated
       }
     }
