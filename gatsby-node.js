@@ -1,4 +1,6 @@
-// @ts-check
+// @ts-
+
+'use strict'
 
 const path = require('path')
 const slugify = require('slug')
