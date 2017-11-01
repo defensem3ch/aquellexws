@@ -1,5 +1,5 @@
 ---
-path: "/goodies/tutorial/game-boy-comparison"
+permalink: /goodies/tutorial/game-boy-comparison
 layout: "tutorial"
 title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
 lastUpdated: "2017-10-24T11:57:00+11:00"

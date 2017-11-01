@@ -1,6 +1,6 @@
 ---
-path: "/goodies/"
-layout: "goodies"
+permalink: /goodies
+layout: goodies
 title: "GOODIES"
 lastUpdated: "2017-11-01T11:35:00+11:00"
 ---

@@ -30,7 +30,7 @@ const TutorialTemplate = ({ data }) => {
 export default TutorialTemplate
 
 export const query = graphql`
-  query TutorialQuery($path: String!) {
+  query TutorialQuery($slug: String!) {
     site {
       siteMetadata {
         title
@@ -43,14 +43,12 @@ export const query = graphql`
       }
       buildTime
     }
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       excerpt
       tableOfContents
       frontmatter {
         title
-        path
-        layout
         lastUpdated
       }
     }
