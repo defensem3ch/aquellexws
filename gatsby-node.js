@@ -125,7 +125,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               reject(
                 `Duplicate redirect detected from "${fromPath}" to:\n` +
                   `* ${redirectToSlugMap[fromPath]}\n` +
-                  `* ${slug}\n`,
+                  `* ${slug}\n`
               )
             }
 
