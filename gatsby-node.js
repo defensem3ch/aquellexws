@@ -122,12 +122,11 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
           toRedirect.forEach(fromPath => {
             if (redirectToSlugMap[fromPath] != null) {
-              console.error(
+              reject(
                 `Duplicate redirect detected from "${fromPath}" to:\n` +
                   `* ${redirectToSlugMap[fromPath]}\n` +
                   `* ${slug}\n`,
               )
-              process.exit(1)
             }
 
             // A leading "/" is required for redirects to work,
