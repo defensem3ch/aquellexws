@@ -53,6 +53,13 @@ module.exports = {
         siteUrl: `https://www.aquellex.ws`
       }
     },
+    {
+      resolve: 'gatsby-plugin-nprogress',
+      options: {
+        color: '#dcffba',
+        showSpinner: false
+      },
+    },
     'gatsby-transformer-json',
     'gatsby-plugin-react-helmet'
   ]
