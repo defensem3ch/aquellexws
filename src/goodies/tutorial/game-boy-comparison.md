@@ -2,7 +2,7 @@
 permalink: /goodies/tutorial/game-boy-comparison
 layout: "tutorial"
 title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
-lastUpdated: "2017-11-01T23:55:47+11:00"
+lastUpdated: "2017-11-11T23:55:47+11:00"
 ---
 
 Page Version: 0.9.1

@@ -2,7 +2,7 @@
 permalink: /goodies/tutorial/famitracker-dubstep
 layout: tutorial
 title: "The Guide to Making NES/Famicom Dubstep in FamiTracker"
-lastUpdated: "2017-11-01T23:55:47+11:00"
+lastUpdated: "2017-11-11T23:55:47+11:00"
 ---
 
 Written by <a href=https://soundcloud.com/dj-dimeback>Thomas Palensky</a>
