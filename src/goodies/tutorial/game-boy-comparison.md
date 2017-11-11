@@ -2,13 +2,14 @@
 permalink: /goodies/tutorial/game-boy-comparison
 layout: "tutorial"
 title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
-lastUpdated: "2017-10-24T11:57:00+11:00"
+lastUpdated: "2017-11-01T23:55:47+11:00"
 ---
 
-THIS PAGE IS STILL A WORK IN PROGRESS
+Page Version: 0.9.1
 
 Written by Aquellex<br>
-Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a> & <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a><br>
+Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a> & <a href="https://soundcloud.com/odaxelagnia
+" target="_blank">odaxelagnia</a><br>
 Happy Hippo track by <a href="http://doussis.com" target="_blank">Stello Doussis</a>
 
 ### PREFACE
@@ -25,7 +26,7 @@ All waveform images provided within this document are recorded with the followin
 
 All spectrogram images provided within this document are when LSDJ is left running idle.
 
-The Game Boys were played at their highest volumes. Steinberg UR22 and M-Audio Fast Track Ultra audio interfaces were used for recording. The recordings (and the waveforms) have all been normalised to -0.01dB with the exception of the sonogram images. No other further post-processing was done. Rendered in 44.1khz 16-bit, then exported to .ogg (Q10).
+The units were played at their highest volumes and recorded peaking at -12dB. The recordings (and the waveforms) have all been normalised to -0.01dB with the exception of the sonogram images. No other further post-processing was done. Rendered in 44.1khz 16-bit, then exported to .ogg (Q10).
 
 You will hear the following in SNDTEST.lsdsng: 6 bars of intro, 2 bars of the infamous 'clicking' side-effect when using volume/pan commands, 19 bars of a full track, then an isolation of a granular synthesis technique and other various waveforms (pulses, sine, saw, kits, sine kick, square kick, periodic noise), then at least 2 seconds of LSDJ running idle.
 
@@ -215,6 +216,18 @@ Believe it or not, BGB's emulator is better than the stock Color & Color w/ pros
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
 | ![pho_bgb.png](/img/pho_bgb.png)| <li>WAV output</li>| ![wf_bgb.png](/img/wf_bgb1.png)<br>![sg_bgb1.png](/img/sg_bgb1.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_bgb.ogg"><a href="/snd/sndtest_bgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_bgb.ogg"><a href="/snd/happyhippo_bgb.ogg"> .ogg</a></audio>|
 
+#### DS Lite
+
+\*will write more info here eventually + thanks odaxelagnia for the recordings!\*
+
+Poor PCM emulation.<br>
+Lameboy should not be used for any serious LSDJ recording.
+
+|                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
+|:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
+| ![pho_bgb.png](/img/placeholder.png)| <li>Gameyob</li>| ![wf_dsl_gameyob.png](/img/wf_dsl_gameyob.png)<br>![sg_dsl_gameyob.png](/img/sg_dsl_gameyob.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dsl_gameyob.ogg"><a href="/snd/sndtest_dsl_gameyob.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dsl_gameyob.ogg"><a href="/snd/happyhippo_dsl_gameyob.ogg"> .ogg</a></audio>|
+| ![pho_bgb.png](/img/placeholder.png)| <li>Lameboy</li>| ![wf_dsl_lameboy.png](/img/wf_dsl_lameboy.png)<br>![sg_dsl_lameboy.png](/img/sg_dsl_lameboy.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dsl_lameboy.ogg"><a href="/snd/sndtest_dsl_lameboy.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dsl_lameboy.ogg"><a href="/snd/happyhippo_dsl_lameboy.ogg"> .ogg</a></audio>|
+
 ### NOTES
 
 If you would like to help contribute more sound data, please do not hesitate to get in touch with me via <a href="mailto:aquellex@f0xpa.ws" target="_blank">e-mail</a>, or join the discussion in <a href="https://discord.io/psgcabal" target="_blank">The PSG Cabal</a> Discord server in #technical for more details.
@@ -237,3 +250,8 @@ If you would like to help contribute a more ergonomic design for this page, the 
 * Consider Nanoloop GBA?
 * Add pros/cons/verdict segments
 * Pinpoint more resonances
+
+### DOCUMENT CHANGELOG
+
+* 0.9.0 - Initial release.
+* 0.9.1 - Added DS Lite recordings. Thanks odaxelagnia!

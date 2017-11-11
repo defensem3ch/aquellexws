@@ -10,6 +10,7 @@ const IndexPage = () => (
     <Page title="NEWS"></Page>
     <span>Site updates:</span><br />
     <MinorUpdates>
+      <p>11.11.2017 // Updated /goodies to include descrptions, /goodies/tutorial/famitracker-dubstep with examples and /goodies/tutorial/game-boy-comparison with DS Lite recordings.</p>
       <p>01.11.2017 // Added DEFENSE MECHANISM's LSDJ upgrade cheat sheet to /goodies.</p>
       <p>21.10.2017 // Added Ko-Fi link in /about + a few new tutorial scaffolds.</p>
       <p>30.09.2017 // Changed web rating from G-PG to PG-14 because of my social media links. Also changed my contact e-mail to aquellex@f0xpa.ws.</p>

@@ -2,21 +2,35 @@
 permalink: /goodies
 layout: goodies
 title: "GOODIES"
-lastUpdated: "2017-11-01T11:35:00+11:00"
+lastUpdated: "2017-11-01T23:55:47+11:00"
 ---
 
 ### Comrades
 
-<a href="http://www.notepad.org" target="_blank"><img src="/img/notepad.gif"></a>
-<a href="https://defensemech.com/" target="_blank"><img src="/img/defense.gif"></a>
-<a href="http://heckscaper.com" target="_blank"><img src="/img/emmalink.gif"></a>
-<a href="http://kurorak.xyz/" target="_blank"><img src="/img/kurorak.gif"></a>
-<a href="http://melodymonarchy.com/" target="_blank"><img src="/img/smol_sylvy_banner.jpg"></a>
-<a href="http://yzyxmusic.com/" target="_blank"><img src="/img/yzyx2.gif"></a>
+| Website | Description |
+|:------- |:----------- |
+|<a href="https://chiptuneswin.com/" target="_blank" title="Chiptunes = WIN">Chiptunes = WIN</a>| I main around their Facebook group page for chiptune discussions & compilations. |
+|<a href="https://defensemech.com/" target="_blank" title="DEFENSE MECHANISM"><img src="/img/defense.gif"></a>| DEFENSE MECHANISM's homepage. We work together to pioneer new techniques for LSDJ. |
+|<a href="https://soundcloud.com/dj-dimeback" target="_blank" title="Dimeback">Dimeback</a> | Dimeback's SoundCloud. He was the one who single-handedly deconstructed chibi-tech's techniques. |
+|<a href="http://heckscaper.com" target="_blank" title="Emma Essex"><img src="/img/emmalink.gif"></a>| Emma Essex's personal homepage. You may otherwise know them as Halley Labs. |
+|<a href="https://soundcloud.com/kommisar/" target="_blank" title="Kommisar">Kommisar</a>| Kommisar's SoundCloud. We met on Flash Flash Revolution since mid-2010. Insaneous chiptune solos. |
+|<a href="http://kurorak.xyz/" target="_blank" title="Kurorak"><img src="/img/kurorak.gif"></a>| Kurorak's homepage. We met on Flash Flash Revolution since mid-2013. Talented producer. |
+|<a href="http://melodymonarchy.com/" target="_blank" title="Princess Sylvysprit"><img src="/img/smol_sylvy_banner.jpg"></a>| Princess Sylvysprit's homepage. She does a lot of ZUN-inspired music. |
+|<a href="https://soundcloud.com/pain-perdu" target="_blank" title="Pain Perdu">Pain Perdu</a>| Paul & Max's SoundCloud. Fellow LSDJ wizards part of innovative LSDJ music! |
+|<a href="https://resir014.xyz/" target="_blank" title="Resi Respati">resir014</a>| The person who spent more time making my site better than I did constructing the HTML/CSS. |
+|<a href="http://takaperry.com/" target="_blank" title="Taka Perry">Taka Perry</a>| Taka Perry's homepage. We went to the same high schools in Canberra! We studied music together. |
+|<a href="http://yzyxmusic.com/" target="_blank" title="YZYX"><img src="/img/yzyx2.gif"></a>| YZYX's homepage. He is the primary sonic inspiration behind Aquellex. |
 
-* <a href="https://chiptuneswin.com/" target="_blank">Chiptunes = WIN</a>
-* <a href="https://soundcloud.com/kommisar/" target="_blank">Kommisar</a>
-* <a href="http://takaperry.com/" target="_blank">Taka Perry</a>
+You can also add this to your site if you wish:
+
+<a href="https://aquellex.ws/" target="_blank"><img src="/img/aqx2.png"></a>
+
+### Meta
+
+| Website | Description |
+|:------- |:----------- |
+|<a href="https://www.netlify.com/" target="_blank" title="Netlify">Netlify</a> | Hosts this website. It's like GitHub Pages, but <a href="https://www.netlify.com/github-pages-vs-netlify/" target="_blank">better!</a> |
+|<a href="https://www.gatsbyjs.org/" target="_blank" title="Gatsby.js">Gatsby</a> | Blazing-fast static site generator for React.js. |
 
 ### External sites & tools
 
