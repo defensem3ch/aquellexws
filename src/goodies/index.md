@@ -2,7 +2,7 @@
 permalink: /goodies
 layout: goodies
 title: "GOODIES"
-lastUpdated: "2017-11-11T23:55:47+11:00"
+lastUpdated: "2017-11-12T20:14:12+11:00"
 ---
 
 ### Comrades
@@ -13,6 +13,7 @@ lastUpdated: "2017-11-11T23:55:47+11:00"
 |<a href="https://defensemech.com/" target="_blank" title="DEFENSE MECHANISM"><img src="/img/defense.gif"></a>| DEFENSE MECHANISM's homepage. We work together to pioneer new techniques for LSDJ. |
 |<a href="https://soundcloud.com/dj-dimeback" target="_blank" title="Dimeback">Dimeback</a> | Dimeback's SoundCloud. He was the one who single-handedly deconstructed chibi-tech's techniques. |
 |<a href="http://heckscaper.com" target="_blank" title="Emma Essex"><img src="/img/emmalink.gif"></a>| Emma Essex's personal homepage. You may otherwise know them as Halley Labs. |
+|<a href="http://www.iridescentaudio.co.uk/" target="_blank" title="Blitz Lunar"><img src="/img/imlogo.png"></a>| Blitz Lunar's Bandcamp. He is the secondary sonic inspiration behind Aquellex. |
 |<a href="https://soundcloud.com/kommisar/" target="_blank" title="Kommisar">Kommisar</a>| Kommisar's SoundCloud. We met on Flash Flash Revolution since mid-2010. Insaneous chiptune solos. |
 |<a href="http://kurorak.xyz/" target="_blank" title="Kurorak"><img src="/img/kurorak.gif"></a>| Kurorak's homepage. We met on Flash Flash Revolution since mid-2013. Talented producer. |
 |<a href="http://melodymonarchy.com/" target="_blank" title="Princess Sylvysprit"><img src="/img/smol_sylvy_banner.jpg"></a>| Princess Sylvysprit's homepage. She does a lot of ZUN-inspired music. |
@@ -46,6 +47,7 @@ Ninjakraken's Nintendo GameBoy DMG-01 Backlight and Bivert Troubleshooting Guide
 ### Discord servers
 
 * <a href="https://discord.gg/cAgBjHa/" target="_blank">Chiptunes = WIN (the ultimate chillzone)</a>
+* <a href="https://discord.gg/phCgxGD" target="_blank">Maj7 (a circle of music friends)</a>
 * <a href="https://discord.gg/dvksbHh/" target="_blank">The Fourth Modulator (chip FM synthesis research)</a>
 * <a href="https://discord.gg/dURHtZp/" target="_blank">The PSG Cabal (simple chip-oscillators research)</a>
 * <a href="https://discord.gg/XR87eFs/" target="_blank">VGMusic.com (low-level hardware MIDI sequencing community)</a>
