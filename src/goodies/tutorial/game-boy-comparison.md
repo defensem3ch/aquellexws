@@ -2,7 +2,7 @@
 permalink: /goodies/tutorial/game-boy-comparison
 layout: "tutorial"
 title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
-lastUpdated: "2017-11-11T23:55:47+11:00"
+lastUpdated: "2017-11-26T00:43:31+11:00"
 ---
 
 Page Version: 0.9.1a
@@ -234,9 +234,11 @@ If you would like to help contribute more sound data, please do not hesitate to 
 
 If you would like to help contribute a more ergonomic design for this page, the website can be found on <a href="https://github.com/Aquellex/aquellexws" target="_blank">GitHub</a>.
 
-<a href="/lsdj/gbhwsoundrec.zip">Source files required for hardware recordings</a>
-
 ### TODO
+
+I'll be requiring 44.1khz 16-bit stereo .flac files, and I'll be crossing the second list out one-by-one once I've acquired + verified the recordings. NO FURTHER POST-PROCESSING IS TO BE DONE, PLEASE. MINIMUM OF -12.0dB.
+
+<a href="/lsdj/gbhwsoundrec.zip">Source files required for hardware recordings</a>
 
 * Analyse more CPU revisions (yes, they can make a difference)
 * Note down CPU revisions used from some of DEFENSE MECHANISM's recordings
@@ -257,4 +259,4 @@ If you would like to help contribute a more ergonomic design for this page, the 
 
 * 0.9.0 - Initial release.
 * 0.9.1 - Added DS Lite recordings. Thanks odaxelagnia!
-* 0.9.1a - Added photos for DS Lite section. Thanks odaxelagnia! Also added .zip under <a href="http://localhost:8000/goodies/tutorial/game-boy-comparison#notes">notes</a>.
+* 0.9.1a - Added photos for DS Lite section. Thanks odaxelagnia! Also added .zip for sound recordings under <a href="/goodies/tutorial/game-boy-comparison#todo">todo</a>.
