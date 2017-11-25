@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "ABOUT"
-lastUpdated: "2017-10-20T03:34:32.913Z"
+lastUpdated: "2017-11-26T00:05:22+11:00"
 ---
 
 ### THE PERSON
@@ -20,9 +20,7 @@ I'll catch you later in the cyberspace! You can contact me [here](mailto:aquelle
 
 ### THE MASCOT
 
-![slimefur.jpg](/img/slimefur.png)
-
-![gameboy.gif](/img/gameboy.gif)
+![tigerinspace.png](/img/tigerinspace.png)
 
 Her name is Lindenmorsen. She's a blue kangaroo. It translates to 'Spilling Trees' from Dutch. I have a thing for Dutch names. She's very energetic & optimistic, but keeps her expectations realistic and always strives to strike a balance between ambition and pragmatism. She gets very scary when her patience gets pushed to its utmost limit through a combination of malevolence, cowardice and naïveness. Oh, and she has a thing for puzzle games. You'll almost always see her carrying at least one Game Boy around. &#9786;
 

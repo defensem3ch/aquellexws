@@ -8,8 +8,14 @@ import NewsUpdates from '../components/NewsUpdates'
 const IndexPage = () => (
   <div>
     <Page title="NEWS"></Page>
+    <span>Gigs (lime for upcoming, red for occurring/occurred):</span><br />
+    <MinorUpdates>
+      <p><font color="lime">23.02.2018 - 25.02.2018</font> // <a href="https://www.facebook.com/events/127656921293599/" target="_blank">Square Sounds Melbourne 2018</a> </p>
+    </MinorUpdates>
+
     <span>Site updates:</span><br />
     <MinorUpdates>
+      <p>25.11.2017 // Using <a href="https://twitter.com/thetigerinspace" target="_blank">tigerinspace</a>'s mascot drawing in /about and added the 'Gigs' module above.</p>
       <p>11.11.2017 // Updated /goodies to include descrptions, /goodies/tutorial/famitracker-dubstep with examples and /goodies/tutorial/game-boy-comparison with DS Lite recordings.</p>
       <p>01.11.2017 // Added DEFENSE MECHANISM's LSDJ upgrade cheat sheet to /goodies.</p>
       <p>21.10.2017 // Added Ko-Fi link in /about + a few new tutorial scaffolds.</p>
@@ -22,7 +28,7 @@ const IndexPage = () => (
 
     <NewsUpdates>
       <h3>07.10.2017 // Moved to Netlify for hosting and implemented Gatsby.js &amp; React.js!</h3>
-      <p>Special thanks to <a href="https://twitter.com/resir014">resir014</a> for spending his free time helping me out making my site better! He also made the website more responsive for mobile devices. &#9786;</p>
+      <p>Special thanks to <a href="https://twitter.com/resir014" target="blank">resir014</a> for spending his free time helping me out making my site better! He also made the website more responsive for mobile devices. &#9786;</p>
       <h3>25.08.2017 // Added spoiler tags to YouTube Videos in the music section</h3>
       <p>I realised how much memory is consumed when trying to load too many embedded videos in one page. Hopefully, adding a spoiler tag can alleviate memory problems. If problems still persist, do not hestitate to get in touch with me. You may also want to try refreshing the cache (Ctrl+F5) first, however. Cheers!</p>
 

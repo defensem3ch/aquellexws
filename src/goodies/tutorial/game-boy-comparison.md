@@ -5,7 +5,7 @@ title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
 lastUpdated: "2017-11-11T23:55:47+11:00"
 ---
 
-Page Version: 0.9.1
+Page Version: 0.9.1a
 
 Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a> & <a href="https://soundcloud.com/odaxelagnia
@@ -225,14 +225,16 @@ Lameboy should not be used for any serious LSDJ recording.
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![pho_bgb.png](/img/placeholder.png)| <li>Gameyob</li>| ![wf_dsl_gameyob.png](/img/wf_dsl_gameyob.png)<br>![sg_dsl_gameyob.png](/img/sg_dsl_gameyob.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dsl_gameyob.ogg"><a href="/snd/sndtest_dsl_gameyob.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dsl_gameyob.ogg"><a href="/snd/happyhippo_dsl_gameyob.ogg"> .ogg</a></audio>|
-| ![pho_bgb.png](/img/placeholder.png)| <li>Lameboy</li>| ![wf_dsl_lameboy.png](/img/wf_dsl_lameboy.png)<br>![sg_dsl_lameboy.png](/img/sg_dsl_lameboy.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dsl_lameboy.ogg"><a href="/snd/sndtest_dsl_lameboy.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dsl_lameboy.ogg"><a href="/snd/happyhippo_dsl_lameboy.ogg"> .ogg</a></audio>|
+| ![dslite_1.png](/img/dslite_1.png)| <li>Gameyob</li>| ![wf_dsl_gameyob.png](/img/wf_dsl_gameyob.png)<br>![sg_dsl_gameyob.png](/img/sg_dsl_gameyob.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dsl_gameyob.ogg"><a href="/snd/sndtest_dsl_gameyob.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dsl_gameyob.ogg"><a href="/snd/happyhippo_dsl_gameyob.ogg"> .ogg</a></audio>|
+| ![dslite_2.png](/img/dslite_2.png)| <li>Lameboy</li>| ![wf_dsl_lameboy.png](/img/wf_dsl_lameboy.png)<br>![sg_dsl_lameboy.png](/img/sg_dsl_lameboy.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dsl_lameboy.ogg"><a href="/snd/sndtest_dsl_lameboy.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dsl_lameboy.ogg"><a href="/snd/happyhippo_dsl_lameboy.ogg"> .ogg</a></audio>|
 
 ### NOTES
 
 If you would like to help contribute more sound data, please do not hesitate to get in touch with me via <a href="mailto:aquellex@f0xpa.ws" target="_blank">e-mail</a>, or join the discussion in <a href="https://discord.io/psgcabal" target="_blank">The PSG Cabal</a> Discord server in #technical for more details.
 
 If you would like to help contribute a more ergonomic design for this page, the website can be found on <a href="https://github.com/Aquellex/aquellexws" target="_blank">GitHub</a>.
+
+<a href="/lsdj/gbhwsoundrec.zip">Source files required for hardware recordings</a>
 
 ### TODO
 
@@ -255,3 +257,4 @@ If you would like to help contribute a more ergonomic design for this page, the 
 
 * 0.9.0 - Initial release.
 * 0.9.1 - Added DS Lite recordings. Thanks odaxelagnia!
+* 0.9.1a - Added photos for DS Lite section. Thanks odaxelagnia! Also added .zip under <a href="http://localhost:8000/goodies/tutorial/game-boy-comparison#notes">notes</a>.
