@@ -8,13 +8,15 @@ import NewsUpdates from '../components/NewsUpdates'
 const IndexPage = () => (
   <div>
     <Page title="NEWS"></Page>
-    <span>Gigs (lime for upcoming, red for occurring/occurred):</span><br />
+    <span>Gigs (green for upcoming, red for occurring/occurred + DD.MM.YYYY):</span><br />
     <MinorUpdates>
       <p><font color="lime">23.02.2018 - 25.02.2018</font> // <a href="https://www.facebook.com/events/127656921293599/" target="_blank">Square Sounds Melbourne 2018</a> </p>
+      <p><font color="red">02.03.2017</font> // <a href="https://www.facebook.com/SquareSounds/videos/1236363983065586/" target="_blank">Square Sounds Melbourne 2017 Pre-Party</a> </p>
     </MinorUpdates>
 
     <span>Site updates:</span><br />
     <MinorUpdates>
+      <p>27.11.2017 // Added one past gig to 'Gigs' and updated the GAme Boy Comparison page to 0.9.2.</p>
       <p>25.11.2017 // Using <a href="https://twitter.com/thetigerinspace" target="_blank">tigerinspace</a>'s mascot drawing in /about and added the 'Gigs' module above.</p>
       <p>11.11.2017 // Updated /goodies to include descrptions, /goodies/tutorial/famitracker-dubstep with examples and /goodies/tutorial/game-boy-comparison with DS Lite recordings.</p>
       <p>01.11.2017 // Added DEFENSE MECHANISM's LSDJ upgrade cheat sheet to /goodies.</p>

@@ -2,10 +2,10 @@
 permalink: /goodies/tutorial/game-boy-comparison
 layout: "tutorial"
 title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
-lastUpdated: "2017-11-26T00:43:31+11:00"
+lastUpdated: "2017-11-27T22:30:25+11:00"
 ---
 
-Page Version: 0.9.1a
+Page Version: 0.9.2
 
 Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a> & <a href="https://soundcloud.com/odaxelagnia
@@ -95,9 +95,24 @@ There's also a noise cancellation through stereo inversion technique <a href="ht
 
 If you had to pick between a Color and the Advance series with no mods factored in, go for the Advance series instead (especially SP if you're factoring in button ergonomics).
 
+Also, word of warning: avoid European CPU-02 motherboards, as they contain a fatal envelope bug that kills notes unexpectedly upon using hardware sweeps, pitch bends & vibrato commands.
+
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>CPU-04</li>| ![wf_gbc.png](/img/wf_gbc.png)<br>![sg_gbc.png](/img/sg_gbc.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_gbc.ogg"><a href="/snd/sndtest_gbc.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_gbc.ogg"><a href="/snd/happyhippo_gbc.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>CPU-03</li>| ![wf_gbc.png](/img/wf_gbc.png)<br>![sg_gbc.png](/img/sg_gbc.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_gbc.ogg"><a href="/snd/sndtest_gbc.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_gbc.ogg"><a href="/snd/happyhippo_gbc.ogg"> .ogg</a></audio>|
+
+#### Color (prosound)
+
+An improvement that salvages the vanilla Color's noisy environment. One thing to note that while the Color is tacet, it's a pretty silent system with the hum/hiss resonances from the vanilla Color being inaudible, but during playback, the resonances become a lot more obvious. That can be rectified with a capacitor mod that we'll get to immediately after this section.
+
+Don't forget to turn up the bass on the EQ during a live performance, as the bass without any kind of EQ is pretty tame compared to the stock DMG.
+
+* Hiss resonances: Same as above
+* Hum resonances: Same as above
+
+|                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
+|:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
+| ![placeholder.png](/img/placeholder.png)| <li>CPU-04</li><li>RCA</li>| ![wf_gbc[ps].png](/img/wf_gbc[ps].png)<br>![sg_gbc[ps].png](/img/sg_gbc[ps].png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_color_[ps].ogg"><a href="/snd/sndtest_color_[ps].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_color_[ps].ogg"><a href="/snd/happyhippo_color_[ps].ogg"> .ogg</a></audio>|
 
 #### Color (noise cancel + bass boost)
 
@@ -238,15 +253,17 @@ If you would like to help contribute a more ergonomic design for this page, the 
 
 I'll be requiring 44.1khz 16-bit stereo .flac files, and I'll be crossing the second list out one-by-one once I've acquired + verified the recordings. NO FURTHER POST-PROCESSING IS TO BE DONE, PLEASE. MINIMUM OF -12.0dB.
 
+Further instructions are provided in the README.txt within the .zip file provided below.
+
 <a href="/lsdj/gbhwsoundrec.zip">Source files required for hardware recordings</a>
 
 * Analyse more CPU revisions (yes, they can make a difference)
+* Acquire recordings of the CGB-CPU-02 envelope bug
 * Note down CPU revisions used from some of DEFENSE MECHANISM's recordings
 * Lights on/off variables for GBASP series
 * DMG (bass boost) [CPU-06 recommended]
 * Pocket (prosound)
 * Light (stock, prosound)
-* Color (prosound) [CPU-04 OR CPU 05 recommended] {DO NOT GET ANY EUROPEAN -02 - CONTAINS A FATAL ENVELOPE BUG UPON USING P AND V COMMANDS}
 * Advance (prosound)
 * SP (both models) (prosound)
 * VisualBoyAdvance (PC)
@@ -260,3 +277,4 @@ I'll be requiring 44.1khz 16-bit stereo .flac files, and I'll be crossing the se
 * 0.9.0 - Initial release.
 * 0.9.1 - Added DS Lite recordings. Thanks odaxelagnia!
 * 0.9.1a - Added photos for DS Lite section. Thanks odaxelagnia! Also added .zip for sound recordings under <a href="/goodies/tutorial/game-boy-comparison#todo">todo</a>.
+* 0.9.2 - Added Color (prosound). Also changed CPU-04 to CPU-03 in DEFENSE MECHANISM's vanilla Color recording.
