@@ -16,7 +16,7 @@ const IndexPage = () => (
 
     <span>Site updates:</span><br />
     <MinorUpdates>
-      <p>27.11.2017 // Added one past gig to 'Gigs' and updated the GAme Boy Comparison page to 0.9.2.</p>
+      <p>27.11.2017 // Added one past gig to 'Gigs' and updated the Game Boy Comparison page to 0.9.2.</p>
       <p>25.11.2017 // Using <a href="https://twitter.com/thetigerinspace" target="_blank">tigerinspace</a>'s mascot drawing in /about and added the 'Gigs' module above.</p>
       <p>11.11.2017 // Updated /goodies to include descrptions, /goodies/tutorial/famitracker-dubstep with examples and /goodies/tutorial/game-boy-comparison with DS Lite recordings.</p>
       <p>01.11.2017 // Added DEFENSE MECHANISM's LSDJ upgrade cheat sheet to /goodies.</p>
