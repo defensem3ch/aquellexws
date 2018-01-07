@@ -2,10 +2,10 @@
 permalink: /goodies/tutorial/game-boy-comparison
 layout: "tutorial"
 title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
-lastUpdated: "2017-11-27T22:30:25+11:00"
+lastUpdated: "2018-01-07T16:29:33+11:00"
 ---
 
-Page Version: 0.9.2
+Page Version: 0.9.3
 
 Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a> & <a href="https://soundcloud.com/odaxelagnia
@@ -229,7 +229,7 @@ Believe it or not, BGB's emulator is better than the stock Color & Color w/ pros
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![pho_bgb.png](/img/pho_bgb.png)| <li>WAV output</li>| ![wf_bgb.png](/img/wf_bgb1.png)<br>![sg_bgb1.png](/img/sg_bgb1.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_bgb.ogg"><a href="/snd/sndtest_bgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_bgb.ogg"><a href="/snd/happyhippo_bgb.ogg"> .ogg</a></audio>|
+| ![pho_bgb.png](/img/pho_bgb.png)| <li>WAV output</li><li>GBC mode</li>| ![wf_bgb.png](/img/wf_bgb1.png)<br>![sg_bgb1.png](/img/sg_bgb1.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_bgb.ogg"><a href="/snd/sndtest_bgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_bgb.ogg"><a href="/snd/happyhippo_bgb.ogg"> .ogg</a></audio>|
 
 #### DS Lite
 
@@ -242,6 +242,16 @@ Lameboy should not be used for any serious LSDJ recording.
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
 | ![dslite_1.png](/img/dslite_1.png)| <li>Gameyob</li>| ![wf_dsl_gameyob.png](/img/wf_dsl_gameyob.png)<br>![sg_dsl_gameyob.png](/img/sg_dsl_gameyob.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dsl_gameyob.ogg"><a href="/snd/sndtest_dsl_gameyob.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dsl_gameyob.ogg"><a href="/snd/happyhippo_dsl_gameyob.ogg"> .ogg</a></audio>|
 | ![dslite_2.png](/img/dslite_2.png)| <li>Lameboy</li>| ![wf_dsl_lameboy.png](/img/wf_dsl_lameboy.png)<br>![sg_dsl_lameboy.png](/img/sg_dsl_lameboy.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dsl_lameboy.ogg"><a href="/snd/sndtest_dsl_lameboy.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dsl_lameboy.ogg"><a href="/snd/happyhippo_dsl_lameboy.ogg"> .ogg</a></audio>|
+
+#### PSP
+
+Can only use MasterBoy v2.10 for the time being.
+
+Excellent bass, but is ruined by poor PCM emulation. Periodic noise emulation is a bit finicky as well (you can hear it towards the ends of SNDTEST.lsdsng). Tempo is faster than standard recordings.
+
+|                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
+|:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
+| ![placeholder.png](/img/placeholder.png)| <li>MasterBoy v2.10</li><li>TA-090v2</li>| ![wf_psp.png](/img/wf_psp.png)<br>![sg_psp.png](/img/sg_psp.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_psp.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_psp.ogg"><a href="/snd/happyhippo_bgb.psp"> .ogg</a></audio>|
 
 ### NOTES
 
@@ -278,3 +288,4 @@ Further instructions are provided in the README.txt within the .zip file provide
 * 0.9.1 - Added DS Lite recordings. Thanks odaxelagnia!
 * 0.9.1a - Added photos for DS Lite section. Thanks odaxelagnia! Also added .zip for sound recordings under <a href="/goodies/tutorial/game-boy-comparison#todo">todo</a>.
 * 0.9.2 - Added Color (prosound). Also changed CPU-04 to CPU-03 in DEFENSE MECHANISM's vanilla Color recording.
+* 0.9.3 - Added PSP-3000 (TA-090v2).
