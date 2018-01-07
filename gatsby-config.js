@@ -23,13 +23,13 @@ module.exports = {
         path: `${__dirname}/src/goodies`
       }
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'news-updates',
-        path: `${__dirname}/src/news-updates`
-      }
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'news-updates',
+    //     path: `${__dirname}/src/news-updates`
+    //   }
+    // },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
