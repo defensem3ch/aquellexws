@@ -1,5 +1,4 @@
 ---
-permalink: /goodies/tutorial/famitracker-dubstep
 layout: tutorial
 title: "The Guide to Making NES/Famicom Dubstep in FamiTracker"
 lastUpdated: "2017-11-11T23:55:47+11:00"
@@ -124,9 +123,9 @@ And that's it... For now.
 
 | Track name | Composer | Audio | Source files |
 |:- |:- |:- |:- |
-| Adrenaline Rush | Thomas Palensky | <audio controls><source src="/snd/Adrenaline_Rush_224hz.ogg"><a href="/snd/Adrenaline_Rush_224hz.ogg">.ogg</a></audio> | <a href="/fami_other/adrenaline_rush.ftm">.ftm</a><br><a href="/fami_other/adrenaline_rush.nsf">.nsf</a> |
-| Blitter Spitter | Strobe (TiTAN) | <audio controls><source src="/snd/blitterspitter.ogg"><a href="/snd/blitterspitter.ogg">.ogg</a></audio> | <a href="/fami_other/blitterspitter.ftm">.ftm</a><br><a href="/fami_other/blitterspitter.nsf">.nsf</a> |
-| Wub Club | Thomas Palensky | <audio controls><source src="/snd/wub_club.ogg"><a href="/snd/wub_club.ogg">.ogg</a></audio> | <a href="/fami_other/wub_club.ftm">.ftm</a><br><a href="/fami_other/wub_club.nsf">.nsf</a> |
+| Adrenaline Rush | Thomas Palensky | <audio controls preload="none"><source src="/snd/Adrenaline_Rush_224hz.ogg"><a href="/snd/Adrenaline_Rush_224hz.ogg">.ogg</a></audio> | <a href="/fami_other/adrenaline_rush.ftm">.ftm</a><br><a href="/fami_other/adrenaline_rush.nsf">.nsf</a> |
+| Blitter Spitter | Strobe (TiTAN) | <audio controls preload="none"><source src="/snd/blitterspitter.ogg"><a href="/snd/blitterspitter.ogg">.ogg</a></audio> | <a href="/fami_other/blitterspitter.ftm">.ftm</a><br><a href="/fami_other/blitterspitter.nsf">.nsf</a> |
+| Wub Club | Thomas Palensky | <audio controls preload="none"><source src="/snd/wub_club.ogg"><a href="/snd/wub_club.ogg">.ogg</a></audio> | <a href="/fami_other/wub_club.ftm">.ftm</a><br><a href="/fami_other/wub_club.nsf">.nsf</a> |
 
 ### DOCUMENT CHANGELOG
 

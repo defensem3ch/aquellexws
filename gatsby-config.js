@@ -12,24 +12,10 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'pages',
-        path: `${__dirname}/src/pages`
+        name: 'content',
+        path: `${__dirname}/src/content`
       }
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'goodies',
-        path: `${__dirname}/src/goodies`
-      }
-    },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     name: 'news-updates',
-    //     path: `${__dirname}/src/news-updates`
-    //   }
-    // },
     {
       resolve: 'gatsby-transformer-remark',
       options: {

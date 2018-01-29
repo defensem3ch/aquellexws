@@ -42,8 +42,6 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
       slug = relativePath
     }
 
-    console.log(`success Generated slug: ${slug}`)
-
     // Used to generate URL to view this content.
     createNodeField({
       node,
