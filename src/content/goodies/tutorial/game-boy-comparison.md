@@ -52,7 +52,7 @@ That being said, this unit is still very accessible today, and the CPU-choking s
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>CPU-06</li><li>Bivert backlight</li>| ![wf_dmg.png](/img/wf_dmg.png)<br>![sg_dmg.png](/img/sg_dmg.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dmg.ogg"><a href="/snd/sndtest_dmg.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dmg.ogg"><a href="/snd/happyhippo_color_dmg.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>CPU-06</li><li>Bivert backlight</li>| ![wf_dmg.png](/img/wf_dmg.png)<br>![sg_dmg.png](/img/sg_dmg.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_dmg.ogg"><a href="/snd/sndtest_dmg.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_dmg.ogg"><a href="/snd/happyhippo_color_dmg.ogg"> .ogg</a></audio>|
 
 #### DMG (prosound)
 
@@ -65,7 +65,7 @@ Highly recommended mod for those getting into scenarios where a line-out jack is
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>CPU-06</li><li>Bivert backlight</li>| ![wf_dmg[ps].png](/img/wf_dmg[ps].png)<br>![sg_dmg[ps].png](/img/sg_dmg[ps].png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dmg_[ps].ogg"><a href="/snd/sndtest_dmg_[ps].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dmg_[ps].ogg"><a href="/snd/happyhippo_color_dmg_[ps].ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>CPU-06</li><li>Bivert backlight</li>| ![wf_dmg[ps].png](/img/wf_dmg[ps].png)<br>![sg_dmg[ps].png](/img/sg_dmg[ps].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_dmg_[ps].ogg"><a href="/snd/sndtest_dmg_[ps].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_dmg_[ps].ogg"><a href="/snd/happyhippo_color_dmg_[ps].ogg"> .ogg</a></audio>|
 
 #### Pocket
 
@@ -81,7 +81,7 @@ On the other hand, the sound is more tolerable than a vanilla Color unit.
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>LCPU-02</li>| ![wf_pocket.png](/img/wf_pocket.png)<br>![sg_pocket.png](/img/sg_pocket.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_pocket.ogg"><a href="/snd/sndtest_pocket.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_pocket.ogg"><a href="/snd/happyhippo_pocket.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>LCPU-02</li>| ![wf_pocket.png](/img/wf_pocket.png)<br>![sg_pocket.png](/img/sg_pocket.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_pocket.ogg"><a href="/snd/sndtest_pocket.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_pocket.ogg"><a href="/snd/happyhippo_pocket.ogg"> .ogg</a></audio>|
 
 #### Color
 
@@ -98,7 +98,7 @@ Also, word of warning: avoid European CPU-02 motherboards, as they contain a fat
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>CPU-03</li>| ![wf_gbc.png](/img/wf_gbc.png)<br>![sg_gbc.png](/img/sg_gbc.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_gbc.ogg"><a href="/snd/sndtest_gbc.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_gbc.ogg"><a href="/snd/happyhippo_gbc.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>CPU-03</li>| ![wf_gbc.png](/img/wf_gbc.png)<br>![sg_gbc.png](/img/sg_gbc.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbc.ogg"><a href="/snd/sndtest_gbc.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gbc.ogg"><a href="/snd/happyhippo_gbc.ogg"> .ogg</a></audio>|
 
 #### Color (prosound)
 
@@ -111,7 +111,7 @@ Don't forget to turn up the bass on the EQ during a live performance, as the bas
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>CPU-04</li><li>RCA</li>| ![wf_gbc[ps].png](/img/wf_gbc[ps].png)<br>![sg_gbc[ps].png](/img/sg_gbc[ps].png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_color_[ps].ogg"><a href="/snd/sndtest_color_[ps].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_color_[ps].ogg"><a href="/snd/happyhippo_color_[ps].ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>CPU-04</li><li>RCA</li>| ![wf_gbc[ps].png](/img/wf_gbc[ps].png)<br>![sg_gbc[ps].png](/img/sg_gbc[ps].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_color_[ps].ogg"><a href="/snd/sndtest_color_[ps].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_color_[ps].ogg"><a href="/snd/happyhippo_color_[ps].ogg"> .ogg</a></audio>|
 
 #### Color (noise cancel + bass boost)
 
@@ -121,7 +121,7 @@ That being said, the mod is more involved than your typical prosound mod, given 
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>RCA</li> <li>CPU-05</li> <li>AGS-001 frontlight</li>| ![wf_gbc[nc+bb].png](/img/wf_gbc[nc+bb].png)<br>![sg_gbc[nc+bb].png](/img/sg_gbc[nc+bb].png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_color_[nc+bb].ogg"><a href="/snd/sndtest_color_[nc+bb].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_color_[nc+bb].ogg"><a href="/snd/happyhippo_color_[nc+bb].ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>RCA</li> <li>CPU-05</li> <li>AGS-001 frontlight</li>| ![wf_gbc[nc+bb].png](/img/wf_gbc[nc+bb].png)<br>![sg_gbc[nc+bb].png](/img/sg_gbc[nc+bb].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_color_[nc+bb].ogg"><a href="/snd/sndtest_color_[nc+bb].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_color_[nc+bb].ogg"><a href="/snd/happyhippo_color_[nc+bb].ogg"> .ogg</a></audio>|
 
 #### Advance
 
@@ -138,7 +138,7 @@ Button ergonomics are awkward, though there are mods to reroute the Start/Select
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_gba.png](/img/wf_gba.png)<br>![sg_gba.png](/img/sg_gba.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_gba.ogg"><a href="/snd/sndtest_gba.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_gba.ogg"><a href="/snd/happyhippo_gba.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_gba.png](/img/wf_gba.png)<br>![sg_gba.png](/img/sg_gba.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gba.ogg"><a href="/snd/sndtest_gba.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gba.ogg"><a href="/snd/happyhippo_gba.ogg"> .ogg</a></audio>|
 
 #### SP
 
@@ -155,8 +155,8 @@ Don't forget this stereo inversion technique <a href="https://chipmusic.org/foru
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>AGS-001</li>| ![wf_sp001.png](/img/wf_sp001.png)<br>![sg_sp001.png](/img/sg_sp001.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_sp001.ogg"><a href="/snd/sndtest_sp001.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_sp001.ogg"><a href="/snd/happyhippo_sp001.ogg"> .ogg</a></audio>|
-| ![placeholder.png](/img/placeholder.png)| <li>AGS-101</li>| ![wf_sp101.png](/img/wf_sp101.png)<br>![sg_sp101.png](/img/sg_sp101.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_sp101.ogg"><a href="/snd/sndtest_sp101.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_sp101.ogg"><a href="/snd/happyhippo_sp101.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>AGS-001</li>| ![wf_sp001.png](/img/wf_sp001.png)<br>![sg_sp001.png](/img/sg_sp001.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sp001.ogg"><a href="/snd/sndtest_sp001.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sp001.ogg"><a href="/snd/happyhippo_sp001.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>AGS-101</li>| ![wf_sp101.png](/img/wf_sp101.png)<br>![sg_sp101.png](/img/sg_sp101.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sp101.ogg"><a href="/snd/sndtest_sp101.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sp101.ogg"><a href="/snd/happyhippo_sp101.ogg"> .ogg</a></audio>|
 
 ### HOME
 
@@ -169,7 +169,7 @@ Don't forget this stereo inversion technique <a href="https://chipmusic.org/foru
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_sgb.png](/img/wf_sgb.png)<br>![sg_sgb.png](/img/sg_sgb.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_sgb.ogg"><a href="/snd/sndtest_sgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_sgb.ogg"><a href="/snd/happyhippo_sgb.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_sgb.png](/img/wf_sgb.png)<br>![sg_sgb.png](/img/sg_sgb.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sgb.ogg"><a href="/snd/sndtest_sgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sgb.ogg"><a href="/snd/happyhippo_sgb.ogg"> .ogg</a></audio>|
 
 #### Super Game Boy (prosound)
 
@@ -179,7 +179,7 @@ See above for resonances, they're still the same.
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_sgb[ps].png](/img/wf_sgb[ps].png)<br>![sg_sgb[ps].png](/img/sg_sgb[ps].png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_sgb_[ps].ogg"><a href="/snd/sndtest_sgb_[ps}.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_sgb_[ps].ogg"><a href="/snd/happyhippo_sgb_[ps].ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_sgb[ps].png](/img/wf_sgb[ps].png)<br>![sg_sgb[ps].png](/img/sg_sgb[ps].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sgb_[ps].ogg"><a href="/snd/sndtest_sgb_[ps}.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sgb_[ps].ogg"><a href="/snd/happyhippo_sgb_[ps].ogg"> .ogg</a></audio>|
 
 #### Super Game Boy 2
 
@@ -190,7 +190,7 @@ See above for resonances, they're still the same.
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_sgb2.png](/img/wf_sgb2.png)<br>![sg_sgb2.png](/img/sg_sgb2.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_sgb2.ogg"><a href="/snd/sndtest_sgb2.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_sgb2.ogg"><a href="/snd/happyhippo_sgb2.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_sgb2.png](/img/wf_sgb2.png)<br>![sg_sgb2.png](/img/sg_sgb2.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sgb2.ogg"><a href="/snd/sndtest_sgb2.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sgb2.ogg"><a href="/snd/happyhippo_sgb2.ogg"> .ogg</a></audio>|
 
 #### Super Game Boy 2 (prosound)
 
@@ -198,7 +198,7 @@ See above for resonances, they're still the same.
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_sgb2[ps].png](/img/wf_sgb2[ps].png)<br>![sg_sgb2[ps].png](/img/sg_sgb2[ps].png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_sgb2_[ps].ogg"><a href="/snd/sndtest_sgb2_[ps}.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_sgb2_[ps].ogg"><a href="/snd/happyhippo_sgb2_[ps].ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_sgb2[ps].png](/img/wf_sgb2[ps].png)<br>![sg_sgb2[ps].png](/img/sg_sgb2[ps].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sgb2_[ps].ogg"><a href="/snd/sndtest_sgb2_[ps}.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sgb2_[ps].ogg"><a href="/snd/happyhippo_sgb2_[ps].ogg"> .ogg</a></audio>|
 
 #### Game Boy Player
 
@@ -206,7 +206,7 @@ See above for resonances, they're still the same.
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_gbp.png](/img/wf_gbp.png)<br>![sg_gbp.png](/img/sg_gbp.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_gbp.ogg"><a href="/snd/sndtest_gbp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_gbp.ogg"><a href="/snd/happyhippo_gbp.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_gbp.png](/img/wf_gbp.png)<br>![sg_gbp.png](/img/sg_gbp.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbp.ogg"><a href="/snd/sndtest_gbp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gbp.ogg"><a href="/snd/happyhippo_gbp.ogg"> .ogg</a></audio>|
 
 #### Game Boy Player (prosound)
 
@@ -218,7 +218,7 @@ A magnificent companion for the Color/SP-seasoned composer.
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>RCA</li><li>DOL-GBS-01</li> <li>LPF Resistor</li><li>LPF Capacitor</li>| ![wf_gbp[ps+c].png](/img/wf_gbp[ps+c].png)<br>![sg_gbp[ps+c].png](/img/sg_gbp[ps+c].png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_gbp_[ps+c].ogg"><a href="/snd/sndtest_gbp_[ps+c].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_gbp_[ps+c].ogg"><a href="/snd/happyhippo_gbp_[ps+c].ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>RCA</li><li>DOL-GBS-01</li> <li>LPF Resistor</li><li>LPF Capacitor</li>| ![wf_gbp[ps+c].png](/img/wf_gbp[ps+c].png)<br>![sg_gbp[ps+c].png](/img/sg_gbp[ps+c].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbp_[ps+c].ogg"><a href="/snd/sndtest_gbp_[ps+c].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gbp_[ps+c].ogg"><a href="/snd/happyhippo_gbp_[ps+c].ogg"> .ogg</a></audio>|
 
 ### EMULATED
 
@@ -228,7 +228,7 @@ Believe it or not, BGB's emulator is better than the stock Color & Color w/ pros
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![pho_bgb.png](/img/pho_bgb.png)| <li>WAV output</li><li>GBC mode</li>| ![wf_bgb.png](/img/wf_bgb1.png)<br>![sg_bgb1.png](/img/sg_bgb1.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_bgb.ogg"><a href="/snd/sndtest_bgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_bgb.ogg"><a href="/snd/happyhippo_bgb.ogg"> .ogg</a></audio>|
+| ![pho_bgb.png](/img/pho_bgb.png)| <li>WAV output</li><li>GBC mode</li>| ![wf_bgb.png](/img/wf_bgb1.png)<br>![sg_bgb1.png](/img/sg_bgb1.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_bgb.ogg"><a href="/snd/sndtest_bgb.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_bgb.ogg"><a href="/snd/happyhippo_bgb.ogg"> .ogg</a></audio>|
 
 #### DS Lite
 
@@ -239,8 +239,8 @@ Lameboy should not be used for any serious LSDJ recording.
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![dslite_1.png](/img/dslite_1.png)| <li>Gameyob</li>| ![wf_dsl_gameyob.png](/img/wf_dsl_gameyob.png)<br>![sg_dsl_gameyob.png](/img/sg_dsl_gameyob.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dsl_gameyob.ogg"><a href="/snd/sndtest_dsl_gameyob.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dsl_gameyob.ogg"><a href="/snd/happyhippo_dsl_gameyob.ogg"> .ogg</a></audio>|
-| ![dslite_2.png](/img/dslite_2.png)| <li>Lameboy</li>| ![wf_dsl_lameboy.png](/img/wf_dsl_lameboy.png)<br>![sg_dsl_lameboy.png](/img/sg_dsl_lameboy.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_dsl_lameboy.ogg"><a href="/snd/sndtest_dsl_lameboy.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_dsl_lameboy.ogg"><a href="/snd/happyhippo_dsl_lameboy.ogg"> .ogg</a></audio>|
+| ![dslite_1.png](/img/dslite_1.png)| <li>Gameyob</li>| ![wf_dsl_gameyob.png](/img/wf_dsl_gameyob.png)<br>![sg_dsl_gameyob.png](/img/sg_dsl_gameyob.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_dsl_gameyob.ogg"><a href="/snd/sndtest_dsl_gameyob.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_dsl_gameyob.ogg"><a href="/snd/happyhippo_dsl_gameyob.ogg"> .ogg</a></audio>|
+| ![dslite_2.png](/img/dslite_2.png)| <li>Lameboy</li>| ![wf_dsl_lameboy.png](/img/wf_dsl_lameboy.png)<br>![sg_dsl_lameboy.png](/img/sg_dsl_lameboy.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_dsl_lameboy.ogg"><a href="/snd/sndtest_dsl_lameboy.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_dsl_lameboy.ogg"><a href="/snd/happyhippo_dsl_lameboy.ogg"> .ogg</a></audio>|
 
 #### PSP
 
@@ -250,7 +250,7 @@ Excellent bass, but is ruined by poor PCM emulation. Periodic noise emulation is
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>MasterBoy v2.10</li><li>TA-090v2</li>| ![wf_psp.png](/img/wf_psp.png)<br>![sg_psp.png](/img/sg_psp.png)| SNDTEST.lsdsng<audio controls><source src="/snd/sndtest_psp.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls><source src="/snd/happyhippo_psp.ogg"><a href="/snd/happyhippo_bgb.psp"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>MasterBoy v2.10</li><li>TA-090v2</li>| ![wf_psp.png](/img/wf_psp.png)<br>![sg_psp.png](/img/sg_psp.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_psp.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_psp.ogg"><a href="/snd/happyhippo_bgb.psp"> .ogg</a></audio>|
 
 ### NOTES
 
