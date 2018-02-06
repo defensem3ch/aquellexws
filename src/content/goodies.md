@@ -1,5 +1,4 @@
 ---
-permalink: /goodies
 layout: goodies
 title: "GOODIES"
 lastUpdated: "2017-11-12T20:14:12+11:00"
