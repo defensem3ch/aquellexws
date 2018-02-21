@@ -33,7 +33,11 @@ class TemplateWrapper extends React.Component {
               title={siteMetadata.title}
               meta={[
                 { name: 'description', content: siteMetadata.description },
-                { name: 'keywords', content: 'sample, something' },
+                { name: 'keywords', content: 'aquellex, gameboy, musician, chiptune, osu!' },
+                { property: 'og:site_name', content: data.site.siteMetadata.title },
+                { property: 'og:type', content: 'website' },
+                { property: 'og:title', content: data.site.siteMetadata.title },
+                { property: 'og:description', content: data.site.siteMetadata.description },
               ]}
             />
             <Konami konami={[76, 79, 67, 82, 73, 65, 78]} easterEgg={() => window.open("https://twitter.com/locrian_memes")} />

@@ -9,13 +9,13 @@ const PageTemplate = ({ data }) => {
 
   return (
     <div>
-      <Helmet
-        title={`${page.frontmatter.title} · ${siteMetadata.title}`}
-        meta={[
-          { name: 'description', content: page.excerpt },
-          { name: 'author', content: siteMetadata.author.name }
-        ]}
-      />
+      <Helmet>
+        <title>{`${page.frontmatter.title} · ${siteMetadata.title}`}</title>
+        <meta name="description" content={page.excerpt || data.site.siteMetadata.description} />
+        <meta name="author" content={siteMetadata.author.name} />
+        <meta property="og:title" content={page.frontmatter.title} />
+        <meta property="og:description" content={page.excerpt || data.site.siteMetadata.description} />
+      </Helmet>
       <Page
         title={page.frontmatter.title}
         updated={page.frontmatter.lastUpdated}

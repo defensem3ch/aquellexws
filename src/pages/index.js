@@ -8,12 +8,12 @@ import NewsUpdates from '../components/NewsUpdates'
 
 const IndexPage = ({ data }) => (
   <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: data.site.siteMetadata.description }
-      ]}
-    />
+    <Helmet>
+      <title>{data.site.siteMetadata.title}</title>
+      <meta name="description" content={data.site.siteMetadata.description} />
+      <meta property="og:title" content="NEWS" />
+      <meta property="og:description" content={data.site.siteMetadata.description} />
+    </Helmet>
     <Page title="NEWS"></Page>
     <span>Gigs (green for upcoming, red for occurring/occurred + DD.MM.YYYY):</span><br />
     <MinorUpdates>
