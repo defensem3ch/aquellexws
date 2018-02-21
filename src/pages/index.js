@@ -6,12 +6,12 @@ import Page from '../components/Page'
 import MinorUpdates from '../components/MinorUpdates'
 import NewsUpdates from '../components/NewsUpdates'
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <div>
     <Helmet
-      title={siteMetadata.title}
+      title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: siteMetadata.description }
+        { name: 'description', content: data.site.siteMetadata.description }
       ]}
     />
     <Page title="NEWS"></Page>
@@ -54,3 +54,20 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const query = graphql`
+  query IndexPageQuery {
+    site {
+      siteMetadata {
+        title
+        description
+        author {
+          name
+          url
+          email
+        }
+      }
+      buildTime
+    }
+  }
+`

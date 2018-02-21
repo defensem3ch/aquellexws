@@ -1,12 +1,12 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-const NotFoundPage = () => (
+const NotFoundPage = ({ data }) => (
   <div>
     <Helmet
-      title={siteMetadata.title}
+      title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: siteMetadata.description }
+        { name: 'description', content: data.site.siteMetadata.description }
       ]}
     />
     <h1>404: NOT FOUND</h1>
@@ -15,3 +15,20 @@ const NotFoundPage = () => (
 )
 
 export default NotFoundPage
+
+export const query = graphql`
+  query NotFoundPageQuery {
+    site {
+      siteMetadata {
+        title
+        description
+        author {
+          name
+          url
+          email
+        }
+      }
+      buildTime
+    }
+  }
+`
