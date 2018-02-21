@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Aquellex',
-    description: 'Game Boy Connoiseur.',
+    description: 'popular osu! Game Boy musician',
     author: {
       name: 'Aquellex',
       url: 'https://twitter.com/resir014',
