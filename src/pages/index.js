@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 
 import Page from '../components/Page'
 import MinorUpdates from '../components/MinorUpdates'
@@ -7,6 +8,12 @@ import NewsUpdates from '../components/NewsUpdates'
 
 const IndexPage = () => (
   <div>
+    <Helmet
+      title={siteMetadata.title}
+      meta={[
+        { name: 'description', content: siteMetadata.description }
+      ]}
+    />
     <Page title="NEWS"></Page>
     <span>Gigs (green for upcoming, red for occurring/occurred + DD.MM.YYYY):</span><br />
     <MinorUpdates>
