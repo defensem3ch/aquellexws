@@ -29,16 +29,17 @@ class TemplateWrapper extends React.Component {
       <div className="content">
         <Container>
           <div className={styles.siteWrapper}>
-            <Helmet
-              title={siteMetadata.title}
-              meta={[
-                { name: 'description', content: siteMetadata.description },
-                { name: 'keywords', content: 'sample, something' },
-              ]}
-            />
+            <Helmet>
+              <title>{siteMetadata.title}</title>
+              <meta name="description" content={siteMetadata.description} />
+              <meta name="keywords" content="aquellex, gameboy, musician, chiptune, osu" />
+              <meta property="og:site_name" content={siteMetadata.title} />
+              <meta property="og:type" content="website" />
+              <meta property="og:title" content={siteMetadata.title} />
+              <meta property="og:description" content={siteMetadata.description} />
+            </Helmet>
             <Konami konami={[76, 79, 67, 82, 73, 65, 78]} easterEgg={() => window.open("https://twitter.com/locrian_memes")} />
-            <Konami konami={[77, 85, 70, 71, 79]} easterEgg={() => window.location.href = 'https://www.youtube.com/watch?v=NtSgWZbL_kE'
-} />
+            <Konami konami={[77, 85, 70, 71, 79]} easterEgg={() => window.location.href = 'https://www.youtube.com/watch?v=NtSgWZbL_kE'} />
             <SecretsModal />
             <Header />
             <div>

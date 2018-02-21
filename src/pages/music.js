@@ -12,12 +12,12 @@ const MusicPage = ({ data }) => {
   const { siteMetadata, buildTime } = data.site
   return (
     <div>
-      <Helmet
-        title={`MUSIC · ${siteMetadata.title}`}
-        meta={[
-          { name: 'description', content: siteMetadata.description }
-        ]}
-      />
+      <Helmet>
+        <title>{`MUSIC · ${siteMetadata.title}`}</title>
+        <meta name="description" content={data.site.siteMetadata.description} />
+        <meta property="og:title" content="MUSIC" />
+        <meta property="og:description" content={data.site.siteMetadata.description} />
+      </Helmet>
       <Page
         title="MUSIC"
       >

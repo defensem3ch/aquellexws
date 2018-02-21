@@ -15,13 +15,13 @@ const TutorialTemplate = ({ data }) => {
 
   return (
     <div>
-      <Helmet
-        title={`${page.frontmatter.title} · Tutorials · ${siteMetadata.title}`}
-        meta={[
-          { name: 'description', content: page.excerpt },
-          { name: 'author', content: siteMetadata.author.name }
-        ]}
-      />
+      <Helmet>
+        <title>{`${page.frontmatter.title} · Tutorials · ${siteMetadata.title}`}</title>
+        <meta name="description" content={page.excerpt || data.site.siteMetadata.description} />
+        <meta name="author" content={siteMetadata.author.name} />
+        <meta property="og:title" content={`${page.frontmatter.title} · Tutorials`} />
+        <meta property="og:description" content={page.excerpt || data.site.siteMetadata.description} />
+      </Helmet>
       <TutorialPage page={page} />
     </div>
   )
