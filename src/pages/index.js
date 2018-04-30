@@ -17,12 +17,14 @@ const IndexPage = ({ data }) => (
     <Page title="NEWS"></Page>
     <span>Gigs (green for upcoming, red for occurring/occurred + DD.MM.YYYY):</span><br />
     <MinorUpdates>
-      <p><font color="lime">23.02.2018 - 25.02.2018</font> // <a href="http://melbourne.squaresoundsfestival.com/2018/about.html" target="_blank">Square Sounds Melbourne 2018</a> </p>
+    <p><font color="lime">04.05.2018</font> // <a href="https://visitcanberra.com.au/events/5acb022d693d348c764fb7a6/maze-contemporary-art-party" target="_blank">MAZE: Contemporary Art Party</a> (overbooked, contact me before gig date to get on list) </p>
+      <p><font color="red">23.02.2018 - 25.02.2018</font> // <a href="http://melbourne.squaresoundsfestival.com/2018/about.html" target="_blank">Square Sounds Melbourne 2018</a> </p>
       <p><font color="red">02.03.2017</font> // <a href="https://www.facebook.com/SquareSounds/videos/1236363983065586/" target="_blank">Square Sounds Melbourne 2017 Pre-Party</a> </p>
     </MinorUpdates>
 
     <span>Site updates:</span><br />
     <MinorUpdates>
+      <p>01.05.2018 // Sorry for radio silence and short notice of a gig on May 4th, I've been busy with life lately! Major update soon + updated Game Boy Comparison page to 0.9.4.</p>
       <p>30.01.2018 // Fixed audio preloading on tutorial pages. Thanks resir014!</p>
       <p>07.01.2018 // Updated the Game Boy Comparison page to 0.9.3.</p>
       <p>27.11.2017 // Added one past gig to 'Gigs' and updated the Game Boy Comparison page to 0.9.2.</p>

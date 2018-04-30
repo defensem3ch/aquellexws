@@ -1,10 +1,10 @@
 ---
 layout: "tutorial"
 title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
-lastUpdated: "2018-01-07T16:29:33+11:00"
+lastUpdated: "2018-05-01T18:37:03+11:00"
 ---
 
-Page Version: 0.9.3
+Page Version: 0.9.4
 
 Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a> & <a href="https://soundcloud.com/odaxelagnia
@@ -94,11 +94,12 @@ There's also a noise cancellation through stereo inversion technique <a href="ht
 
 If you had to pick between a Color and the Advance series with no mods factored in, go for the Advance series instead (especially SP if you're factoring in button ergonomics).
 
-Also, word of warning: avoid European CPU-02 motherboards, as they contain a fatal envelope bug that kills notes unexpectedly upon using hardware sweeps, pitch bends & vibrato commands.
+Also, word of warning: avoid European CPU-02 motherboards, as they contain a fatal envelope bug that kills notes unexpectedly upon using pitch bends & vibrato commands.
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
 | ![placeholder.png](/img/placeholder.png)| <li>CPU-03</li>| ![wf_gbc.png](/img/wf_gbc.png)<br>![sg_gbc.png](/img/sg_gbc.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbc.ogg"><a href="/snd/sndtest_gbc.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gbc.ogg"><a href="/snd/happyhippo_gbc.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>CPU-02</li>| ![wf_cgb[02].png](/img/wf_cgb[02].png)<br>![sg_cgb[02].png](/img/sg_cgb[02].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_cgb_[02].ogg"><a href="/snd/sndtest_cgb_[02].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_cgb_[02].ogg"><a href="/snd/happyhippo_cgb_[02].ogg"> .ogg</a></audio><br>Pitch bend & vibrato test<audio controls preload="none"><source src="/snd/pitchbend_cgb_[02].ogg"><a href="/snd/pitchbend_cgb_[02].ogg"> .ogg</a></audio>|
 
 #### Color (prosound)
 
@@ -112,6 +113,17 @@ Don't forget to turn up the bass on the EQ during a live performance, as the bas
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
 | ![placeholder.png](/img/placeholder.png)| <li>CPU-04</li><li>RCA</li>| ![wf_gbc[ps].png](/img/wf_gbc[ps].png)<br>![sg_gbc[ps].png](/img/sg_gbc[ps].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_color_[ps].ogg"><a href="/snd/sndtest_color_[ps].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_color_[ps].ogg"><a href="/snd/happyhippo_color_[ps].ogg"> .ogg</a></audio>|
+
+#### Color (pin3 mod)
+
+BennVenn's pin3 mod that is also used for his GBC backlight mod. Kinda looks like a hybrid of a stock & prosound Color, but the hiss & hum resonances are less obnoxious compared to the stock GBC. Again, don't forget to turn up the bass on the EQ during a live performance, as the bass without any kind of EQ is pretty tame compared to the stock DMG.
+
+* Hiss resonances: Same as above
+* Hum resonances: Same as above
+
+|                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
+|:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
+| ![placeholder.png](/img/placeholder.png)| <li>CPU-05</li><li>BennVenn GBC Backlight</li><li>Pin3 Mod</li>| ![wf_cgb[pin3].png](/img/wf_cgb[pin3].png)<br>![sg_cgb[pin3].png](/img/sg_cgb[pin3].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_cgb_[pin3].ogg"><a href="/snd/sndtest_cgb_[pin3].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_cgb_[pin3].ogg"><a href="/snd/happyhippo_cgb_[pin3].ogg"> .ogg</a></audio><br>Pitch bend & vibrato test<audio controls preload="none"><source src="/snd/pitchbend_cgb_[pin3].ogg"><a href="/snd/pitchbend_cgb_[pin3].ogg"> .ogg</a></audio>|
 
 #### Color (noise cancel + bass boost)
 
@@ -206,19 +218,23 @@ See above for resonances, they're still the same.
 
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>???</li>| ![wf_gbp.png](/img/wf_gbp.png)<br>![sg_gbp.png](/img/sg_gbp.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbp.ogg"><a href="/snd/sndtest_gbp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gbp.ogg"><a href="/snd/happyhippo_gbp.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>DOL-GBS-01 (JPN)</li>| ![wf_gbp.png](/img/wf_gbp.png)<br>![sg_gbp.png](/img/sg_gbp.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbp.ogg"><a href="/snd/sndtest_gbp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gbp.ogg"><a href="/snd/happyhippo_gbp.ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>DOL-GBS-20 (US)</li>| ![wf_gbp.png](/img/wf_gbpus.png)<br>![sg_gbpus.png](/img/sg_gbpus.png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbpus.ogg"><a href="/snd/sndtest_gbpus.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gbpus.ogg"><a href="/snd/happyhippo_gbpus.ogg"> .ogg</a></audio>|
 
 #### Game Boy Player (prosound)
 
-\*the recording used in question is a Japanese motherboard--I'm still waiting for DEFENSE MECHANISM to record a <a href="https://clyp.it/bswgp3sl" target="_blank">US motherboard</a> + will write more info here eventually\*
+\* will write more info here eventually\*
 
 On par with, if not better than the Color noise cancel + bass boost, with the added edge of the 'clicking' side-effect being a lot more muted in akin to the GBA series as expected. The background noise is on par with, if not a couple more resonances than the stock DMG & GBAs, but during playback, it's negligable at best, especially when compared with the pocket series.
 
 A magnificent companion for the Color/SP-seasoned composer.
 
+Quick note: using resistors and capacitors are necessary to avoid clipping.
+
 |                 Image                   | Variables | Waveform & spectrogram         | Sound examples |
 |:--------------------------------------- |:-------   |:------------------------------ |:-------------- |
-| ![placeholder.png](/img/placeholder.png)| <li>RCA</li><li>DOL-GBS-01</li> <li>LPF Resistor</li><li>LPF Capacitor</li>| ![wf_gbp[ps+c].png](/img/wf_gbp[ps+c].png)<br>![sg_gbp[ps+c].png](/img/sg_gbp[ps+c].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbp_[ps+c].ogg"><a href="/snd/sndtest_gbp_[ps+c].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gbp_[ps+c].ogg"><a href="/snd/happyhippo_gbp_[ps+c].ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>RCA</li><li>DOL-GBS-01 (JPN)</li> <li>LPF Resistor</li><li>LPF Capacitor</li>| ![wf_gbp[ps+c].png](/img/wf_gbp[ps+c].png)<br>![sg_gbp[ps+c].png](/img/sg_gbp[ps+c].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbp_[ps+c].ogg"><a href="/snd/sndtest_gbp_[ps+c].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gbp_[ps+c].ogg"><a href="/snd/happyhippo_gbp_[ps+c].ogg"> .ogg</a></audio>|
+| ![placeholder.png](/img/placeholder.png)| <li>RCA</li><li>DOL-GBS-20 (US)</li> <li>470 Ohm Resistor</li><li>.01uF Capacitor</li>| ![wf_gbpus[ps+c].png](/img/wf_gbpus[ps+c].png)<br>![sg_gbpus[ps+c].png](/img/sg_gbpus[ps+c].png)| SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbpus_[ps+c].ogg"><a href="/snd/sndtest_gbpus_[ps+c].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gbpus_[ps+c].ogg"><a href="/snd/happyhippo_gbpus_[ps+c].ogg"> .ogg</a></audio>|
 
 ### EMULATED
 
@@ -267,7 +283,6 @@ Further instructions are provided in the README.txt within the .zip file provide
 <a href="/lsdj/gbhwsoundrec.zip">Source files required for hardware recordings</a>
 
 * Analyse more CPU revisions (yes, they can make a difference)
-* Acquire recordings of the CGB-CPU-02 envelope bug
 * Note down CPU revisions used from some of DEFENSE MECHANISM's recordings
 * Lights on/off variables for GBASP series
 * DMG (bass boost) [CPU-06 recommended]
@@ -275,6 +290,7 @@ Further instructions are provided in the README.txt within the .zip file provide
 * Light (stock, prosound)
 * Advance (prosound)
 * SP (both models) (prosound)
+* Kong Feng GB Boy Colour (carries the CGB-CPU-02 envelope bug)
 * VisualBoyAdvance (PC)
 * MasterBoy (Sony PSP)
 * Consider Nanoloop GBA?
@@ -288,3 +304,4 @@ Further instructions are provided in the README.txt within the .zip file provide
 * 0.9.1a - Added photos for DS Lite section. Thanks odaxelagnia! Also added .zip for sound recordings under <a href="/goodies/tutorial/game-boy-comparison#todo">todo</a>.
 * 0.9.2 - Added Color (prosound). Also changed CPU-04 to CPU-03 in DEFENSE MECHANISM's vanilla Color recording.
 * 0.9.3 - Added PSP-3000 (TA-090v2).
+* 0.9.4 - Added recordings CGB-CPU-02 Stock (along w/ pitch bend & vibrato test), CPU-CGB-05 w/ Pin3 Mod (along w/ pitch bend & vibrato test), and Game Boy Player (stock & prosound) using a US motherboard. Thanks Jack L. For lending the CGB-CPU-02! Thanks DEFENSE MECHANISM for more Game Boy Player recordings!
