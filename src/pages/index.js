@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => (
     <span>Gigs (green for upcoming, red for occurring/occurred + DD.MM.YYYY):</span><br />
     <MinorUpdates>
     <p><font color="lime">17.09.2018</font> // <a href="https://www.facebook.com/events/2269368509949414/" target="_blank">Square Sounds Tokyo 2018 Post-Party</a></p>
-      <font color="red">04.05.2018</font> // <a href="https://visitcanberra.com.au/events/5acb022d693d348c764fb7a6/maze-contemporary-art-party" target="_blank">MAZE: Contemporary Art Party</a> </p>
+      <p><font color="red">04.05.2018</font> // <a href="https://visitcanberra.com.au/events/5acb022d693d348c764fb7a6/maze-contemporary-art-party" target="_blank">MAZE: Contemporary Art Party</a> </p>
       <p><font color="red">23.02.2018 - 25.02.2018</font> // <a href="http://melbourne.squaresoundsfestival.com/2018/about.html" target="_blank">Square Sounds Melbourne 2018</a> </p>
       <p><font color="red">02.03.2017</font> // <a href="https://www.facebook.com/SquareSounds/videos/1236363983065586/" target="_blank">Square Sounds Melbourne 2017 Pre-Party</a> </p>
     </MinorUpdates>
