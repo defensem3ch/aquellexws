@@ -17,13 +17,15 @@ const IndexPage = ({ data }) => (
     <Page title="NEWS"></Page>
     <span>Gigs (green for upcoming, red for occurring/occurred + DD.MM.YYYY):</span><br />
     <MinorUpdates>
-    <p><font color="lime">04.05.2018</font> // <a href="https://visitcanberra.com.au/events/5acb022d693d348c764fb7a6/maze-contemporary-art-party" target="_blank">MAZE: Contemporary Art Party</a> (overbooked, contact me before gig date to get on list) </p>
+    <p><font color="lime">17.09.2018</font> // <a href="https://www.facebook.com/events/2269368509949414/" target="_blank">Square Sounds Tokyo 2018 Post-Party</a></p>
+      <font color="red">04.05.2018</font> // <a href="https://visitcanberra.com.au/events/5acb022d693d348c764fb7a6/maze-contemporary-art-party" target="_blank">MAZE: Contemporary Art Party</a> </p>
       <p><font color="red">23.02.2018 - 25.02.2018</font> // <a href="http://melbourne.squaresoundsfestival.com/2018/about.html" target="_blank">Square Sounds Melbourne 2018</a> </p>
       <p><font color="red">02.03.2017</font> // <a href="https://www.facebook.com/SquareSounds/videos/1236363983065586/" target="_blank">Square Sounds Melbourne 2017 Pre-Party</a> </p>
     </MinorUpdates>
 
     <span>Site updates:</span><br />
     <MinorUpdates>
+      <p>12.09.2018 // Game Boy sound comparison page updated to 0.9.4a. lsdpack is awesome!</p>
       <p>01.05.2018 // Sorry for radio silence and short notice of a gig on May 4th, I've been busy with life lately! Major update soon + updated Game Boy Comparison page to 0.9.4.</p>
       <p>30.01.2018 // Fixed audio preloading on tutorial pages. Thanks resir014!</p>
       <p>07.01.2018 // Updated the Game Boy Comparison page to 0.9.3.</p>
@@ -40,6 +42,9 @@ const IndexPage = ({ data }) => (
     </MinorUpdates>
 
     <NewsUpdates>
+      <h3>12.09.2018 // Square Sounds Tokyo 2018 coming up soon!</h3>
+      <p>About time I updated the frontpage properly! Information can be found in the Gigs module above. Sorry for being on super short notice, cheapshot (the organiser) was undergoing some stress and there was miscommunication when I placed my name for a chance to perform at the sideparties. Fortunately, everything's been resolved in the nick of time, heheh!
+      </p>
       <h3>07.02.2018 // Square Sounds Melbourne 2018 coming up soon!</h3>
       <p>Friendly reminder that I will be performing @ 24 Moons for Square Sounds Melbourne 2018! I'm on @ 10:00pm on the 23rd of February, Friday night. More info about the gig can be found <a href="http://melbourne.squaresoundsfestival.com/2018/about.html" target="_blank">here!</a> Acquire tickets <a href="https://events.ticketbooth.com.au/event/ssm2018" target="_blank">here</a>.
       </p>
