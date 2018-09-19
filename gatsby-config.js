@@ -1,3 +1,7 @@
+/* eslint-disable strict */
+
+'use strict';
+
 module.exports = {
   siteMetadata: {
     title: 'Aquellex',

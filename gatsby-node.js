@@ -1,4 +1,4 @@
-// @ts-check
+/* eslint-disable strict */
 
 'use strict';
 
@@ -13,7 +13,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const { permalink, redirect_from, category, layout, lastUpdated } = node.frontmatter;
+    const { permalink, redirect_from, layout } = node.frontmatter;
     const relativePath = createFilePath({ node, getNode, basePath: 'pages' });
 
     let slug = permalink;
@@ -28,11 +28,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
       slug = `/blog/${year}/${month}/${day}/${slugify(filename)}/`;
 
-      const date = new Date(
-        Number.parseInt(year),
-        Number.parseInt(month) - 1,
-        Number.parseInt(day)
-      );
+      const date = new Date(Number(year), Number(month) - 1, Number(day));
 
       // Blog posts are sorted by date and display the date in their header.
       createNodeField({
@@ -125,9 +121,11 @@ exports.createPages = ({ graphql, actions }) => {
           toRedirect.forEach(fromPath => {
             if (redirectToSlugMap[fromPath] != null) {
               reject(
-                `Duplicate redirect detected from "${fromPath}" to:\n` +
-                  `* ${redirectToSlugMap[fromPath]}\n` +
-                  `* ${slug}\n`
+                new Error(
+                  `Duplicate redirect detected from "${fromPath}" to:\n` +
+                    `* ${redirectToSlugMap[fromPath]}\n` +
+                    `* ${slug}\n`
+                )
               );
             }
 
