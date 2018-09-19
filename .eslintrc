@@ -2,7 +2,12 @@
   "extends": ["airbnb", "prettier"],
   "plugins": ["prettier"],
   "rules": {
+    "camelcase": "off",
+    "no-return-assign": "off",
     "prettier/prettier": ["error"],
-    "camelcase": "off"
+    "react/jsx-filename-extension": "off",
+    "react/no-danger": "off",
+    "react/no-unescaped-entities": "off",
+    "react/jsx-one-expression-per-line": "off"
   }
 }

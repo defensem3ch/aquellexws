@@ -1,1 +1,1 @@
-export { default } from './GoodiesSidebar'
+export { default } from './GoodiesSidebar';

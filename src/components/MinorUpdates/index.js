@@ -1,1 +1,1 @@
-export { default } from './MinorUpdates'
+export { default } from './MinorUpdates';

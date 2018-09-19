@@ -1,22 +1,20 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import styles from './PageFooter.module.css'
+import styles from './PageFooter.module.css';
 
 const PageFooter = ({ updated }) => {
-  const updateTime = new Date(Date.parse(updated)).toLocaleString()
+  const updateTime = new Date(Date.parse(updated)).toLocaleString();
 
   return (
     <footer className={styles.pageFooter}>
-      <p>
-        Last Updated: {updateTime}
-      </p>
+      <p>Last Updated: {updateTime}</p>
     </footer>
-  )
-}
+  );
+};
 
 PageFooter.propTypes = {
-  updated: PropTypes.string.isRequired
-}
+  updated: PropTypes.string.isRequired,
+};
 
-export default PageFooter
+export default PageFooter;

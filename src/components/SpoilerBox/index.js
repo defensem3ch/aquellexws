@@ -1,1 +1,1 @@
-export { default } from './SpoilerBox'
+export { default } from './SpoilerBox';
