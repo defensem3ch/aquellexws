@@ -1,8 +1,11 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import TemplateWrapper from '../layouts';
+
 const NotFoundPage = ({ data }) => (
-  <div>
+  <TemplateWrapper>
     <Helmet>
       <title>404: Page not found. &middot; {data.site.siteMetadata.title}</title>
       <meta name="description" content={data.site.siteMetadata.description} />
@@ -11,7 +14,7 @@ const NotFoundPage = ({ data }) => (
     </Helmet>
     <h1>404: NOT FOUND</h1>
     <p><img src="/img/tenshi.gif" /></p>
-  </div>
+  </TemplateWrapper>
 )
 
 export default NotFoundPage

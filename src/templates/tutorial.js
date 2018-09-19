@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 
 import Page from '../components/Page'
 import TutorialPage from '../components/TutorialPage'
@@ -8,13 +9,14 @@ import Row from '../components/Row'
 import Col from '../components/Col'
 import SpoilerBox from '../components/SpoilerBox'
 import GoodiesSidebar from '../components/GoodiesSidebar'
+import TemplateWrapper from '../layouts';
 
 const TutorialTemplate = ({ data }) => {
   const page = data.markdownRemark
   const { siteMetadata, buildTime } = data.site
 
   return (
-    <div>
+    <TemplateWrapper>
       <Helmet>
         <title>{`${page.frontmatter.title} · Tutorials · ${siteMetadata.title}`}</title>
         <meta name="description" content={page.excerpt || data.site.siteMetadata.description} />
@@ -23,7 +25,7 @@ const TutorialTemplate = ({ data }) => {
         <meta property="og:description" content={page.excerpt || data.site.siteMetadata.description} />
       </Helmet>
       <TutorialPage page={page} />
-    </div>
+    </TemplateWrapper>
   )
 }
 

@@ -1,13 +1,14 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Page from '../components/Page'
 import MinorUpdates from '../components/MinorUpdates'
 import NewsUpdates from '../components/NewsUpdates'
+import TemplateWrapper from '../layouts';
 
 const IndexPage = ({ data }) => (
-  <div>
+  <TemplateWrapper>
     <Helmet>
       <title>{data.site.siteMetadata.title}</title>
       <meta name="description" content={data.site.siteMetadata.description} />
@@ -57,7 +58,7 @@ const IndexPage = ({ data }) => (
       <h3>25.08.2017 // Moved to Crazy Domains for hosting!</h3>
       <p>Welcome!</p>
     </NewsUpdates>
-  </div>
+  </TemplateWrapper>
 )
 
 export default IndexPage

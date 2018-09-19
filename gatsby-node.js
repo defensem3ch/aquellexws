@@ -1,4 +1,4 @@
-// @ts-
+// @ts-check
 
 'use strict'
 
@@ -9,8 +9,8 @@ const { createFilePath } = require('gatsby-source-filesystem')
 // Regex to parse date and title from the filename
 const BLOG_POST_SLUG_REGEX = /^\/blog\/([\d]{4})-([\d]{2})-([\d]{2})-(.+)\/$/
 
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-  const { createNodeField } = boundActionCreators
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
     const { permalink, redirect_from, category, layout, lastUpdated } = node.frontmatter
@@ -65,8 +65,8 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   }
 }
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage, createRedirect } = boundActionCreators
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage, createRedirect } = actions
 
   // Used to detect and prevent duplicate redirects
   const redirectToSlugMap = {}

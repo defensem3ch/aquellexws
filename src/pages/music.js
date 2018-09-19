@@ -1,17 +1,18 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
+import { graphql } from 'gatsby'
 import ResponsiveEmbed from 'react-responsive-embed'
 
 import Page from '../components/Page'
 import Music from '../components/Music'
 import SpoilerBox from '../components/SpoilerBox'
 import SoundCloudEmbedFrame from '../components/SoundCloudEmbedFrame'
+import TemplateWrapper from '../layouts';
 
 const MusicPage = ({ data }) => {
   const { siteMetadata, buildTime } = data.site
   return (
-    <div>
+    <TemplateWrapper>
       <Helmet>
         <title>{`MUSIC · ${siteMetadata.title}`}</title>
         <meta name="description" content={data.site.siteMetadata.description} />
@@ -131,7 +132,7 @@ const MusicPage = ({ data }) => {
           <span><a href="https://soundcloud.com/aquellex/candy-explosion" target="_blank">audio file</a> (click on 'more' > 'download') &#8729; <a href="http://2a03.free.fr/dl.php?file=5167">project files</a></span>
         </Music>
       </Page>
-    </div>
+    </TemplateWrapper>
   )
 }
 

@@ -1,14 +1,16 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 
 import Page from '../components/Page'
+import TemplateWrapper from '../layouts';
 
 const PageTemplate = ({ data }) => {
   const page = data.markdownRemark
   const { siteMetadata, buildTime } = data.site
 
   return (
-    <div>
+    <TemplateWrapper>
       <Helmet>
         <title>{`${page.frontmatter.title} · ${siteMetadata.title}`}</title>
         <meta name="description" content={page.excerpt || data.site.siteMetadata.description} />
@@ -22,7 +24,7 @@ const PageTemplate = ({ data }) => {
       >
         <div dangerouslySetInnerHTML={{ __html: page.html }} />
       </Page>
-    </div>
+    </TemplateWrapper>
   )
 }
 

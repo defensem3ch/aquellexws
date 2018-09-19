@@ -1,19 +1,20 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
+import { graphql } from 'gatsby'
 import classnames from 'classnames'
 
 import Page from '../components/Page'
 import GoodiesSidebar from '../components/GoodiesSidebar'
 import Row from '../components/Row'
 import Col from '../components/Col'
+import TemplateWrapper from '../layouts';
 
 const GoodiesTemplate = ({ data }) => {
   const page = data.markdownRemark
   const { siteMetadata, buildTime } = data.site
 
   return (
-    <div>
+    <TemplateWrapper>
       <Helmet>
         <title>{`${page.frontmatter.title} · ${siteMetadata.title}`}</title>
         <meta name="description" content={page.excerpt || data.site.siteMetadata.description} />
@@ -28,7 +29,7 @@ const GoodiesTemplate = ({ data }) => {
         <div dangerouslySetInnerHTML={{ __html: page.html }} />
         <GoodiesSidebar />
       </Page>
-    </div>
+    </TemplateWrapper>
   )
 }
 
