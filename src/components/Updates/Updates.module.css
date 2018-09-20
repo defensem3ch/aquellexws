@@ -1,10 +1,18 @@
-.minorUpdates {
+.root {
+  margin-bottom: 0.5rem;
+}
+
+.root p {
+  margin: 0;
+}
+
+.inner {
   height: 128px;
   background-color: black;
   border: 1px solid #00aaaa;
   overflow-y: auto;
 }
 
-.minorUpdates p {
+.inner p {
   margin: 0;
 }

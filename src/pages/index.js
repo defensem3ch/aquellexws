@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 
 import Page from '../components/Page';
-import MinorUpdates from '../components/MinorUpdates';
+import Updates from '../components/Updates';
 import NewsUpdates from '../components/NewsUpdates';
 import TemplateWrapper from '../layouts';
 import Event from '../components/Event';
@@ -18,17 +18,13 @@ const IndexPage = ({ data }) => (
       <meta property="og:description" content={data.site.siteMetadata.description} />
     </Helmet>
     <Page title="NEWS" />
-    <span>Gigs (green for upcoming, red for occurring/occurred + DD.MM.YYYY):</span>
-    <br />
-    <MinorUpdates>
+    <Updates title="Gigs (green for upcoming, red for occurring/occurred + DD.MM.YYYY):">
       {data.gigs.edges.map(gig => (
         <Event key={gig.id} event={gig.node} />
       ))}
-    </MinorUpdates>
+    </Updates>
 
-    <span>Site updates:</span>
-    <br />
-    <MinorUpdates>
+    <Updates title="Site updates:">
       <p>12.09.2018 // Game Boy sound comparison page updated to 0.9.4a. lsdpack is awesome!</p>
       <p>
         01.05.2018 // Sorry for radio silence and short notice of a gig on May 4th, I've been busy
@@ -64,7 +60,7 @@ const IndexPage = ({ data }) => (
         16.08.2017 // Started the website as a "test of waters". Hosted by Neocities for the time
         being.
       </p>
-    </MinorUpdates>
+    </Updates>
 
     <NewsUpdates>
       <h3>12.09.2018 // Square Sounds Tokyo 2018 coming up soon!</h3>
