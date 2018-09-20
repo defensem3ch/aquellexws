@@ -32,7 +32,7 @@ const GoodiesTemplate = ({ data }) => {
 };
 
 GoodiesTemplate.propTypes = {
-  data: PropTypes.shape({}).isRequired,
+  data: PropTypes.object.isRequired,
 };
 
 export default GoodiesTemplate;

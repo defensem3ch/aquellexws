@@ -24,7 +24,7 @@ const NotFoundPage = ({ data }) => (
 );
 
 NotFoundPage.propTypes = {
-  data: PropTypes.shape({}).isRequired,
+  data: PropTypes.object.isRequired,
 };
 
 export default NotFoundPage;

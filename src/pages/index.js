@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => (
     <br />
     <MinorUpdates>
       <p>
-        <font color="lime">17.09.2018</font> //{' '}
+        <font color="lime">17.09.2018</font> {'// '}
         <a
           href="https://www.facebook.com/events/2269368509949414/"
           target="_blank"
@@ -31,7 +31,7 @@ const IndexPage = ({ data }) => (
         </a>
       </p>
       <p>
-        <font color="red">04.05.2018</font> //{' '}
+        <font color="red">04.05.2018</font> {'// '}
         <a
           href="https://visitcanberra.com.au/events/5acb022d693d348c764fb7a6/maze-contemporary-art-party"
           target="_blank"
@@ -41,7 +41,7 @@ const IndexPage = ({ data }) => (
         </a>{' '}
       </p>
       <p>
-        <font color="red">23.02.2018 - 25.02.2018</font> //{' '}
+        <font color="red">23.02.2018 - 25.02.2018</font> {'// '}
         <a
           href="http://melbourne.squaresoundsfestival.com/2018/about.html"
           target="_blank"
@@ -51,7 +51,7 @@ const IndexPage = ({ data }) => (
         </a>{' '}
       </p>
       <p>
-        <font color="red">02.03.2017</font> //{' '}
+        <font color="red">02.03.2017</font> {'// '}
         <a
           href="https://www.facebook.com/SquareSounds/videos/1236363983065586/"
           target="_blank"
@@ -168,7 +168,7 @@ const IndexPage = ({ data }) => (
 );
 
 IndexPage.propTypes = {
-  data: PropTypes.shape({}).isRequired,
+  data: PropTypes.object.isRequired,
 };
 
 export default IndexPage;

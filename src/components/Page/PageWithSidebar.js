@@ -1,13 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Container from '../Container';
-import PageHeader from './PageHeader';
 import PageFooter from './PageFooter';
 
-import styles from './PageWithSidebar.module.css';
-
-const PageWithSidebar = ({ title, updated, children }) => (
+const PageWithSidebar = ({ updated, children }) => (
   <article>
     {children}
     <PageFooter updated={updated} />
@@ -15,9 +11,8 @@ const PageWithSidebar = ({ title, updated, children }) => (
 );
 
 PageWithSidebar.propTypes = {
-  title: PropTypes.string.isRequired,
-  updated: PropTypes.string,
-  children: PropTypes.element,
+  updated: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default PageWithSidebar;

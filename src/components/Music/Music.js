@@ -13,8 +13,9 @@ const Music = ({ title, genre, children }) => (
 );
 
 Music.propTypes = {
-  title: PropTypes.string,
-  genre: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  genre: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default Music;

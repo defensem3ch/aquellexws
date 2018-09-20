@@ -1,12 +1,24 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import PropTypes from 'prop-types';
+import classnames from 'classnames';
 
 import styles from './Container.module.css';
 
-const Container = ({ style, children }) => (
-  <div className={styles.container} style={style}>
+const Container = ({ className, style, children }) => (
+  <div className={classnames(styles.container, className)} style={style}>
     {children}
   </div>
 );
+
+Container.propTypes = {
+  className: PropTypes.string,
+  style: PropTypes.object,
+  children: PropTypes.node.isRequired,
+};
+
+Container.defaultProps = {
+  className: null,
+  style: null,
+};
 
 export default Container;

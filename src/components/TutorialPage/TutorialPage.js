@@ -1,4 +1,5 @@
 import * as React from 'react';
+import PropTypes from 'prop-types';
 
 import Page from '../Page';
 import SpoilerBox from '../SpoilerBox';
@@ -17,5 +18,9 @@ const TutorialPage = ({ page }) => (
     <GoodiesSidebar />
   </Page>
 );
+
+TutorialPage.propTypes = {
+  page: PropTypes.object.isRequired,
+};
 
 export default TutorialPage;

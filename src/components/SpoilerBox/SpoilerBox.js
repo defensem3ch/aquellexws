@@ -14,21 +14,23 @@ class SpoilerBox extends React.Component {
 
   render() {
     const { title, children } = this.props;
+    const { visible } = this.state;
 
     return (
       <div className={styles.spoilerBox}>
-        <a
+        <button
+          type="button"
           className={styles.spoilerBoxToggle}
           onClick={() => {
-            this.setState({ visible: !this.state.visible });
+            this.setState({ visible: !visible });
           }}
         >
           {title}
-        </a>
+        </button>
         <div
           className={styles.spoilerBoxContent}
           style={{
-            display: this.state.visible ? 'block' : 'none',
+            display: visible ? 'block' : 'none',
           }}
         >
           {children}
@@ -40,6 +42,7 @@ class SpoilerBox extends React.Component {
 
 SpoilerBox.propTypes = {
   title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default SpoilerBox;

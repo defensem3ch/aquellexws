@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Container from '../Container';
-
 import styles from './Footer.module.css';
 
 const Footer = ({ updated }) => {
@@ -18,13 +16,13 @@ const Footer = ({ updated }) => {
         </p>
         <p>
           HTML design by Aquellex &amp;{' '}
-          <a href="https://twitter.com/TC_Halogen" target="_blank">
+          <a href="https://twitter.com/TC_Halogen" target="_blank" rel="noopener noreferrer">
             TC_Halogen
           </a>
         </p>
         <p>
           Gatsby.js implementation by{' '}
-          <a href="https://twitter.com/resir014" target="_blank">
+          <a href="https://twitter.com/resir014" target="_blank" rel="noopener noreferrer">
             resir014
           </a>
         </p>

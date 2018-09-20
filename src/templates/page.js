@@ -30,7 +30,7 @@ const PageTemplate = ({ data }) => {
 };
 
 PageTemplate.propTypes = {
-  data: PropTypes.shape({}).isRequired,
+  data: PropTypes.object.isRequired,
 };
 
 export default PageTemplate;

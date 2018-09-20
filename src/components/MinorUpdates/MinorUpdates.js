@@ -1,8 +1,12 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import PropTypes from 'prop-types';
 
 import styles from './MinorUpdates.module.css';
 
 const MinorUpdates = ({ children }) => <div className={styles.minorUpdates}>{children}</div>;
+
+MinorUpdates.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default MinorUpdates;

@@ -202,7 +202,7 @@ const MusicPage = ({ data }) => {
 };
 
 MusicPage.propTypes = {
-  data: PropTypes.shape({}).isRequired,
+  data: PropTypes.object.isRequired,
 };
 
 export default MusicPage;
