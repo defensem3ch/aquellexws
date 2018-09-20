@@ -52,5 +52,7 @@ module.exports = {
     },
     'gatsby-transformer-json',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-netlify-cache',
+    'gatsby-plugin-netlify',
   ],
 };
