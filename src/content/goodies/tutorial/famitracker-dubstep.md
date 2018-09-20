@@ -1,7 +1,7 @@
 ---
 layout: tutorial
-title: "The Guide to Making NES/Famicom Dubstep in FamiTracker"
-lastUpdated: "2017-11-11T23:55:47+11:00"
+title: 'The Guide to Making NES/Famicom Dubstep in FamiTracker'
+lastUpdated: '2017-11-11T23:55:47+11:00'
 ---
 
 Written by <a href=https://soundcloud.com/dj-dimeback>Thomas Palensky</a>
@@ -52,24 +52,23 @@ I have devised a chart that tells you the resulted note from each step size.<br>
 The base note is represented by variable x.<br>
 x-# represents the output note relative to x.
 
-
-|    Sequence     |   Output note   | MML String in the shape of a square wave: |
-|:--------------- |:--------------- |:----------------------------------------- |
-| 2 steps         | x               | 15 0                                      |
-| 3 steps         | x-7             | 15 0 0 / 15 15 0                          |
-| 4 steps         | x-12            | 15 15 0 0                                 |
-| 5 steps         | x-16*           | 15 15 0 0 0 / 15 15 15 0 0                |
-| 6 steps         | x-19            | 15 15 15 0 0 0                            |
-| 7 steps         | x-22            | 15 15 15 0 0 0 0 / 15 15 15 15 0 0 0      |
-| 8 steps         | x-24            | 15 15 15 15 0 0 0 0                       |
-| 9 steps         | x-26            | 15 15 15 15 0 0 0 0 0 / 15 15 15 15 15 0 0 0 0 |
-| 10 steps        | x-28*           | 15 15 15 15 15 0 0 0 0 0                  |
-| 11 steps        | x-29            | 15 15 15 15 15 0 0 0 0 0 0 / 15 15 15 15 15 15 0 0 0 0 0 |
-| 12 steps        | x-31            | 15 15 15 15 15 15 0 0 0 0 0 0 |
-| 13 steps        | x-32            | 15 15 15 15 15 15 0 0 0 0 0 0 0 / 15 15 15 15 15 15 15 0 0 0 0 0 0 |
-| 14 steps        | x-34            | 15 15 15 15 15 15 15 0 0 0 0 0 0 0 |
-| 15 steps        | x-35            | 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0 / 15 15 15 15 15 15 15 15 0 0 0 0 0 0 0 |
-| 16 steps        | x-36            | 15 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0 |
+| Sequence | Output note | MML String in the shape of a square wave:                                    |
+| :------- | :---------- | :--------------------------------------------------------------------------- |
+| 2 steps  | x           | 15 0                                                                         |
+| 3 steps  | x-7         | 15 0 0 / 15 15 0                                                             |
+| 4 steps  | x-12        | 15 15 0 0                                                                    |
+| 5 steps  | x-16\*      | 15 15 0 0 0 / 15 15 15 0 0                                                   |
+| 6 steps  | x-19        | 15 15 15 0 0 0                                                               |
+| 7 steps  | x-22        | 15 15 15 0 0 0 0 / 15 15 15 15 0 0 0                                         |
+| 8 steps  | x-24        | 15 15 15 15 0 0 0 0                                                          |
+| 9 steps  | x-26        | 15 15 15 15 0 0 0 0 0 / 15 15 15 15 15 0 0 0 0                               |
+| 10 steps | x-28\*      | 15 15 15 15 15 0 0 0 0 0                                                     |
+| 11 steps | x-29        | 15 15 15 15 15 0 0 0 0 0 0 / 15 15 15 15 15 15 0 0 0 0 0                     |
+| 12 steps | x-31        | 15 15 15 15 15 15 0 0 0 0 0 0                                                |
+| 13 steps | x-32        | 15 15 15 15 15 15 0 0 0 0 0 0 0 / 15 15 15 15 15 15 15 0 0 0 0 0 0           |
+| 14 steps | x-34        | 15 15 15 15 15 15 15 0 0 0 0 0 0 0                                           |
+| 15 steps | x-35        | 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0 / 15 15 15 15 15 15 15 15 0 0 0 0 0 0 0 |
+| 16 steps | x-36        | 15 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0                                      |
 
 \*Might be out of tune.
 
@@ -77,57 +76,57 @@ As you can see, it works very similarly to the DPCM steps. Of course, this means
 
 I'll use 392 Hz as an example:
 
-|    Sequence     |   Output note   |
-|: -------------- |:--------------- |
-| 2 steps         | G-3             |
-| 3 steps         | C-3             |
-| 4 steps         | G-2             |
-| 5 steps         | D#2*            |
-| 6 steps         | C-2             |
-| 7 steps         | A-1             |
-| 8 steps         | G-1             |
-| 9 steps         | F-1             |
-| 10 steps        | D#1*            |
-| 11 steps        | D-1             |
-| 12 steps        | C-1             |
-| 13 steps        | B-0             |
-| 14 steps        | A-0             |
-| 15 steps        | G#0             |
-| 16 steps        | G-0             |
+| Sequence | Output note |
+| :------- | :---------- |
+| 2 steps  | G-3         |
+| 3 steps  | C-3         |
+| 4 steps  | G-2         |
+| 5 steps  | D#2\*       |
+| 6 steps  | C-2         |
+| 7 steps  | A-1         |
+| 8 steps  | G-1         |
+| 9 steps  | F-1         |
+| 10 steps | D#1\*       |
+| 11 steps | D-1         |
+| 12 steps | C-1         |
+| 13 steps | B-0         |
+| 14 steps | A-0         |
+| 15 steps | G#0         |
+| 16 steps | G-0         |
 
 Remember when I said finding the right engine speed is important for the tuning of the notes?<br>
 If you adjust the engine speed, the tuning of all the notes will change. Adjust it until everything sounds the way you like.<br>
 Let's say you want to transpose the notes a whole step up. Change the engine speed to 448 Hz and you get this:
 
-|    Sequence     |   Output note   |
-|:--------------- |:--------------- |
-| 2 steps         | A-3             |
-| 3 steps         | D-3             |
-| 4 steps         | A-2             |
-| 5 steps         | F-2*            |
-| 6 steps         | D-2             |
-| 7 steps         | B-1             |
-| 8 steps         | A-1             |
-| 9 steps         | G-1             |
-| 10 steps        | F-1*            |
-| 11 steps        | E-1             |
-| 12 steps        | D-1             |
-| 13 steps        | C#0             |
-| 14 steps        | B-0             |
-| 15 steps        | A#0             |
-| 16 steps        | A-0             |
+| Sequence | Output note |
+| :------- | :---------- |
+| 2 steps  | A-3         |
+| 3 steps  | D-3         |
+| 4 steps  | A-2         |
+| 5 steps  | F-2\*       |
+| 6 steps  | D-2         |
+| 7 steps  | B-1         |
+| 8 steps  | A-1         |
+| 9 steps  | G-1         |
+| 10 steps | F-1\*       |
+| 11 steps | E-1         |
+| 12 steps | D-1         |
+| 13 steps | C#0         |
+| 14 steps | B-0         |
+| 15 steps | A#0         |
+| 16 steps | A-0         |
 
 And that's it... For now.
 
 ### EXAMPLES
 
-| Track name | Composer | Audio | Source files |
-|:- |:- |:- |:- |
+| Track name      | Composer        | Audio                                                                                                                                 | Source files                                                                                             |
+| :-------------- | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------- |
 | Adrenaline Rush | Thomas Palensky | <audio controls preload="none"><source src="/snd/Adrenaline_Rush_224hz.ogg"><a href="/snd/Adrenaline_Rush_224hz.ogg">.ogg</a></audio> | <a href="/fami_other/adrenaline_rush.ftm">.ftm</a><br><a href="/fami_other/adrenaline_rush.nsf">.nsf</a> |
-| Blitter Spitter | Strobe (TiTAN) | <audio controls preload="none"><source src="/snd/blitterspitter.ogg"><a href="/snd/blitterspitter.ogg">.ogg</a></audio> | <a href="/fami_other/blitterspitter.ftm">.ftm</a><br><a href="/fami_other/blitterspitter.nsf">.nsf</a> |
-| Wub Club | Thomas Palensky | <audio controls preload="none"><source src="/snd/wub_club.ogg"><a href="/snd/wub_club.ogg">.ogg</a></audio> | <a href="/fami_other/wub_club.ftm">.ftm</a><br><a href="/fami_other/wub_club.nsf">.nsf</a> |
+| Blitter Spitter | Strobe (TiTAN)  | <audio controls preload="none"><source src="/snd/blitterspitter.ogg"><a href="/snd/blitterspitter.ogg">.ogg</a></audio>               | <a href="/fami_other/blitterspitter.ftm">.ftm</a><br><a href="/fami_other/blitterspitter.nsf">.nsf</a>   |
+| Wub Club        | Thomas Palensky | <audio controls preload="none"><source src="/snd/wub_club.ogg"><a href="/snd/wub_club.ogg">.ogg</a></audio>                           | <a href="/fami_other/wub_club.ftm">.ftm</a><br><a href="/fami_other/wub_club.nsf">.nsf</a>               |
 
 ### DOCUMENT CHANGELOG
 
-* 1.1 - Initial release.
-* 1.1a - Added examples.
+- 1.1 - Initial release.
+- 1.1a - Added examples.

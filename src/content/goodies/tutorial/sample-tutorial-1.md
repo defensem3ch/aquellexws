@@ -1,7 +1,7 @@
 ---
-layout: "tutorial"
-title: "Example Tutorial Page"
-lastUpdated: "2017-10-03T15:30:00Z"
+layout: 'tutorial'
+title: 'Example Tutorial Page'
+lastUpdated: '2017-10-03T15:30:00Z'
 ---
 
 ### Sample Heading

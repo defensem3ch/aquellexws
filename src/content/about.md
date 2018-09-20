@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "ABOUT"
-lastUpdated: "2017-11-26T00:05:22+11:00"
+title: 'ABOUT'
+lastUpdated: '2017-11-26T00:05:22+11:00'
 ---
 
 ### THE PERSON
@@ -30,30 +30,30 @@ You can find her gallery <a href="https://refsheet.net/aquellex/lindenmorsen" ta
 
 #### Computer
 
-* Custom-built i7 4770K @ 3.5 Ghz
-* 16GB memory
-* 256GB SSD
-* 2TB WD Black
-* 1TB WD Blue
-* 3 monitors
+- Custom-built i7 4770K @ 3.5 Ghz
+- 16GB memory
+- 256GB SSD
+- 2TB WD Black
+- 1TB WD Blue
+- 3 monitors
 
 #### Software
 
-* <a href="http://littlesounddj.com" target="_blank">LSDJ</a>, <a href="https://github.com/HertzDevil/0CC-FamiTracker" target="_blank">0CC-FamiTracker</a>, <a href="http://deflemask.com" target="_blank">DefleMask Tracker</a>, <a href="https://openmpt.org" target="_blank">OpenMPT</a>, mid2smps (composition, arranging)
-* <a href="https://cakewalk.com" target="_blank">SONAR Platinum</a> ∞ & <a href="https://renoise.com" target="_blank">Renoise</a> & <a href="https://reaper.fm" target="_blank">REAPER</a> (production)
-* <a href="https://avid.com/sibelius" target="_blank">Sibelius</a> (scoring, arranging)
-* <a href="http://audacityteam.org" target="_blank">Audacity</a> & <a href="https://goldwave.com" target="_blank">GoldWave</a> (file processing)
-* Cakewalk Pro Audio 9 (low-level MIDI editing)
+- <a href="http://littlesounddj.com" target="_blank">LSDJ</a>, <a href="https://github.com/HertzDevil/0CC-FamiTracker" target="_blank">0CC-FamiTracker</a>, <a href="http://deflemask.com" target="_blank">DefleMask Tracker</a>, <a href="https://openmpt.org" target="_blank">OpenMPT</a>, mid2smps (composition, arranging)
+- <a href="https://cakewalk.com" target="_blank">SONAR Platinum</a> ∞ & <a href="https://renoise.com" target="_blank">Renoise</a> & <a href="https://reaper.fm" target="_blank">REAPER</a> (production)
+- <a href="https://avid.com/sibelius" target="_blank">Sibelius</a> (scoring, arranging)
+- <a href="http://audacityteam.org" target="_blank">Audacity</a> & <a href="https://goldwave.com" target="_blank">GoldWave</a> (file processing)
+- Cakewalk Pro Audio 9 (low-level MIDI editing)
 
 #### Hardware & instruments
 
-* Novation Impulse 49 (controller)
-* Behringer HPM1000 (headphones)
-* Mackie MR6 MK3 (nearfield monitors)
-* Steinberg UR22 Audio Interface (audio interface)
-* Various Game Boys (3 DMGs, 2 GBCs)
-* Yamaha C3 (grand piano)
-* Roland AX-09 Lucina (keytar)
-* Numark M4 (DJ mixer)
+- Novation Impulse 49 (controller)
+- Behringer HPM1000 (headphones)
+- Mackie MR6 MK3 (nearfield monitors)
+- Steinberg UR22 Audio Interface (audio interface)
+- Various Game Boys (3 DMGs, 2 GBCs)
+- Yamaha C3 (grand piano)
+- Roland AX-09 Lucina (keytar)
+- Numark M4 (DJ mixer)
 
 <a href='https://ko-fi.com/A7873Q2W' target='_blank'><img height='20' style='border:0px;height:20px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
