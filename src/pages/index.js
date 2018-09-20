@@ -1,3 +1,5 @@
+/* eslint-disable react/no-array-index-key */
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
@@ -9,6 +11,7 @@ import NewsUpdates from '../components/NewsUpdates';
 import TemplateWrapper from '../layouts';
 import Event from '../components/Event';
 import NewsItem from '../components/NewsItem';
+import minorUpdates from '../data/minorUpdates';
 
 const IndexPage = ({ data }) => (
   <TemplateWrapper>
@@ -26,41 +29,13 @@ const IndexPage = ({ data }) => (
     </Updates>
 
     <Updates title="Site updates:">
-      <p>12.09.2018 // Game Boy sound comparison page updated to 0.9.4a. lsdpack is awesome!</p>
-      <p>
-        01.05.2018 // Sorry for radio silence and short notice of a gig on May 4th, I've been busy
-        with life lately! Major update soon + updated Game Boy Comparison page to 0.9.4.
-      </p>
-      <p>30.01.2018 // Fixed audio preloading on tutorial pages. Thanks resir014!</p>
-      <p>07.01.2018 // Updated the Game Boy Comparison page to 0.9.3.</p>
-      <p>
-        27.11.2017 // Added one past gig to 'Gigs' and updated the Game Boy Comparison page to
-        0.9.2.
-      </p>
-      <p>
-        25.11.2017 // Using{' '}
-        <a href="https://twitter.com/thetigerinspace" target="_blank" rel="noopener noreferrer">
-          tigerinspace
-        </a>
-        's mascot drawing in /about and added the 'Gigs' module above.
-      </p>
-      <p>
-        11.11.2017 // Updated /goodies to include descrptions, /goodies/tutorial/famitracker-dubstep
-        with examples and /goodies/tutorial/game-boy-comparison with DS Lite recordings.
-      </p>
-      <p>01.11.2017 // Added DEFENSE MECHANISM's LSDJ upgrade cheat sheet to /goodies.</p>
-      <p>21.10.2017 // Added Ko-Fi link in /about + a few new tutorial scaffolds.</p>
-      <p>
-        30.09.2017 // Changed web rating from G-PG to PG-14 because of my social media links. Also
-        changed my contact e-mail to aquellex@f0xpa.ws.
-      </p>
-      <p>24.08.2017 // The basic premise in ABOUT is ripe and ready to go!</p>
-      <p>24.08.2017 // Originals section in MUSIC is ripe and ready to go!</p>
-      <p>23.08.2017 // Almost done constructing the skeleton of the whole webpage.</p>
-      <p>
-        16.08.2017 // Started the website as a "test of waters". Hosted by Neocities for the time
-        being.
-      </p>
+      {minorUpdates.map((u, i) => (
+        <p key={i}>
+          {u.date}
+          {' // '}
+          {u.content}
+        </p>
+      ))}
     </Updates>
 
     <NewsUpdates>
