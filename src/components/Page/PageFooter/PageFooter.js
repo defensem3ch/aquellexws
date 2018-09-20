@@ -1,10 +1,13 @@
+/* eslint-disable import/no-extraneous-dependencies */
+
 import React from 'react';
 import PropTypes from 'prop-types';
+import format from 'date-fns/format';
 
 import styles from './PageFooter.module.css';
 
 const PageFooter = ({ updated }) => {
-  const updateTime = new Date(Date.parse(updated)).toLocaleString();
+  const updateTime = format(new Date(updated), 'DD/MM/YYYY, HH:MM:SS ZZ');
 
   return (
     <footer className={styles.pageFooter}>

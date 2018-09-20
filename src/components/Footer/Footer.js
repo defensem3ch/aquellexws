@@ -5,7 +5,7 @@ import styles from './Footer.module.css';
 
 const Footer = ({ updated }) => {
   // Get current year during build time
-  const formattedYear = new Date(Date.parse(updated)).getFullYear();
+  const formattedYear = new Date(updated).getFullYear();
 
   return (
     <footer className={styles.footer}>
