@@ -105,6 +105,19 @@ dl {
   margin-bottom: 1rem;
 }
 
+ul {
+  padding-left: 1rem;
+}
+
+ol {
+  padding-left: 1.5rem;
+}
+
+li ul,
+li ol {
+  margin-bottom: 0;
+}
+
 li p:last-of-type {
   margin-bottom: 0;
 }
