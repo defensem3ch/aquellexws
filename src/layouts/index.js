@@ -13,8 +13,8 @@ import Container from '../components/Container';
 import SecretsModal from '../components/SecretsModal';
 
 import 'normalize.css';
-import '../fonts/pxplus_ibm_vga8.css';
 import '../styles/globals.css';
+import '../fonts/pxplus_ibm_vga8.css';
 
 import styles from './index.module.css';
 
