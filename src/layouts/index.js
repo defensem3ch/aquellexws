@@ -6,16 +6,16 @@ import { StaticQuery, graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import Konami from 'react-konami';
 
+import '../fonts/pxplus_ibm_vga8.css';
+import 'modern-normalize';
+import '../styles/globals.css';
+
 // React components
 import SiteWrapper from '../components/SiteWrapper';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer';
 import Container from '../components/Container';
 import SecretsModal from '../components/SecretsModal';
-
-import 'modern-normalize';
-import '../styles/globals.css';
-import '../fonts/pxplus_ibm_vga8.css';
 
 const query = graphql`
   query IndexLayoutQuery {
