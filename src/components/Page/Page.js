@@ -17,8 +17,12 @@ const Page = ({ title, updated, children }) => (
 
 Page.propTypes = {
   title: PropTypes.string.isRequired,
-  updated: PropTypes.string.isRequired,
+  updated: PropTypes.string,
   children: PropTypes.node.isRequired,
+};
+
+Page.defaultProps = {
+  updated: null,
 };
 
 export default Page;

@@ -3,38 +3,34 @@
 'use strict';
 
 const path = require('path');
-const slugify = require('slug');
 const { createFilePath } = require('gatsby-source-filesystem');
 
 // Regex to parse date and title from the filename
-const BLOG_POST_SLUG_REGEX = /^\/blog\/([\d]{4})-([\d]{2})-([\d]{2})-(.+)\/$/;
+const BLOG_POST_SLUG_REGEX = /^\/updates\/([\d]{4})-([\d]{2})-([\d]{2})/;
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const { permalink, redirect_from, layout } = node.frontmatter;
+    const { permalink, redirect_from, date, layout } = node.frontmatter;
     const relativePath = createFilePath({ node, getNode, basePath: 'pages' });
 
     let slug = permalink;
 
-    if (!slug && relativePath.includes('blog')) {
+    if (!slug && relativePath.includes('updates')) {
       // Generate final path + graphql fields for blog posts
       const match = BLOG_POST_SLUG_REGEX.exec(relativePath);
       const year = match[1];
       const month = match[2];
       const day = match[3];
-      const filename = match[4];
 
-      slug = `/blog/${year}/${month}/${day}/${slugify(filename)}/`;
-
-      const date = new Date(Number(year), Number(month) - 1, Number(day));
+      const generatedDate = new Date(Number(year), Number(month) - 1, Number(day));
 
       // Blog posts are sorted by date and display the date in their header.
       createNodeField({
         node,
         name: 'date',
-        value: date.toJSON(),
+        value: date || generatedDate.toJSON(),
       });
     }
 
