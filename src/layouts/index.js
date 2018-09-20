@@ -65,7 +65,7 @@ function TemplateWrapper({ children }) {
                 />
                 <SecretsModal />
                 <Header />
-                {children}
+                <main>{children}</main>
               </SiteWrapper>
               <Footer updated={buildTime} />
             </Container>
