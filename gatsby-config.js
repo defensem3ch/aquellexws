@@ -27,6 +27,8 @@ module.exports = {
         path: `${__dirname}/src/data`,
       },
     },
+    'gatsby-transformer-sharp',
+    'gatsby-transformer-json',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -57,8 +59,10 @@ module.exports = {
         showSpinner: false,
       },
     },
-    'gatsby-transformer-json',
+    'gatsby-plugin-catch-links',
+    'gatsby-plugin-sharp',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify-cache',
     'gatsby-plugin-netlify',
   ],
