@@ -7,6 +7,7 @@ import Helmet from 'react-helmet';
 import Konami from 'react-konami';
 
 // React components
+import SiteWrapper from '../components/SiteWrapper';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer';
 import Container from '../components/Container';
@@ -15,8 +16,6 @@ import SecretsModal from '../components/SecretsModal';
 import 'normalize.css';
 import '../styles/globals.css';
 import '../fonts/pxplus_ibm_vga8.css';
-
-import styles from './index.module.css';
 
 const query = graphql`
   query IndexLayoutQuery {
@@ -44,7 +43,7 @@ function TemplateWrapper({ children }) {
         return (
           <div className="content">
             <Container>
-              <div className={styles.siteWrapper}>
+              <SiteWrapper>
                 <Helmet>
                   <title>{siteMetadata.title}</title>
                   <meta name="description" content={siteMetadata.description} />
@@ -67,7 +66,7 @@ function TemplateWrapper({ children }) {
                 <SecretsModal />
                 <Header />
                 {children}
-              </div>
+              </SiteWrapper>
               <Footer updated={buildTime} />
             </Container>
           </div>
