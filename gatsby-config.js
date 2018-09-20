@@ -1,3 +1,7 @@
+/* eslint-disable strict */
+
+'use strict';
+
 module.exports = {
   siteMetadata: {
     title: 'Aquellex',
@@ -5,16 +9,16 @@ module.exports = {
     author: {
       name: 'Aquellex',
       url: 'https://twitter.com/resir014',
-      email: 'aquellex@f0xpa.ws'
-    }
+      email: 'aquellex@f0xpa.ws',
+    },
   },
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'content',
-        path: `${__dirname}/src/content`
-      }
+        path: `${__dirname}/src/content`,
+      },
     },
     {
       resolve: 'gatsby-transformer-remark',
@@ -23,30 +27,32 @@ module.exports = {
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
-              wrapperStyle: `margin-bottom: 1rem`
-            }
+              wrapperStyle: `margin-bottom: 1rem`,
+            },
           },
           'gatsby-remark-autolink-headers',
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants'
-        ]
-      }
+          'gatsby-remark-smartypants',
+        ],
+      },
     },
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: `https://www.aquellex.ws`
-      }
+        siteUrl: `https://www.aquellex.ws`,
+      },
     },
     {
       resolve: 'gatsby-plugin-nprogress',
       options: {
         color: '#dcffba',
-        showSpinner: false
+        showSpinner: false,
       },
     },
     'gatsby-transformer-json',
-    'gatsby-plugin-react-helmet'
-  ]
-}
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-netlify-cache',
+    'gatsby-plugin-netlify',
+  ],
+};

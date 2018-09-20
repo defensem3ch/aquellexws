@@ -1,1 +1,1 @@
-export { default } from './SoundCloudEmbedFrame'
+export { default } from './SoundCloudEmbedFrame';

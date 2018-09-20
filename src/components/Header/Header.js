@@ -1,11 +1,11 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import classnames from 'classnames'
+import React from 'react';
+import { Link } from 'gatsby';
+import classnames from 'classnames';
 
-import HeaderLinks from './HeaderLinks'
-import HeaderBadges from './HeaderBadges'
+import HeaderLinks from './HeaderLinks';
+import HeaderBadges from './HeaderBadges';
 
-import styles from './Header.module.css'
+import styles from './Header.module.css';
 
 const Header = () => (
   <div className={styles.header}>
@@ -21,6 +21,6 @@ const Header = () => (
       <HeaderBadges />
     </div>
   </div>
-)
+);
 
-export default Header
+export default Header;

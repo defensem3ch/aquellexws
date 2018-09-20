@@ -1,11 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import styles from './PageHeader.module.css'
+const PageHeader = ({ children }) => <header>{children}</header>;
 
-const PageHeader = ({ children }) => (
-  <header>
-    {children}
-  </header>
-)
-export default PageHeader
+PageHeader.propTypes = {
+  children: PropTypes.node.isRequired,
+};
+
+export default PageHeader;
