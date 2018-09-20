@@ -193,7 +193,8 @@ pre code {
  */
 
 .content {
-  font-family: 'pxplus_ibm_vga8regular', monospace, monospace;
+  font-family: 'pxplus_ibm_vga8regular', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo,
+    Courier, monospace, monospace;
 }
 
 footer {

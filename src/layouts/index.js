@@ -13,7 +13,7 @@ import Footer from '../components/Footer';
 import Container from '../components/Container';
 import SecretsModal from '../components/SecretsModal';
 
-import 'normalize.css';
+import 'modern-normalize';
 import '../styles/globals.css';
 import '../fonts/pxplus_ibm_vga8.css';
 
