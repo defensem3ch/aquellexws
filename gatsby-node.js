@@ -1,4 +1,4 @@
-/* eslint-disable strict */
+/* eslint-disable strict, camelcase */
 
 'use strict';
 
