@@ -59,9 +59,9 @@ function TemplateWrapper({ children }) {
                 />
                 <Konami
                   konami={[77, 85, 70, 71, 79]}
-                  easterEgg={() =>
-                    (window.location.href = 'https://www.youtube.com/watch?v=NtSgWZbL_kE')
-                  }
+                  easterEgg={() => {
+                    window.location.href = 'https://www.youtube.com/watch?v=NtSgWZbL_kE';
+                  }}
                 />
                 <SecretsModal />
                 <Header />
