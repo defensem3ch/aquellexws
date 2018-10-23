@@ -20,11 +20,9 @@ I'll catch you later in the cyberspace! You can contact me [here](mailto:aquelle
 
 ### THE MASCOT
 
-![tigerinspace.png](/img/tigerinspace.png)
+![AQUPDATEDREF.png](/img/AQUPDATEDREF.png)
 
-Her name is Lindenmorsen. She's a blue kangaroo. It translates to 'Spilling Trees' from Dutch. I have a thing for Dutch names. She's very energetic & optimistic, but keeps her expectations realistic and always strives to strike a balance between ambition and pragmatism. She gets very scary when her patience gets pushed to its utmost limit through a combination of malevolence, cowardice and naïveness. Oh, and she has a thing for puzzle games. You'll almost always see her carrying at least one Game Boy around. &#9786;
-
-You can find her gallery <a href="https://refsheet.net/aquellex/lindenmorsen" target="_blank">here</a>.
+Find her gallery <a href="https://refsheet.net/aquellex/lindenmorsen" target="_blank">here</a>.
 
 ### GEAR
 

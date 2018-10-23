@@ -13,7 +13,7 @@
     "gatsby-plugin-netlify-cache": "^0.1.0",
     "gatsby-plugin-nprogress": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sharp": "^2.0.5",
+    "gatsby-plugin-sharp": "^2.0.7",
     "gatsby-plugin-sitemap": "^2.0.1",
     "gatsby-remark-autolink-headers": "^2.0.5",
     "gatsby-remark-copy-linked-files": "^2.0.5",
@@ -33,7 +33,8 @@
     "react-konami": "^0.5.0",
     "react-modal": "^3.1.11",
     "react-responsive-embed": "^2.1.0",
-    "slug": "^0.9.1"
+    "slug": "^0.9.1",
+    "start": "^5.1.0"
   },
   "keywords": [
     "gatsby"

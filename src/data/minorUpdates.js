@@ -4,6 +4,12 @@ import React, { Fragment } from 'react';
 // Look into Netlify CMS: https://www.netlifycms.org/
 const minorUpdates = [
   {
+    date: '23.10.2018',
+    content: (
+      <Fragment>Game Boy sound comparison page updated to 0.9.5. Updated /about to include reference sheet for mascot.</Fragment>
+    ),
+  },
+  {
     date: '12.09.2018',
     content: (
       <Fragment>Game Boy sound comparison page updated to 0.9.4a. lsdpack is awesome!</Fragment>
