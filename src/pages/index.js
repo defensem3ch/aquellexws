@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => (
     <Helmet>
       <title>{data.site.siteMetadata.title}</title>
       <meta name="description" content={data.site.siteMetadata.description} />
-      <meta property="og:title" content="NEWS" />
+      <meta property="og:title" content="HOME" />
       <meta property="og:description" content={data.site.siteMetadata.description} />
     </Helmet>
     <Page title="NEWS" />
