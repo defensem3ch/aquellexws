@@ -2,7 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql, withPrefix } from 'gatsby';
 import Helmet from 'react-helmet';
 import Konami from 'react-konami';
 
@@ -23,6 +23,7 @@ const query = graphql`
       siteMetadata {
         title
         description
+        siteUrl
         author {
           name
           url
@@ -52,6 +53,10 @@ function TemplateWrapper({ children }) {
                   <meta property="og:type" content="website" />
                   <meta property="og:title" content={siteMetadata.title} />
                   <meta property="og:description" content={siteMetadata.description} />
+                  <meta
+                    property="og:image"
+                    content={siteMetadata.siteUrl + withPrefix('/img/highres1000.png')}
+                  />
                 </Helmet>
                 <Konami
                   konami={[76, 79, 67, 82, 73, 65, 78]}
