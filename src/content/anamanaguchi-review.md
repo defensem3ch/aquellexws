@@ -1,5 +1,4 @@
 ---
-layout: 'page'
 title: 'Anamanaguchi Review'
 lastUpdated: '2018-10-23T15:30:00Z'
 ---
