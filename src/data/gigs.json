@@ -1,5 +1,11 @@
 [
   {
+    "date": "14.12.2018",
+    "upcoming": true,
+    "event": "Can I Get An Amen #3",
+    "url": "https://www.facebook.com/events/1980759228676226/"
+  },
+  {
     "date": "17.09.2018",
     "upcoming": false,
     "event": "Square Sounds Tokyo 2018 Post-Party",
