@@ -1,10 +1,10 @@
 ---
 layout: 'tutorial'
 title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
-lastUpdated: '2018-10-23T20:14:15+11:00'
+lastUpdated: '2019-01-23T16:14:15+11:00'
 ---
 
-Page Version: 0.9.5
+Page Version: 0.9.6
 
 Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a> & <a href="https://soundcloud.com/odaxelagnia
@@ -69,6 +69,14 @@ Highly recommended mod for those getting into scenarios where a line-out jack is
 | :--------------------------------------- | :--------------------------------------- | :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![dmgps_1.jpg](/img/dmgps_1.jpg) | <li>CPU-06</li> | ![wf_dmg[ps].png](/img/wf_dmg[ps].png)<br>![sg_dmg[ps].png](/img/sg_dmg[ps].png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_dmg_[ps].ogg"><a href="/snd/sndtest_dmg_[ps].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_dmg_[ps].ogg"><a href="/snd/happyhippo_color_dmg_[ps].ogg"> .ogg</a></audio> |
 
+#### DMG (bass boost)
+
+<a href="http://www.inspektorgadjet.com/gameboy-bass-boost/">Now you're playing with power!</a> Thank you very much, Kabcorp!
+
+| Image                                    | Variables                                | Waveform & spectrogram                                                           | Sound examples                                                                                                                                                                                                                                                                                    |
+| :--------------------------------------- | :--------------------------------------- | :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![pho_dmg[cap].jpg](/img/pho_dmg[cap].jpg) | <li>CPU-06</li> | ![wf_dmg[cap].png](/img/wf_dmg[cap].png)<br>![sg_dmg[cap].png](/img/sg_dmg[cap].png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_dmg[cap].ogg"><a href="/snd/sndtest_dmg[cap].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_dmg[cap].ogg"><a href="/snd/happyhippo_color_dmg[cap].ogg"> .ogg</a></audio> |
+
 #### Pocket
 
 Use BGB or get yourself a throwaway DMG (or GBC/GBA/GBASP if you need the CPU firepower) instead. There are very little advantages to using a vanilla Pocket unit (except for when in a pinch):
@@ -118,7 +126,7 @@ Don't forget to turn up the bass on the EQ during a live performance, as the bas
 
 #### Color (pin3 mod)
 
-BennVenn's pin3 mod that is also used for his GBC backlight mod. Kinda looks like a hybrid of a stock & prosound Color, but the hiss & hum resonances are less obnoxious compared to the stock GBC. Again, don't forget to turn up the bass on the EQ during a live performance, as the bass without any kind of EQ is pretty tame compared to the stock DMG.
+BennVenn's pin3 mod that is also used for his GBC backlight mod. ~~Kinda looks like a hybrid of a stock & prosound Color, but the hiss & hum resonances are less obnoxious compared to the stock GBC. Again, don't forget to turn up the bass on the EQ during a live performance, as the bass without any kind of EQ is pretty tame compared to the stock DMG.~~
 
 - Hiss resonances: Same as above
 - Hum resonances: Same as above
@@ -173,6 +181,14 @@ Don't forget this stereo inversion technique <a href="https://chipmusic.org/foru
 | :--------------------------------------- | :--------------- | :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![placeholder.png](/img/placeholder.png) | <li>AGS-001</li> | ![wf_sp001.png](/img/wf_sp001.png)<br>![sg_sp001.png](/img/sg_sp001.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sp001.ogg"><a href="/snd/sndtest_sp001.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sp001.ogg"><a href="/snd/happyhippo_sp001.ogg"> .ogg</a></audio> |
 | ![placeholder.png](/img/placeholder.png) | <li>AGS-101</li> | ![wf_sp101.png](/img/wf_sp101.png)<br>![sg_sp101.png](/img/sg_sp101.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sp101.ogg"><a href="/snd/sndtest_sp101.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sp101.ogg"><a href="/snd/happyhippo_sp101.ogg"> .ogg</a></audio> |
+
+#### SP (prosound)
+
+Thank you Cheapshot for the recordings!
+
+| Image                                    | Variables        | Waveform & spectrogram                                                   | Sound examples                                                                                                                                                                                                                                                                  |
+| :--------------------------------------- | :--------------- | :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![pho_gbasp[ps].png](/img/pho_gbasp[ps].png) | <li>3.5mm prosound</li>  <li>AGS-101</li> | ![wf_gbasp[ps].png](/img/wf_gbasp[ps].png)<br>![sg_gbasp[ps].png](/img/sg_gbasp[ps].png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbasp[ps].ogg"><a href="/snd/sndtest_gbasp[ps].ogg"> .ogg</a></audio> |
 
 ### HOME
 
@@ -282,14 +298,12 @@ Lameboy should not be used for any serious LSDJ recording.
 
 #### PSP
 
-Can only use MasterBoy v2.10 for the time being.
-
-Excellent bass, but is ruined by poor PCM emulation. Periodic noise emulation is a bit finicky as well (you can hear it towards the ends of SNDTEST.lsdsng). Tempo is faster than standard recordings.
+Excellent bass, but is ruined by poor PCM emulation with the two best emulator choices we have. Periodic noise emulation is a bit finicky as well (you can hear it towards the ends of SNDTEST.lsdsng). Tempo is faster than standard recordings.
 
 | Image                                    | Variables                                 | Waveform & spectrogram                                           | Sound examples                                                                                                                                                                                                                                                          |
 | :--------------------------------------- | :---------------------------------------- | :--------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![placeholder.png](/img/placeholder.png) | <li>MasterBoy v2.10</li><li>TA-090v2</li> | ![wf_psp.png](/img/wf_psp.png)<br>![sg_psp.png](/img/sg_psp.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_psp.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_psp.ogg"><a href="/snd/happyhippo_bgb.psp"> .ogg</a></audio> |
-
+| ![placeholder.png](/img/placeholder.png) | <li>MasterBoy v2.10</li><li>TA-090v2</li> | ![wf_psp.png](/img/wf_psp.png)<br>![sg_psp.png](/img/sg_psp.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_psp.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_psp.ogg"><a href="/snd/happyhippo_psp.ogg"> .ogg</a></audio> |
+| ![pho_psp1000.jpg](/img/pho_psp1000.jpg) | <li>Homer's RIN</li><li>TA-081</li> | ![wf_psp1000.png](/img/wf_psp1000.png)<br>![sg_psp1000.png](/img/sg_psp1000.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_psp1000.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_psp1000.ogg"><a href="/snd/happyhippo_psp1000.ogg"> .ogg</a></audio> |
 ### NOTES
 
 If you would like to help contribute more sound data, please do not hesitate to get in touch with me via <a href="mailto:aquellex@f0xpa.ws" target="_blank">e-mail</a>, <a href="https://twitter.com/Aquellex" target="_blank">Twitter</a>, or join the discussion in <a href="https://discord.io/psgcabal" target="_blank">The PSG Cabal</a> Discord server in #technical for more details.
@@ -307,7 +321,6 @@ Further instructions are provided in the README.txt within the .zip file provide
 - Analyse more CPU revisions (yes, they can make a difference)
 - Note down CPU revisions used from some of DEFENSE MECHANISM's recordings
 - Lights on/off variables for GBASP series
-- DMG (bass boost) [CPU-06 recommended]
 - Pocket (prosound)
 - Light (stock, prosound)
 - Advance (prosound)
@@ -329,3 +342,4 @@ Further instructions are provided in the README.txt within the .zip file provide
 - 0.9.4 - Added recordings CGB-CPU-02 Stock (along w/ pitch bend & vibrato test), CPU-CGB-05 w/ Pin3 Mod (along w/ pitch bend & vibrato test), and Game Boy Player (stock & prosound) using a US motherboard. Thanks Jack L. For lending the CGB-CPU-02! Thanks DEFENSE MECHANISM for more Game Boy Player recordings!
 - 0.9.4a - Replaced gbhwsoundrec.zip with SNDTEST compiled into a .gb file for greater convenience.
 - 0.9.5 - Finally got around to adding some photos and appended more text here and there. Thanks DEFENSE MECHANISM!
+- 0.9.6 - Added Vault Kid's PSP-1000 running Homer's RIN, cheapshot's prosound SP and Kabcorp's bass boost mod. Thank you all very much!
