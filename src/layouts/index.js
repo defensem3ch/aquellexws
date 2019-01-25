@@ -63,9 +63,9 @@ function TemplateWrapper({ children }) {
                   easterEgg={() => window.open('https://twitter.com/locrian_memes')}
                 />
                 <Konami
-                  konami={[77, 85, 70, 71, 79]}
+                  konami={[65, 78, 65, 77, 65, 78, 65, 71, 85, 67, 72, 73]}
                   easterEgg={() => {
-                    window.location.href = 'https://www.youtube.com/watch?v=NtSgWZbL_kE';
+                    window.location.href = 'https://aquellex.ws/goodies/anamanaguchi-review';
                   }}
                 />
                 <SecretsModal />

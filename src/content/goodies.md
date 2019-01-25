@@ -36,7 +36,8 @@ You can also add this to your site if you wish:
 
 * <a href="https://docs.google.com/spreadsheets/d/1xNrwtHKVlXeWHYWZwHjTrgRHYhzaznUL0eetK_W9ZR4/" target="_blank">DEFENSE MECHANISM's LSDJ upgrade cheat sheet</a>
 * <a href="https://docs.google.com/spreadsheets/d/1sFOvpa6f-OJHAPNBMN0nnz32NkUrG5MlThiQbrS_5-0/" target="_blank">
-  Ninjakraken's Nintendo GameBoy DMG-01 Backlight and Bivert Troubleshooting Guide</a>
+  Pu1sewave's Nintendo GameBoy DMG-01 Backlight and Bivert Troubleshooting Guide</a>
+* <a href="https://joshwhelchel.com/wsf-module-packer-tools/" target="_blank">Josh Whelchel's WSF Module Packer Tools (.mod/.s3m/.xm/.it sample deduplicator/centraliser)</a>
 * <a href="https://github.com/Eiyeron/lsdpatch/releases/" target="_blank">Eiyeron's LSDPatcher fork</a>
 * <a href="http://milkcrate.com.au/_other/sega_comparisons/" target="_blank">little-scale's Sega Genesis sound comparison</a>
 * <a href="https://github.com/urbster1/lsdfonts/" target="_blank">LSDJ fonts (use LSDPatcher)</a>
