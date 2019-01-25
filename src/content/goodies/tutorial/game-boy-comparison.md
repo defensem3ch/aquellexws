@@ -1,10 +1,10 @@
 ---
 layout: 'tutorial'
-title: "Game Boy sound comparsion (better than Herbert Weixelbaum's version)"
-lastUpdated: '2019-01-24T16:14:15+11:00'
+title: "Game Boy sound comparison (better than Herbert Weixelbaum's version)"
+lastUpdated: '2019-01-25T23:14:15+11:00'
 ---
 
-Page Version: 0.9.7
+Page Version: 0.9.7a
 
 Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a>, <a href="https://soundcloud.com/odaxelagnia
@@ -78,7 +78,7 @@ Highly recommended mod for those getting into scenarios where a line-out jack is
 
 <a href="http://www.inspektorgadjet.com/gameboy-bass-boost/" target="_blank">Now you're playing with power!</a> Thanks, Kabcorp!
 
-![cautionary.gif](/img/cautionary.gif) Bypassing the internal jack in favour of a seperate prosound jack with a new capacitor will result in a different DC offset. If you really want to get around this during the mastering process, you can apply a lowcut/highpass @ 30 Hz.
+![cautionary.gif](/img/cautionary.gif) Changing original capacitor values may result in sub-frequency anomalies (e.g. DC offset issues). This can be mitigated by applying a low-shelf EQ below audible range (30 Hz is recommended).
 
 | Image                                    | Variables                                | Waveform, spectrogram & DC offset                                                           | Sound examples                                                                                                                                                                                                                                                                                    |
 | :--------------------------------------- | :--------------------------------------- | :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -150,7 +150,7 @@ Thanks to this <a href="https://chipmusic.org/forums/topic/14184/gbc-bass-mod-an
 
 That being said, the mod is more involved than your typical prosound mod, given the extra capacitors required. But if you are able to execute the mod (or find somebody who can) correctly, it pays great dividends. Excellent for every scenario imaginable!
 
-![cautionary.gif](/img/cautionary.gif) Installing new capacitors may result in a different DC offset. If you really want to get around this during the mastering process, you can apply a lowcut/highpass @ 30 Hz.
+![cautionary.gif](/img/cautionary.gif) Changing original capacitor values may result in sub-frequency anomalies (e.g. DC offset issues). This can be mitigated by applying a low-shelf EQ below audible range (30 Hz is recommended).
 
 | Image                                    | Variables                                                | Waveform, spectrogram & DC offset                                                                       | Sound examples                                                                                                                                                                                                                                                                                                  |
 | :--------------------------------------- | :------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -278,7 +278,7 @@ On par with, if not better than the Color noise cancel + bass boost, with the ad
 
 A magnificent companion for the Color/SP-seasoned composer.
 
-![cautionary.gif](/img/cautionary.gif) Using resistors and capacitors are necessary to avoid clipping. Consequently, installing new capacitors may result in a different DC offset. If you really want to get around this during the mastering process, you can apply a lowcut/highpass @ 30 Hz.
+![cautionary.gif](/img/cautionary.gif) Changing original capacitor values may result in sub-frequency anomalies (e.g. DC offset issues). This can be mitigated by applying a low-shelf EQ below audible range (30 Hz is recommended).
 
 | Image                                    | Variables                                                                              | Waveform, spectrogram & DC offset                                                                           | Sound examples                                                                                                                                                                                                                                                                                              |
 | :--------------------------------------- | :------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -354,3 +354,4 @@ Further instructions are provided in the README.txt within the .zip file provide
 - 0.9.5 - Finally got around to adding some photos and appended more text here and there. Thanks DEFENSE MECHANISM!
 - 0.9.6 - Added Vault Kid's PSP-1000 running Homer's RIN, cheapshot's prosound SP and Kabcorp's bass boost mod. Thank you all very much!
 - 0.9.7 - Added DC offset information & changed 'DMG (bass boost)' to 'DMG (capacitor upgrade)'. Kudos to Trash80! Also added additional notes to Color pin3 mod.
+- 0.9.7a - I just noticed I misspelled 'comparison' as 'comparsion' all this time. Whoops! Also, changed cautionary tips as advised by Trash80.

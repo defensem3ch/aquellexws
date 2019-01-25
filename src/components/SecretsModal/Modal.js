@@ -76,6 +76,43 @@ class SecretsModal extends React.Component {
           </Page>
         </Modal>
       </div>
+
+    );
+  }
+
+
+  render() {
+    const { label } = this.props;
+    const { isOpen } = this.state;
+
+    return (
+      <div>
+        <Konami konami={[65, 78, 84, 72, 82, 79, 80, 79, 77, 79, 82, 80, 72, 79, 83, 73, 83]}
+          easterEgg={() => this.setState({ isOpen: true })} />
+        <Modal contentLabel={label} isOpen={isOpen}>
+          <button
+            type="button"
+            onClick={() => this.setState({ isOpen: false })}
+            className={styles.modalCloseButton}
+          >
+            [ CLOSE ]
+        </button>
+          <Page title="ANTHROPOMORPHOSIS" updated="2019-01-25T04:02:00.000Z">
+            01. Excitement - Intro<br></br>
+            02. Promenade - Study on YZYX's Gravity Distortion (fakeout only)<br></br>
+            03. Decipher.#003 - Study on Renard's Banned Forever & YZYX's Gravity Distortion<br></br>
+            04. Decipher.#004 - Study on Renard's Jeepers & YZYX's Uncontrollable Advance<br></br>
+            05. Shimmering Glimmer - Study on Neverball & Neverputt's Primary Theme<br></br>
+            06. Dragonflux - Study on YZYX's Powerflux<br></br>
+            07. Crystal Chamber Combustion Expansion - Study on YZYX's Powerflux<br></br>
+            08. Candy Explodion (REV V1.2) - Study on YZYX's ._Pulse<br></br>
+            09. Megaflux - Study on m1dy's Noraika<br></br>
+            10. Hyperflux - Study on Kurorak's Major Video Card Performance Warning<br></br>
+            11. Anthropomorphosis - Study on Yuuyu's Scrap Syndrome & paraoka's Chaosmaid<br></br>
+            12. Exit Clause - Outro<br></br>
+          </Page>
+        </Modal>
+      </div>
     );
   }
 }
