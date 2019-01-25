@@ -105,7 +105,7 @@ class SecretsModal extends React.Component {
             05. Shimmering Glimmer - Study on Neverball & Neverputt's Primary Theme<br></br>
             06. Dragonflux - Study on YZYX's Powerflux<br></br>
             07. Crystal Chamber Combustion Expansion - Study on YZYX's Powerflux<br></br>
-            08. Candy Explodion (REV V1.2) - Study on YZYX's ._Pulse<br></br>
+            08. Candy Explosion (REV V1.2) - Study on YZYX's ._Pulse<br></br>
             09. Megaflux - Study on m1dy's Noraika<br></br>
             10. Hyperflux - Study on Kurorak's Major Video Card Performance Warning<br></br>
             11. Anthropomorphosis - Study on Yuuyu's Scrap Syndrome & paraoka's Chaosmaid<br></br>
