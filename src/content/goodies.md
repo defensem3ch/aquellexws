@@ -1,7 +1,7 @@
 ---
 layout: goodies
 title: 'GOODIES'
-lastUpdated: '2018-10-23T21:25:33+11:00'
+lastUpdated: '2019-01-29T13:01:01+11:00'
 ---
 
 ### Comrades
@@ -39,11 +39,14 @@ You can also add this to your site if you wish:
   Pu1sewave's Nintendo GameBoy DMG-01 Backlight and Bivert Troubleshooting Guide</a>
 * <a href="https://joshwhelchel.com/wsf-module-packer-tools/" target="_blank">Josh Whelchel's WSF Module Packer Tools (.mod/.s3m/.xm/.it sample deduplicator/centraliser)</a>
 * <a href="https://github.com/Eiyeron/lsdpatch/releases/" target="_blank">Eiyeron's LSDPatcher fork</a>
+* <a href="https://www.youtube.com/channel/UCktmlo88rV0Fpcay_uEdEWQ/videos" target="_blank">Hypnogram's YouTube channel</a>
 * <a href="http://milkcrate.com.au/_other/sega_comparisons/" target="_blank">little-scale's Sega Genesis sound comparison</a>
 * <a href="https://github.com/urbster1/lsdfonts/" target="_blank">LSDJ fonts (use LSDPatcher)</a>
 * <a href="https://github.com/urbster1/lsdpals/" target="_blank">LSDJ palettes (use LSDPatcher)</a>
 * <a href="http://2a03.free.fr/?p=pub&dir=aquellex" target="_blank">Miscellaneous source files from yours truly</a>
+* <a href="https://int10h.org/oldschool-pc-fonts/fontlist/" target="_blank">Oldschool PC fonts (like this IBM-PC font used for this site!)</a>
 * <a href="https://tommitytom.co.uk/lsdj" target="_blank">Online LSDJ patcher (WARNING: palette patching doesn't work yet)</a>
+* <a href="https://twitter.com/to6okegao/moments" target="_blank">tobokegao's Twitter Moments</a>
 
 #### Paul's Tech Talk
 
@@ -56,6 +59,20 @@ You can also add this to your site if you wish:
 #### Intense Tech With Defense Mech
 
 * <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-lsdj-wave-synth-deep-dive-part-1/" target="_blank">LSDJ Wave Synth Deep Dive Part 1</a>
+* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-lsdj-wave-synth-deep-dive-part-2/" target="_blank">LSDJ Wave Synth Deep Dive Part 1</a>
+* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-dont-sleep-on-z-feat-hypnogram/" target="_blank">Don't Sleep On Z (feat. Hypnogram)</a>
+
+#### Roboctopus' LSDJ and You
+
+* <a href="http://www.noisechannel.org/4409" target="_blank">Episode 1: The Echo Chamber</a>
+* <a href="http://www.noisechannel.org/4515" target="_blank">Episode 2: Collapse of the Waveform</a>
+* <a href="http://www.noisechannel.org/4691" target="_blank">Episode 3: PWM, I Choose You!!!</a>
+* <a href="http://www.noisechannel.org/4824" target="_blank">Episode 4: Stick Shift</a>
+* <a href="http://www.noisechannel.org/4889" target="_blank">Episode 5: You Take the High Pass and I’ll Take…</a>
+* <a href="http://www.noisechannel.org/4966" target="_blank">Episode 6: The Short End of the Synth</a>
+* <a href="http://www.noisechannel.org/5138" target="_blank">Episode 7: Cheapshot’s Blip Bass</a>
+* <a href="http://www.noisechannel.org/6170" target="_blank">Episode 8: ArpArpArpArpArp</a>
+* <a href="http://www.noisechannel.org/8180" target="_blank">Episode 9: WAV Kicks and Volume Tricks</a>
 
 ### Discord servers
 

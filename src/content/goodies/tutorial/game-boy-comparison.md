@@ -1,10 +1,10 @@
 ---
 layout: 'tutorial'
 title: "Game Boy sound comparison (better than Herbert Weixelbaum's version)"
-lastUpdated: '2019-01-25T23:14:15+11:00'
+lastUpdated: '2019-01-29T13:01:01+11:00'
 ---
 
-Page Version: 0.9.7a
+Page Version: 0.9.7b
 
 Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a>, <a href="https://soundcloud.com/odaxelagnia
@@ -272,7 +272,7 @@ While the original GameCube controller lacks a SELECT button, you have a few goo
 
 #### Game Boy Player (prosound)
 
-Thank you DEFENSE MECHANISM for the recordings!
+Thank you DEFENSE MECHANISM for the recordings and <a href="https://www.gc-forever.com/forums/viewtopic.php?t=1703" target="_blank">finding an appropriate page regarding the mod!</a>
 
 On par with, if not better than the Color noise cancel + bass boost, with the added edge of the 'clicking' side-effect being a lot more muted in akin to the GBA series as expected. The background noise is on par with, if not a couple more resonances than the stock DMG & GBAs, but during playback, it's negligable at best, especially when compared with the pocket series.
 
@@ -355,3 +355,4 @@ Further instructions are provided in the README.txt within the .zip file provide
 - 0.9.6 - Added Vault Kid's PSP-1000 running Homer's RIN, cheapshot's prosound SP and Kabcorp's bass boost mod. Thank you all very much!
 - 0.9.7 - Added DC offset information & changed 'DMG (bass boost)' to 'DMG (capacitor upgrade)'. Kudos to Trash80! Also added additional notes to Color pin3 mod.
 - 0.9.7a - I just noticed I misspelled 'comparison' as 'comparsion' all this time. Whoops! Also, changed cautionary tips as advised by Trash80.
+- 0.9.7b - Added a link to a page DEFENSE MECHANISM used for the Game Boy Player sound mod.
