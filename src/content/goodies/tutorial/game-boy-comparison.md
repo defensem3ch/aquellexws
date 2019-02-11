@@ -1,10 +1,10 @@
 ---
 layout: 'tutorial'
 title: "Game Boy sound comparison (better than Herbert Weixelbaum's version)"
-lastUpdated: '2019-01-29T13:01:01+11:00'
+lastUpdated: '2019-02-12T00:01:01+11:00'
 ---
 
-Page Version: 0.9.7b
+Page Version: 0.9.7c
 
 Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a>, <a href="https://soundcloud.com/odaxelagnia
@@ -18,6 +18,8 @@ Due to the lack of up-to-date Game Boy sound comparison guides within the <a hre
 The title is by no means a malicious attack on Weixelbaum's work (I got the "better than" phrase from a series of satirical Sonic ROM Hacks, so take it as cheeky banter)--what he has done so far for the chipmusic community has been an amazing starting point, but as time has passed over several years, newer discoveries have been made such as the usage of new capacitors, difference between major motherboard revisions etc. (e.g. a CGB-CPU-02 uses the most noisiest headphone amps in contrat to the quieter CGB-CPU-05)
 
 It should also be noted that any documentation regarding sound comparsions (including this one) will never truly be completed, as advancements in technology will inevitably allow for newer discoveries to be made. Please view any guide you see on the Internet as reference, and be aware of sources that may not be up-to-date.
+
+That being said, if you see any misinformation within this page, please notify me immediately via any means necessary (email aquellex@f0xpa.ws or Twitter @Aquellex) so I can correct them as soon as possible.
 
 All waveform images provided within this document are recorded with the following configuration:
 
@@ -356,3 +358,4 @@ Further instructions are provided in the README.txt within the .zip file provide
 - 0.9.7 - Added DC offset information & changed 'DMG (bass boost)' to 'DMG (capacitor upgrade)'. Kudos to Trash80! Also added additional notes to Color pin3 mod.
 - 0.9.7a - I just noticed I misspelled 'comparison' as 'comparsion' all this time. Whoops! Also, changed cautionary tips as advised by Trash80.
 - 0.9.7b - Added a link to a page DEFENSE MECHANISM used for the Game Boy Player sound mod.
+- 0.9.7c - Added a sentence notifying readers to inform me of any misinformation to correct as soon as possible.

@@ -1,5 +1,11 @@
 [
   {
+    "date": "23.03.2019",
+    "upcoming": true,
+    "event": "Retrotastic #2",
+    "url": "http://chiptuneacademy.com.au/retrotastic-2"
+  },
+  {
     "date": "14.12.2018",
     "upcoming": false,
     "event": "Can I Get An Amen #3",
