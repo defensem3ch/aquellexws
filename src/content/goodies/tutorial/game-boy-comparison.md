@@ -1,21 +1,21 @@
 ---
 layout: 'tutorial'
 title: "Game Boy sound comparison (better than Herbert Weixelbaum's version)"
-lastUpdated: '2019-03-05T22:25:03+11:00'
+lastUpdated: '2019-06-17T03:31:06+11:00'
 ---
 
-Page Version: 0.9.8
+Page Version: 0.9.9
 
 Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a>, <a href="https://soundcloud.com/odaxelagnia
-" target="_blank">odaxelagnia</a>, Jack L., <a href="https://soundcloud.com/vaultkid" target="_blank">Vault Kid</a>, <a href="https://www.cheapbeats.net/" target="_blank">cheapshot</a>, <a href="http://kabcorp.fr/" target="_blank">Kabcorp</a>, <a href="https://trash80.com/" target="_blank">Trash80</a> & <a href="https://twitter.com/ImATrackMan/" target="_blank">ImATrackMan</a>
+" target="_blank">odaxelagnia</a>, Jack L., <a href="https://soundcloud.com/vaultkid" target="_blank">Vault Kid</a>, <a href="https://www.cheapbeats.net/" target="_blank">cheapshot</a>, <a href="http://kabcorp.fr/" target="_blank">Kabcorp</a>, <a href="https://trash80.com/" target="_blank">Trash80</a>, <a href="https://twitter.com/ImATrackMan/" target="_blank">ImATrackMan</a>, <a href="https://gbhwdb.gekkio.fi/" target="_blank">gekkio</a>, <a href="https://eldred.fr/" target="_blank">ISSOtm</a> & <a href="https://github.com/LIJI32" target="_blank">LIJI32</a>
 <br>Happy Hippo track by <a href="http://doussis.com" target="_blank">Stello Doussis</a>
 
 ### PREFACE
 
 This guide aims to extend the work done by <a href="http://herbertweixelbaum.com/comparison.htm" target="_blank">Herbert Weixelbaum</a> and append more sound comparisons that are missing from his page.
 
-The title is by no means a malicious attack on Weixelbaum's work (I got the "better than" phrase from a series of satirical Sonic ROM Hacks, so take it as cheeky banter)--what he has done so far for the chipmusic community has been an amazing starting point, but as time has passed over several years, newer discoveries have been made such as the usage of new capacitors, difference between major motherboard revisions etc. (e.g. a CGB-CPU-02 uses the most noisiest headphone amps in contrast to the quieter CGB-CPU-05)
+The title is by no means a malicious attack on Weixelbaum's work (I got the "better than" phrase from a series of satirical Sonic ROM Hacks, so take it as cheeky banter)--what he has done so far for the chipmusic community has been an amazing starting point, but as time has passed over several years, newer discoveries have been unveiled such as replacing capacitors, differences between major mainboard revisions and their likelyhood of carrying specific components etc. (e.g. a CGB-CPU-02 is more likely to carry noisier headphone amps in contrast to CGB-CPU-05, which carry refined amps)
 
 It should also be noted that any documentation regarding sound comparsions will never truly be completed, as advancements in technology will inevitably allow for newer discoveries to be made. Please view any guide you see on the Internet as reference, and be aware of sources that may not be up-to-date, including this one.
 
@@ -37,6 +37,8 @@ The units were played at their highest volumes and recorded peaking at -12dB. Th
 LSDJ 4.9.5 was used for all SNDTEST.lsdsng recordings (unless specified otherwise, which use SNDTEST.lsdsng compiled into .gb) since the project file uses the old logarithmic pitch bend table. Later versions of LSDJ can have positive impacts (e.g. 5.0.0: you can get away with an extra V command on the DMG | 5.1.9 makes P/L commands less CPU-intensive), but will also consequently require workarounds to get pre-5.0.3 quirks to run correctly on higher versions.
 
 You will hear the following in SNDTEST.lsdsng (starting at 110BPM groove 3/3): 6 bars of intro, 2 bars of the infamous 'clicking' side-effect when using volume/pan commands, 19 bars of a full track, then an isolation of a granular synthesis technique. Tempo is then set to T01 (40BPM for DMGs unless using the compiled .gb, 80BPM for GBCs) along with various waveforms (pulses, sine, saw, kits, sine kick, square kick, periodic noise), then at least 0.1 to 2 seconds of LSDJ (or the compiled .gb) running idle.
+
+The second track I've chosen for comparison is Stello Doussis' Happy Hippo theme. It does not make use of any PCM, but its composition & sequencing techniques are very similar to what one can accomplish on a Commodore 64, making it suitable as a control track for what one can expect to exploit out of a Game Boy without using PCM.
 
 ### PORTABLE
 
@@ -84,7 +86,7 @@ Highly recommended mod for those getting into scenarios where a line-out jack is
 
 | Image                                    | Variables                                | Waveform, spectrogram & DC offset                                                           | Sound examples                                                                                                                                                                                                                                                                                    |
 | :--------------------------------------- | :--------------------------------------- | :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![pho_dmg[cap].jpg](/img/pho_dmg[cap].jpg) | <li>CPU-06</li> <li>6.8µF capacitor</li> <li>Compiled SNDTEST.gb</li> | ![wf_dmg[cap].png](/img/wf_dmg[cap].png)<br>![sg_dmg[cap].png](/img/sg_dmg[cap].png)<br>![dc_dmg[cap].png](/img/dc_dmg[cap].png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_dmg[cap].ogg"><a href="/snd/sndtest_dmg[cap].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_dmg[cap].ogg"><a href="/snd/happyhippo_color_dmg[cap].ogg"> .ogg</a></audio> |
+| ![pho_dmg[cap].jpg](/img/pho_dmg[cap].jpg) | <li>DMG-CPU-06</li> <li>6.8µF capacitor</li> <li>Compiled SNDTEST.gb</li> | ![wf_dmg[cap].png](/img/wf_dmg[cap].png)<br>![sg_dmg[cap].png](/img/sg_dmg[cap].png)<br>![dc_dmg[cap].png](/img/dc_dmg[cap].png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_dmg[cap].ogg"><a href="/snd/sndtest_dmg[cap].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_dmg[cap].ogg"><a href="/snd/happyhippo_color_dmg[cap].ogg"> .ogg</a></audio> |
 
 #### Pocket
 
@@ -106,12 +108,18 @@ On the other hand, the sound is more tolerable than a vanilla Color unit.
 
 Thank you ImATrackMan for the recordings!
 
-Very similar to the pocket.
+Very similar to the pocket--after all, it is effectively a Game Boy Pocket, but with a toggleable light. More noise is introduced while the light is turned on.
+
+- Hiss resonances (without light): 8.9-9.6khz, 18.2-18.7khz
+- Hum resonances (without light): 0-259hz
+
+- Hiss resonances (with light): 5.26-5.58khz, 6.12-6.46khz, 7-7.3khz, 7.9-8.2khz, 8.9-9.6khz, 9.74-10.07khz, 10.6-10.93khz, 11.4-11.8khz, 12.3-12.85khz, 14.2-14.56khz, 15.4-16.3khz, 18.2-18.7khz
+- Hum resonances (with light): 0-259hz, 787hz-1.1khz, 1.6-2khz, 2.5-2.85khz, 3.53-3.71khz, 4.23-4.74khz
 
 | Image                                    | Variables        | Waveform, spectrogram & DC offset                                                       | Sound examples                                                                                                                                                                                                                                                                      |
 | :--------------------------------------- | :--------------- | :--------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![temu.jpg](/img/temu.jpg) | <li>MGL-CPU-01</li> <li>Lights off</li>| ![wf_lightoff.png](/img/wf_lightoff.png)<br>![sg_lightoff.png](/img/sg_lightoff.png)<br>![dc_lightoff.png](/img/dc_lightoff.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_lightoff.ogg"><a href="/snd/sndtest_lightoff.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_lightoff.ogg"><a href="/snd/happyhippo_lightoff.ogg"> .ogg</a></audio> |
-| ![temu_light.jpg](/img/temu_light.jpg) | <li>MGL-CPU-01</li> <li>Lights on</li>| ![wf_lighton.png](/img/wf_lighton.png)<br>![sg_lighton.png](/img/sg_lighton.png)<br>![dc_lighton.png](/img/dc_lighton.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_lighton.ogg"><a href="/snd/sndtest_lighton.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_lighton.ogg"><a href="/snd/happyhippo_lighton.ogg"> .ogg</a></audio> |
+| ![temu.jpg](/img/temu.jpg) | <li>MGL-CPU-01</li> <li>Lights off</li> <li>Compiled SNDTEST.gb</li>| ![wf_lightoff.png](/img/wf_lightoff.png)<br>![sg_lightoff.png](/img/sg_lightoff.png)<br>![dc_lightoff.png](/img/dc_lightoff.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_lightoff.ogg"><a href="/snd/sndtest_lightoff.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_lightoff.ogg"><a href="/snd/happyhippo_lightoff.ogg"> .ogg</a></audio> |
+| ![temu_light.jpg](/img/temu_light.jpg) | <li>MGL-CPU-01</li> <li>Lights on</li> <li>Compiled SNDTEST.gb</li>| ![wf_lighton.png](/img/wf_lighton.png)<br>![sg_lighton.png](/img/sg_lighton.png)<br>![dc_lighton.png](/img/dc_lighton.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_lighton.ogg"><a href="/snd/sndtest_lighton.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_lighton.ogg"><a href="/snd/happyhippo_lighton.ogg"> .ogg</a></audio> |
 
 #### Color
 
@@ -124,7 +132,17 @@ There's also a noise cancellation through stereo inversion technique <a href="ht
 
 If you had to pick between a Color and the Advance series with no mods factored in, go for the Advance series instead (especially SP if you're factoring in button ergonomics).
 
-![cautionary.gif](/img/cautionary.gif) Avoid European CPU-02 motherboards, as they contain a fatal envelope bug that kills notes unexpectedly upon using pitch bends & vibrato commands. CPU-02s also have the noisiest built-in amp.
+![cautionary.gif](/img/cautionary.gif) Watch out for CGB-CPU-01/02/03 mainboards, as they have a high chance of having a CPU CGB 0/A/B (not to be confused with the mainboards), which contains a fatal envelope bug that kills notes unexpectedly upon using pitch bends & vibrato commands. Eariler mainboards are also more likely to carry noisier amplifiers.
+
+Additional information courtesy of LIJI32 circa 25/05/2019:
+
+- CGB-A fixed CGB-0's uninitialized wave RAM
+- CGB-B fixed CGB-A's zombie mode behavior
+- CGB-C fixed CGB-B's sweep cutoff bug
+- CGB-D fixed CGB-C's PCMxx read bug and altered/improved some PPU behaviors
+- CGB-E fixed some CGB-D PPU quirk Matt found
+
+Other than the bug CGB-E fixed (which is CGB-D exclusive), all bugs are carried from CGB-0 until the version they were fixed in.
 
 | Image                                    | Variables       | Waveform, spectrogram & DC offset                                                           | Sound examples                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | :--------------------------------------- | :-------------- | :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -142,13 +160,13 @@ Don't forget to turn up the bass on the EQ during a live performance, as the bas
 
 | Image                                    | Variables                   | Waveform, spectrogram & DC offset                                                           | Sound examples                                                                                                                                                                                                                                                                                      |
 | :--------------------------------------- | :-------------------------- | :------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![placeholder.png](/img/placeholder.png) | <li>CGB-CPU-04</li><li>RCA</li> | ![wf_gbc[ps].png](/img/wf_gbc[ps].png)<br>![sg_gbc[ps].png](/img/sg_gbc[ps].png)<br>![dc_gbc[ps].png](/img/dc_gbc[ps].png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_color_[ps].ogg"><a href="/snd/sndtest_color_[ps].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_color_[ps].ogg"><a href="/snd/happyhippo_color_[ps].ogg"> .ogg</a></audio> |
+| ![pho_cgb[ps].jpg](/img/pho_cgb[ps].jpg) | <li>CGB-CPU-04</li><li>RCA</li> | ![wf_gbc[ps].png](/img/wf_gbc[ps].png)<br>![sg_gbc[ps].png](/img/sg_gbc[ps].png)<br>![dc_gbc[ps].png](/img/dc_gbc[ps].png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_color_[ps].ogg"><a href="/snd/sndtest_color_[ps].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_color_[ps].ogg"><a href="/snd/happyhippo_color_[ps].ogg"> .ogg</a></audio> |
 
 #### Color (pin3 mod)
 
 BennVenn's pin3 mod that is also used for his GBC backlight mod. ~~Kinda looks like a hybrid of a stock & prosound Color, but the hiss & hum resonances are less obnoxious compared to the stock GBC. Again, don't forget to turn up the bass on the EQ during a live performance, as the bass without any kind of EQ is pretty tame compared to the stock DMG.~~
 
-![cautionary.gif](/img/cautionary.gif) I need more samples to really know what's going on since I suspect my pin3 GBC is just outputting what one would expect out of a stock CPU-05.
+![cautionary.gif](/img/cautionary.gif) I need more samples to really know what's going on since I suspect my pin3 GBC is just outputting what one would expect out of a stock CGB-CPU-05.
 
 - Hiss resonances: Same as above
 - Hum resonances: Same as above
@@ -186,7 +204,7 @@ Button ergonomics are awkward, though there are mods to reroute the Start/Select
 
 | Image                                    | Variables    | Waveform, spectrogram & DC offset                                           | Sound examples                                                                                                                                                                                                                                                          |
 | :--------------------------------------- | :----------- | :--------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![placeholder.png](/img/placeholder.png) | <li>???</li> | ![wf_gba.png](/img/wf_gba.png)<br>![sg_gba.png](/img/sg_gba.png)<br>![dc_gba.png](/img/dc_gba.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gba.ogg"><a href="/snd/sndtest_gba.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gba.ogg"><a href="/snd/happyhippo_gba.ogg"> .ogg</a></audio> |
+| ![pho_gba.jpg](/img/pho_gba.jpg) | <li>???</li> | ![wf_gba.png](/img/wf_gba.png)<br>![sg_gba.png](/img/sg_gba.png)<br>![dc_gba.png](/img/dc_gba.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gba.ogg"><a href="/snd/sndtest_gba.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_gba.ogg"><a href="/snd/happyhippo_gba.ogg"> .ogg</a></audio> |
 
 #### SP
 
@@ -316,6 +334,17 @@ You'd think the illustrations below would represent a behemoth of a sound unit, 
 | :------------------------------- | :----------------------------------- | :------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![pho_vba.png](/img/pho_vba.png) | <li>WAV output</li><li>GBC mode</li> <li>44 Khz</li> | ![wf_vba.png](/img/wf_vba.png)<br>![sg_vba.png](/img/sg_vba.png)<br>![dc_vba.png](/img/dc_vba.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_vba.ogg"><a href="/snd/sndtest_vba.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_vba.ogg"><a href="/snd/happyhippo_vba.ogg"> .ogg</a></audio> |
 
+#### SameBoy (tommitytom's RetroPlug fork)
+
+tommitytom has created <a href="https://github.com/tommitytom/RetroPlug/releases" target="_blank">a fork of SameBoy</a> which is wrapped in the form of a VST, with MIDI & Arduinoboy support! Also comes with 4 modes: DMG-B, CGB-C, CGB-E and AGB. When observing the same silence & square wave controls, they seem virtually identical, but there are minute differences between major CPU revisions (pay attention to the timbre of the PCM and periodic noise).
+
+| Image                            | Variables                            | Waveform, spectrogram & DC offset                                              | Sound examples                                                                                                                                                                                                                                                          |
+| :------------------------------- | :----------------------------------- | :------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![pho_sameboy.png](/img/pho_sameboy.png) | <li>REAPER 5.965 stereo mix output from VST</li><li>DMG-B mode</li><li>Default options</li> | ![wf_sameboy.png](/img/wf_sameboy.png)<br>![sg_bgb1.png](/img/sg_sameboy.png)<br>![dc_bgb.png](/img/dc_sameboy.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sameboy[dmg-b].ogg"><a href="/snd/sndtest_sameboy[dmg-b].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sameboy[dmg-b].ogg"><a href="/snd/happyhippo_sameboy[dmg-b].ogg"> .ogg</a></audio> |
+| ![pho_sameboy.png](/img/pho_sameboy.png) | <li>REAPER 5.965 stereo mix output from VST</li><li>CGB-C mode</li><li>Default options</li> | ![wf_sameboy.png](/img/wf_sameboy.png)<br>![sg_bgb1.png](/img/sg_sameboy.png)<br>![dc_bgb.png](/img/dc_sameboy.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sameboy[cgb-c].ogg"><a href="/snd/sndtest_sameboy[cgb-c].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sameboy[cgb-c].ogg"><a href="/snd/happyhippo_sameboy[cgb-c].ogg"> .ogg</a></audio> |
+| ![pho_sameboy.png](/img/pho_sameboy.png) | <li>REAPER 5.965 stereo mix output from VST</li><li>CGB-E mode</li><li>Default options</li> | ![wf_sameboy.png](/img/wf_sameboy.png)<br>![sg_bgb1.png](/img/sg_sameboy.png)<br>![dc_bgb.png](/img/dc_sameboy.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sameboy[cgb-e].ogg"><a href="/snd/sndtest_sameboy[cgb-e].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sameboy[cgb-e].ogg"><a href="/snd/happyhippo_sameboy[cgb-e].ogg"> .ogg</a></audio> |
+| ![pho_sameboy.png](/img/pho_sameboy.png) | <li>REAPER 5.965 stereo mix output from VST</li><li>AGB mode</li><li>Default options</li> | ![wf_sameboy.png](/img/wf_sameboy.png)<br>![sg_bgb1.png](/img/sg_sameboy.png)<br>![dc_bgb.png](/img/dc_sameboy.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sameboy[agb].ogg"><a href="/snd/sndtest_sameboy[agb].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sameboy[agb].ogg"><a href="/snd/happyhippo_sameboy[agb].ogg"> .ogg</a></audio> |
+
 #### DS Lite
 
 Thank you odaxelagnia for the recordings!
@@ -334,7 +363,7 @@ Excellent bass, but is ruined by poor PCM emulation with the two best emulator c
 
 | Image                                    | Variables                                 | Waveform, spectrogram & DC offset                                           | Sound examples                                                                                                                                                                                                                                                          |
 | :--------------------------------------- | :---------------------------------------- | :--------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![placeholder.png](/img/placeholder.png) | <li>MasterBoy v2.10</li><li>TA-090v2</li> | ![wf_psp.png](/img/wf_psp.png)<br>![sg_psp.png](/img/sg_psp.png)<br>![dc_psp.png](/img/dc_psp.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_psp.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_psp.ogg"><a href="/snd/happyhippo_psp.ogg"> .ogg</a></audio> |
+| ![pho_psp3000.jpg](/img/pho_psp3000.jpg) | <li>MasterBoy v2.10</li><li>TA-090v2</li> | ![wf_psp.png](/img/wf_psp.png)<br>![sg_psp.png](/img/sg_psp.png)<br>![dc_psp.png](/img/dc_psp.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_psp.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_psp.ogg"><a href="/snd/happyhippo_psp.ogg"> .ogg</a></audio> |
 | ![pho_psp1000.jpg](/img/pho_psp1000.jpg) | <li>Homer's RIN</li><li>TA-081</li> | ![wf_psp1000.png](/img/wf_psp1000.png)<br>![sg_psp1000.png](/img/sg_psp1000.png)<br>![dc_psp1000.png](/img/dc_psp1000.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_psp1000.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_psp1000.ogg"><a href="/snd/happyhippo_psp1000.ogg"> .ogg</a></audio> |
 ### NOTES
 
@@ -351,17 +380,18 @@ Further instructions are provided in the README.txt within the .zip file provide
 <a href="/lsdj/gbhwsoundrec.zip">Source files required for hardware recordings</a>
 
 - Complete all photos
-- Analyse more CPU revisions (yes, they can make a difference)
-- Note down CPU revisions used from some of DEFENSE MECHANISM's recordings
+- Analyse more mainboard revisions
+- Note down mainboard revisions used from some of DEFENSE MECHANISM's recordings
+- If possible, note down specific CPU versions used (tricker to access physically, but these give out a bigger story than mainboard revisions do)
 - Lights on/off variables for GBASP series
 - Pocket (prosound, capacitor upgrade)
 - Light (prosound, capacitor upgrade)
 - Advance (prosound, capacitor upgrade)
 - SP (both models) (capacitor upgrade if possible)
-- Kong Feng GB Boy Colour (carries the CGB-CPU-02 envelope bug)
+- Kong Feng GB Boy Colour (carries the pitch bend envelope bug)
 - Investigate non-GB mode for GBA devices
 - Add pros/cons/verdict segments
-- Pinpoint more resonances
+- Pinpoint more resonances (especially GBASP prosound)
 
 ### DOCUMENT CHANGELOG
 
@@ -379,3 +409,4 @@ Further instructions are provided in the README.txt within the .zip file provide
 - 0.9.7b - Added a link to a page DEFENSE MECHANISM used for the Game Boy Player sound mod.
 - 0.9.7c - Added a sentence notifying readers to inform me of any misinformation to correct as soon as possible.
 - 0.9.8 - Changed the preface to be much less antagonistic-sounding and appended: Game Boy Light (thanks ImATrackMan!), VisualBoyAdvance.
+- 0.9.9 - Corrected information regarding mainboard revisions and physical CPU versions. Thanks gekkio, ISSOtm & LIJI32 of gbdev! Also added photos of Game Boy Advance, Game Boy Color (prosound) and PSP-3000. Added resonances to look out for with the Game Boy Light.
