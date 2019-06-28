@@ -20,6 +20,11 @@ const GoodiesSidebar = () => (
             FamiTracker dubstep tutorial by Dimeback
           </Link>
         </li>
+        <li>
+          <Link to="/goodies/tutorial/famitracker-dubstep.1">
+            FamiTracker dubstep tutorial by Dimeback v2
+          </Link>
+        </li>
       </ul>
     </div>
   </div>
