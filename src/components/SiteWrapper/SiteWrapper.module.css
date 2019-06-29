@@ -1,5 +1,6 @@
 .siteWrapper {
   display: block;
   background-color: #0c071e;
-  padding: 1rem;
+  padding: 3rem;
+  line-height: 1.33;
 }

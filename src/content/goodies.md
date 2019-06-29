@@ -1,7 +1,7 @@
 ---
 layout: goodies
 title: 'GOODIES'
-lastUpdated: '2019-01-29T13:01:01+11:00'
+lastUpdated: '2019-06-30T08:01:01+11:00'
 ---
 
 ### Comrades
@@ -37,15 +37,17 @@ You can also add this to your site if you wish:
 * <a href="https://docs.google.com/spreadsheets/d/1xNrwtHKVlXeWHYWZwHjTrgRHYhzaznUL0eetK_W9ZR4/" target="_blank">DEFENSE MECHANISM's LSDJ upgrade cheat sheet</a>
 * <a href="https://docs.google.com/spreadsheets/d/1sFOvpa6f-OJHAPNBMN0nnz32NkUrG5MlThiQbrS_5-0/" target="_blank">
   Pu1sewave's Nintendo GameBoy DMG-01 Backlight and Bivert Troubleshooting Guide</a>
-* <a href="https://joshwhelchel.com/wsf-module-packer-tools/" target="_blank">Josh Whelchel's WSF Module Packer Tools (.mod/.s3m/.xm/.it sample deduplicator/centraliser)</a>
+* <a href="https://joshwhelchel.com/wsf-module-packer-tools/" target="_blank">Josh Whelchel's WSF Module Packer Tools</a> (.mod/.s3m/.xm/.it sample deduplicator/centraliser)
 * <a href="https://github.com/Eiyeron/lsdpatch/releases/" target="_blank">Eiyeron's LSDPatcher fork</a>
 * <a href="https://www.youtube.com/channel/UCktmlo88rV0Fpcay_uEdEWQ/videos" target="_blank">Hypnogram's YouTube channel</a>
 * <a href="http://milkcrate.com.au/_other/sega_comparisons/" target="_blank">little-scale's Sega Genesis sound comparison</a>
-* <a href="https://github.com/urbster1/lsdfonts/" target="_blank">LSDJ fonts (use LSDPatcher)</a>
-* <a href="https://github.com/urbster1/lsdpals/" target="_blank">LSDJ palettes (use LSDPatcher)</a>
+* <a href="https://github.com/urbster1/lsdfonts/" target="_blank">LSDJ fonts</a> (use LSDPatcher)
+* <a href="https://github.com/urbster1/lsdpals/" target="_blank">LSDJ palettes</a> (use LSDPatcher)
+* <a href="https://lsdsng-to-html.glitch.me/" target="_blank">LSDSNG HTML visualizer</a>
 * <a href="http://2a03.free.fr/?p=pub&dir=aquellex" target="_blank">Miscellaneous source files from yours truly</a>
-* <a href="https://int10h.org/oldschool-pc-fonts/fontlist/" target="_blank">Oldschool PC fonts (like this IBM-PC font used for this site!)</a>
-* <a href="https://tommitytom.co.uk/lsdj" target="_blank">Online LSDJ patcher (WARNING: palette patching doesn't work yet)</a>
+* <a href="https://int10h.org/oldschool-pc-fonts/fontlist/" target="_blank">Oldschool PC fonts</a> (like this IBM-PC font used for this site!)
+* <a href="https://tommitytom.co.uk/lsdj" target="_blank">Online LSDJ patcher</a> (WARNING: palette patching doesn't work yet)
+* <a href="/lsdj/Speak'n'Spell replacement for LSDJ (with correct loop flags).zip">Speak'n'Spell replacement for LSDJ</a> (with correct loop flags)
 * <a href="https://twitter.com/to6okegao/moments" target="_blank">tobokegao's Twitter Moments</a>
 
 #### Paul's Tech Talk
@@ -64,20 +66,23 @@ You can also add this to your site if you wish:
 
 #### Roboctopus' LSDJ and You
 
-* <a href="http://www.noisechannel.org/4409" target="_blank">Episode 1: The Echo Chamber</a>
-* <a href="http://www.noisechannel.org/4515" target="_blank">Episode 2: Collapse of the Waveform</a>
-* <a href="http://www.noisechannel.org/4691" target="_blank">Episode 3: PWM, I Choose You!!!</a>
-* <a href="http://www.noisechannel.org/4824" target="_blank">Episode 4: Stick Shift</a>
-* <a href="http://www.noisechannel.org/4889" target="_blank">Episode 5: You Take the High Pass and I’ll Take…</a>
-* <a href="http://www.noisechannel.org/4966" target="_blank">Episode 6: The Short End of the Synth</a>
-* <a href="http://www.noisechannel.org/5138" target="_blank">Episode 7: Cheapshot’s Blip Bass</a>
-* <a href="http://www.noisechannel.org/6170" target="_blank">Episode 8: ArpArpArpArpArp</a>
-* <a href="http://www.noisechannel.org/8180" target="_blank">Episode 9: WAV Kicks and Volume Tricks</a>
+* <a href="https://web.archive.org/web/20170410012332/http://www.noisechannel.org/4409" target="_blank">Episode 1: The Echo Chamber</a>
+* <a href="https://web.archive.org/web/20180519001925/http://www.noisechannel.org/4515" target="_blank">Episode 2: Collapse of the Waveform</a>
+* <a href="https://web.archive.org/web/20170707152526/http://www.noisechannel.org/4691" target="_blank">Episode 3: PWM, I Choose You!!!</a>
+* <a href="https://web.archive.org/web/20170704004104/http://www.noisechannel.org/4824" target="_blank">Episode 4: Stick Shift</a>
+* <a href="https://web.archive.org/web/20170707001005/http://www.noisechannel.org/4889" target="_blank">Episode 5: You Take the High Pass and I’ll Take…</a>
+* <a href="https://web.archive.org/web/20170704004147/http://www.noisechannel.org/4966" target="_blank">Episode 6: The Short End of the Synth</a>
+* <a href="https://web.archive.org/web/20161018201349/http://www.noisechannel.org/5138" target="_blank">Episode 7: Cheapshot’s Blip Bass</a>
+* <a href="https://web.archive.org/web/20181009000451/http://www.noisechannel.org/6170" target="_blank">Episode 8: ArpArpArpArpArp</a>
+* <a href="https://web.archive.org/web/20161018203523/http://www.noisechannel.org/8180" target="_blank">Episode 9: WAV Kicks and Volume Tricks</a>
 
 ### Discord servers
 
-* <a href="https://discord.gg/cAgBjHa/" target="_blank">Chiptunes = WIN (the ultimate chillzone)</a>
-* <a href="https://discord.gg/phCgxGD" target="_blank">Maj7 (a circle of music friends)</a>
-* <a href="https://discord.gg/dvksbHh/" target="_blank">The Fourth Modulator (chip FM synthesis research)</a>
-* <a href="https://discord.gg/dURHtZp/" target="_blank">The PSG Cabal (simple chip-oscillators research)</a>
-* <a href="https://discord.gg/XR87eFs/" target="_blank">VGMusic.com (low-level hardware MIDI sequencing community)</a>
+* <a href="https://discord.gg/dpHG83b" target="_blank">The Chiptune Café</a>
+* <a href="https://discord.gg/cAgBjHa/" target="_blank">Chiptunes = WIN</a>
+* <a href="https://discord.gg/PgY4UDW" target="_blank">DTM MIDI Central</a>
+* <a href="https://discord.gg/5x6vdSK" target="_blank">famitracker.org</a>
+* <a href="https://discord.gg/phCgxGD" target="_blank">Maj7</a>
+* <a href="https://discord.gg/dvksbHh/" target="_blank">The Fourth Modulator</a>
+* <a href="https://discord.gg/dURHtZp/" target="_blank">The PSG Cabal</a>
+* <a href="https://discord.gg/XR87eFs/" target="_blank">VGMusic.com</a>

@@ -1,20 +1,20 @@
 ---
 layout: tutorial
 title: 'The Compendium of Custom Refresh Rate Techniques in FamiTracker'
-lastUpdated: '2019-06-29T06:00:00+10:00'
+lastUpdated: '2019-06-30T03:00:00+10:00'
 ---
 
 Formerly: The Guide to Making NES/Famicom Dubstep in FamiTracker<br>
 Written by <a href=https://soundcloud.com/dimeback>Dimeback</a>
 
-Document version: 1.2
+Document version: 1.3
 ### PREFACE
 
 This is a completely revamped version of my 2014 findings that were published in 2017, which cleans up colloquial English and reduces unnecessary jargon. A whole realm of new information on the subject has also been added. This update is long overdue, but I assure you, my peers and I will check on it far more frequently as we discover more info!
 
 ### INTRODUCTION AND SETUP
 
-Take a deep breath. There is **A LOT** to cover, and it will probably be hard to absorb everything in one reading session. I recommend exploring each section one at a time. Give yourself a good feel for how everything will sound as you go. This document assumes you have an intermediate-to advanced-level of understanding of how to use either jsr's FamiTracker (shorthand reference: FT) or HertzDevil's 0CC-FamiTracker (0CC), and Rainwarrior's NSFPlay, which are the three main programs that will be referenced. So, if you are a novice user, please do still follow the guide as much as you can understand and give it a try nevertheless! Getting the practice via trial and error will be very beneficial, as it'll allow you to gain a better understanding of what is going on with the techniques. However, if it seems like you're getting nowhere with this guide so far, practice with FamiTracker more, then come back, or try to take it in even smaller steps at a time. You can also take a look at the Contact section at the bottom if you're really stumped for help!
+Take a deep breath. There is **A LOT** to cover, and it will probably be hard to absorb everything in one reading session. I recommend exploring each section one at a time. Give yourself a good feel for how everything will sound as you go. This document assumes you have an intermediate-to advanced-level of understanding of how to use either jsr's <a href="http://famitracker.com/files/FamiTracker-v0.4.2.zip" target="_blank">FamiTracker</a> (shorthand reference: FT) or HertzDevil's <a href="http://hertzdevil.info/programs/0CCft_v0314r5.7z" target="_blank">0CC-FamiTracker</a> (0CC), and Rainwarrior's <a href="https://github.com/bbbradsmith/nsfplay/commit/e6fd1a47339b654fda3f587662cf037a00085efe" target="_blank">NSFPlay</a>, which are the three main programs that will be referenced. So, if you are a novice user, please do still follow the guide as much as you can understand and give it a try nevertheless! Getting the practice via trial and error will be very beneficial, as it'll allow you to gain a better understanding of what is going on with the techniques. However, if it seems like you're getting nowhere with this guide so far, practice with FamiTracker more, then come back, or try to take it in even smaller steps at a time. You can also take a look at the Contact section at the bottom if you're really stumped for help!
 
 #### SECTION 1. WHAT'S A REFRESH RATE?
 
@@ -34,6 +34,13 @@ Some good ones to use are the following:
 | G#4 | 415 Hz |
 | G-4 | 392 Hz |
 | F#4 | 370 Hz |
+| F-4 | 349 Hz |
+| E-4 | 330 Hz |
+| D#4 | 311 Hz |
+| D-4 | 294 Hz |
+| C#4 | 277 Hz |
+| C-4 | 262 Hz |
+| B-3 | 247 Hz |
 | A#3 | 233 Hz |
 | A-3 | 220 Hz |
 | G#3 | 208 Hz |
@@ -48,14 +55,16 @@ Now for the tempo, this will depend on which version of FT you plan to use. For 
 &nbsp; 1. Grooves/Alternating Fxx effects.<br>
 &nbsp; 2. Use more/less rows per highlight.
 
-However, if you're using vanilla FT, you'll have to do extra work to get the tempo, as you can't manually set the tempo higher than 255. This is your equation: `(Refresh rate \* 2.5)/(Desired speed setting)`.
+However, if you're using vanilla FT, you'll have to do extra work to get the tempo, as you can't manually set the tempo higher than 255. This is your equation: `(Refresh rate * 2.5)/(Desired speed setting)`.
 
-Example: `(392 \* 2.5)/4 = 245` <-- This is your tempo value.
+Example: `(392 * 2.5)/4 = 245` <-- This is your tempo value.
+
+Where does the constant **2.5** come from? Incrementing/decrementing the refresh rate by 1 Hz changes the tempo by **2.5** BPM, respectively.
 
 Keep in mind, the final value must be below 255, so if, for example, division by 4 results in a value > 255, divide by 8 instead.
 
-`(415 \* 2.5)/4 = 259.375 ` ✗ <br>
-`(415 \* 2.5)/8 = 129.6875` ✓
+`(415 * 2.5)/4 = 259.375 ` ❌ <br>
+`(415 * 2.5)/8 = 129.6875` ✅
 
 This equation will not always result in an exact number, and there is no way to enter this kind of value into the tempo setting on vanilla FT. In this case, round up or down to the closest whole value. In most cases, a speed setting of 1 is recommended for vanilla FT.
 
@@ -87,6 +96,7 @@ Here's a chart that shows what pitch you will get based on the size of the seque
 | 14 steps        | x-34            | 15 15 15 15 15 15 15 0 0 0 0 0 0 0           |
 | 15 steps        | x-35            | 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0         |
 | 16 steps        | x-36            | 15 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0      |
+
 \*Slightly out of tune
 
 With a refresh rate of 392 Hz, this is the table of notes we would have:
@@ -146,9 +156,18 @@ On the subject of duty cycles, there is a trick to get smooth PWM on carrier ton
 
 To keep your carrier sounds clean, I recommend using pitches that are in the overtone series of the refresh rate you're using. If you play around those pitches on your keyboard, you will notice how much cleaner they sound at those frequencies. That's because the frequency of those pitches lines up with the frequency of the carrier tone by a certain multiple.
 
-#### SECTION 6. APU2 (TRI+NOISE+DPCM) - FINAL PROOFREAD
+#### SECTION 6. APU2 (TRI+NOISE+DPCM)
 
 Unfortunately, the triangle does not have the same potential as the pulses, and is much harder to use due to FT's poor emulation of it. However, it does have its own set of tricks that sound great when done right. For starters, volume sequences will not work for achieving carrier tones like with the pulses, even when strictly using the overtone pitch series. However, it can be used to get nice growling sound. If you've ever heard the game over theme in Journey to Silius, there's a distinct 240 Hz growling effect done at the end with the triangle channel. A similar effect can be achieved with looped volume sequences, but with more variability and finer control, depending on the refresh rate being used. Basically, looped volume sequences on the triangle are best served for FX rather than melodic applications.
+
+<video controls preload="none">
+  <source src="/vid/silius.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+| APU1+APU2 | APU1 only | APU2 only | Source file |
+| --------- | --------- | --------- | ----------- |
+| <audio controls preload="none"><source src="/snd/silius.ogg"><a href="/snd/silius.ogg">.ogg</a></audio> | <audio controls preload="none"><source src="/snd/silius_apu1.ogg"><a href="/snd/silius_apu1.ogg">.ogg</a></audio> | <audio controls preload="none"><source src="/snd/silius_apu2.ogg"><a href="/snd/silius_apu2.ogg">.ogg</a></audio> | <a href="/fami_other/silius.0cc">.0cc</a> |
 
 However, pitch and arp sequences still have viable melodic use. The sequence sizing works in the same way as with the pulses, but the shapes and tones you will hear will be vastly different than that of the pulses. Since the triangle's phase never resets, it's capable of FM synthesis! Though it isn't exactly like the FM synthesis you're probably used to, as we're using a triangle instead of a sine, and you have much more control of the shaping. Don't get too overjoyed though, because this still requires a lot of testing on the hardware end to ensure it will sound good, and the output will be strongly affected by potential slowdowns (explained in Section 10). Typically, higher frequencies will play nicer on hardware, so try to use those as often as possible!
 
@@ -243,12 +262,12 @@ It should be also noted that some versions of NSFPlay are more prone to experien
 
 The answer depends. This is a decision that you must settle on upon creation of your next module. 0CC and FT handle NSFs differently, even if the module works in both versions. They will not sound the same. In the end, it's all about adjusting everything in the module until the NSF sounds how you want it to. From my experience using both versions, there are some crucial advantages and disadvantages between each version:
 
-| FT 0.4.2 | 0CC-FT 0.3.14.5 | j0CC-FT j0.6.1 |
+| <a href="http://famitracker.com/files/FamiTracker-v0.4.2.zip" target="_blank">FT 0.4.2</a> | <a href="http://hertzdevil.info/programs/0CCft_v0314r5.7z" target="_blank">0CC-FT 0.3.14.5</a> | <a href="https://github.com/jimbo1qaz/j0CC-FamiTracker/releases/tag/j0.6.1" target="_blank">j0CC-FT j0.6.1</a> |
 | - | - | - |
 | <span style="color:green">+</span> Smaller driver size, which makes NSFs slightly less prone to slowdown. | <span style="color:green">+</span> A bunch of new features, some of which are helpful when using refresh rate tricks (such as fixed tempo, which allows for >255 BPM). | <span style="color:green">+</span> A fork of 0CC-FT 0.3.14.5 that fixes major bugs found in that build, along with additional minor quality-of-life enhancements. |
-| <span style="color:green">+</span> Refresh rate setting can be changed while song is playing in program | <span style="color:green">+</span> Maximum of 256 frames per song. | <span style="color:green">+</span> N163 FTI instruments can be exported without crashing. |
+| <span style="color:green">+</span> Refresh rate setting can be changed while song is playing in program | <span style="color:green">+</span> Maximum of 256 frames per song. | <span style="color:green">+</span> N163 FTI instruments can be exported without crashing, and color scheme I/O works. |
 | <span style="color:red">-</span> Key UI improvements brought by 0CC are absent here. Workflow will usually be messier and take more time. | <span style="color:green">+</span> Mixer settings which can account for the volume difference on stereo modded NES's. | <span style="color:green">+</span> Doesn’t corrupt memory when entering MML volume sequences over 252 items long (instead truncate). |
-| <span style="color:red">-</span> Maximum of 128 frames per song. | <span style="color:red">-</span> N163 workflow is prone to crashing. | <span style="color:green">+</span> Typing Pxx (or FDS Zxx) defaults to P80. |
+| <span style="color:red">-</span> Maximum of 128 frames per song. | <span style="color:red">-</span> N163 workflow is prone to crashing, and color scheme I/O is bugged. | <span style="color:green">+</span> Typing Pxx (or FDS Zxx) defaults to P80. |
 | <span style="color:red">-</span> Maximum tempo value of 255. | <span style="color:red">-</span> Bigger driver size, which makes NSFs slightly more prone to slowdown. | <span style="color:green">+</span> N163 wave editor's copy/paste buttons copy all waves at once, separated/terminated with semicolons. <a href="https://gist.github.com/jimbo1qaz/424110eab84dad50cf1a6646a72b2627" target="_blank">This allows for highly efficient Audacity-N163 import workflows</a>.  |
 | <span style="color:red">-</span> No mixer settings. | <span style="color:red">-</span> Song must not be playing to change refresh rate. | <span style="color:green">+</span> At the time of this page update, development is still ongoing. |
 
@@ -262,7 +281,7 @@ Again, it's up to you which version you want to use. Learn to exploit the advant
 
 ### CONCLUSION
 
-Even with a text guide on how to take advantage of these tricks, the results you get at first may be either disappointing or a moment of epiphany.  We can only give you so much tutelage, nor is spoonfeeding source material (be it in the form of .nsfs or .ftms/.0ccs) an effective measure for instant gratification--you need to observe & practice these techniques with an active learning mind and patience if you want to achieve results similar to what you aspire to reach with Wandering Floor and MoeNES. The experience is essential!
+Even with a text guide on how to take advantage of these tricks, the results you get at first may be either disappointing or an epiphany.  We can only give you so much tutelage, nor is spoonfeeding source material (be it in the form of .nsfs or .ftms/.0ccs) an effective measure for instant gratification--you need to observe & practice these techniques with an active learning mind and patience if you want to achieve results similar to what you aspire to reach with Wandering Floor and MoeNES. The experience is essential!
 
 Remember that if you're struggling with a particular section or don't understand something, focus on it and keep experimenting. You can only learn so much about audio techniques by reading a wall of text. And once again, if this is all going way over your head, just keep practicing with FamiTracker in a way that is most comfortable for you. Learn all of the effects and what every feature does, memorize them, and then come back to this guide and take your time. One thing you can try is to make backups of existing .ftm's/.0cc's and analyzing their techniques thoroughly (those that use a speed of 1 are highly recommended)!
 
@@ -293,9 +312,9 @@ Aquellex: <a href="https://twitter.com/Aquellex" target="_blank">@Aquellex</a> |
 * Documentation of expansion chips (most likely candidates as of now: VRC6, N163, FDS)
 * Append more image & video examples
 * Await feedback & append a FAQ as appropriate
-* Talk about triangle linear counter? (Sunsoft 240hz growl; S81, S82, S83 effects in 0CC)
+* Talk about triangle linear counter (Sunsoft 240hz growl; S81, S82, S83 effects in 0CC)
 * TNS-HFC5 and TNS-HFX4 and using the PowerPak in tandem with real carts with expansion audio (need testing still for MMC5, VRC7, Sunsoft 5B)
-* Add links to source FTMs to showcase what you can achieve with musical context
+* Add more links to source FTMs to showcase what you can achieve with musical context
 * Go more in depth with proper Gxx spacing in regards to arps, odd row highlights, speed/tempo and how they're connected
 
 #### DOCUMENT CHANGELOG
@@ -303,6 +322,7 @@ Aquellex: <a href="https://twitter.com/Aquellex" target="_blank">@Aquellex</a> |
 - 1.1 - Initial release.
 - 1.1a - Added examples.
 - 1.2 - Major overhaul! Title changed to The Compendium of Custom Refresh Rate Techniques in FamiTracker. kipptune's Special Smoothie was appended to examples.
+- 1.3 - Appended info regarding the **2.5** constant for the tempo equation in Section 2. Minor typography errors were fixed in the same section as well. Appended Journey to Silius example in Section 6. Noted down color scheme I/O issues 0CC vs. j0CC. Added more frequencies to the frequency table in Section 2.
 
 ### EXAMPLES
 

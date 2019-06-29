@@ -4,6 +4,12 @@ import React, { Fragment } from 'react';
 // Look into Netlify CMS: https://www.netlifycms.org/
 const minorUpdates = [
   {
+    date: '30.06.2019',//
+    content: (
+      <Fragment>FamiTracker dubstep guide updated to 1.3 and changed padding & line height to be easier on the eyes. A bit of tidying up was done to goodies (fixing dead links & adding more resources).</Fragment>
+    ),
+  },
+  {
     date: '29.06.2019',//
     content: (
       <Fragment>FamiTracker dubstep guide updated to 1.2.</Fragment>
