@@ -13,6 +13,9 @@ const HeaderBadges = () => (
     <a href="https://soundcloud.com/aquellex" title="SoundCloud" target="_blank" rel="noopener noreferrer">
       <img alt="SoundCloud" src="/img/sc.png" />
     </a>{' '}
+    <a href="https://youtube.com/user/GammaBlasterSM" title="YouTube" target="_blank" rel="noopener noreferrer">
+      <img alt="YouTube" src="/img/yt.png" />
+    </a>{' '}
     <a href="http://www.mabsland.com/Adoption.html" title="Mild themes" target="_blank" rel="noopener noreferrer">
       <img alt="PG rating" src="/img/Censor_PGc.gif" />
     </a>

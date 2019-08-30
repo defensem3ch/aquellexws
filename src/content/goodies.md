@@ -1,7 +1,7 @@
 ---
 layout: goodies
 title: 'GOODIES'
-lastUpdated: '2019-06-30T08:01:01+11:00'
+lastUpdated: '2019-08-31T12:31:06+11:00'
 ---
 
 ### Comrades
@@ -10,7 +10,7 @@ lastUpdated: '2019-06-30T08:01:01+11:00'
 | :-------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
 | <a href="https://chiptuneswin.com/" target="_blank" title="Chiptunes = WIN">Chiptunes = WIN</a>                             | I main around their Facebook group page for chiptune discussions & compilations.                  |
 | <a href="https://defensemech.com/" target="_blank" title="DEFENSE MECHANISM"><img src="/img/defense.gif"></a>               | DEFENSE MECHANISM's homepage. We work together to pioneer new techniques for LSDJ.                |
-| <a href="https://soundcloud.com/dj-dimeback" target="_blank" title="Dimeback">Dimeback</a>                                  | Dimeback's SoundCloud. He was the one who studied chibi-tech's techniques meticulously (as Mozart did to Bach) to create his own flair with Tim Follin influence.  |
+| <a href="https://soundcloud.com/dimeback" target="_blank" title="Dimeback">Dimeback</a>                                  | Dimeback's SoundCloud. He was the one who studied chibi-tech's techniques meticulously (as Mozart did to Bach) to create his own flair with Tim Follin influence.  |
 | <a href="http://heckscaper.com" target="_blank" title="Emma Essex"><img src="/img/emmalink.gif"></a>                        | Emma Essex's personal homepage. You may otherwise know them as Halley Labs.                       |
 | <a href="http://www.iridescentaudio.co.uk/" target="_blank" title="Blitz Lunar"><img src="/img/imlogo.png"></a>             | Blitz Lunar's Bandcamp. He is the secondary sonic inspiration behind Aquellex.                    |
 | <a href="https://soundcloud.com/kommisar/" target="_blank" title="Kommisar">Kommisar</a>                                    | Kommisar's SoundCloud. We met on Flash Flash Revolution since mid-2010. Insaneous chiptune solos. |
@@ -34,21 +34,22 @@ You can also add this to your site if you wish:
 
 ### External sites & tools
 
-* <a href="https://docs.google.com/spreadsheets/d/1xNrwtHKVlXeWHYWZwHjTrgRHYhzaznUL0eetK_W9ZR4/" target="_blank">DEFENSE MECHANISM's LSDJ upgrade cheat sheet</a>
-* <a href="https://docs.google.com/spreadsheets/d/1sFOvpa6f-OJHAPNBMN0nnz32NkUrG5MlThiQbrS_5-0/" target="_blank">
-  Pu1sewave's Nintendo GameBoy DMG-01 Backlight and Bivert Troubleshooting Guide</a>
-* <a href="https://joshwhelchel.com/wsf-module-packer-tools/" target="_blank">Josh Whelchel's WSF Module Packer Tools</a> (.mod/.s3m/.xm/.it sample deduplicator/centraliser)
-* <a href="https://github.com/Eiyeron/lsdpatch/releases/" target="_blank">Eiyeron's LSDPatcher fork</a>
-* <a href="https://www.youtube.com/channel/UCktmlo88rV0Fpcay_uEdEWQ/videos" target="_blank">Hypnogram's YouTube channel</a>
-* <a href="http://milkcrate.com.au/_other/sega_comparisons/" target="_blank">little-scale's Sega Genesis sound comparison</a>
-* <a href="https://github.com/urbster1/lsdfonts/" target="_blank">LSDJ fonts</a> (use LSDPatcher)
-* <a href="https://github.com/urbster1/lsdpals/" target="_blank">LSDJ palettes</a> (use LSDPatcher)
-* <a href="https://lsdsng-to-html.glitch.me/" target="_blank">LSDSNG HTML visualizer</a>
-* <a href="http://2a03.free.fr/?p=pub&dir=aquellex" target="_blank">Miscellaneous source files from yours truly</a>
-* <a href="https://int10h.org/oldschool-pc-fonts/fontlist/" target="_blank">Oldschool PC fonts</a> (like this IBM-PC font used for this site!)
-* <a href="https://tommitytom.co.uk/lsdj" target="_blank">Online LSDJ patcher</a> (WARNING: palette patching doesn't work yet)
-* <a href="/lsdj/Speak'n'Spell replacement for LSDJ (with correct loop flags).zip">Speak'n'Spell replacement for LSDJ</a> (with correct loop flags)
-* <a href="https://twitter.com/to6okegao/moments" target="_blank">tobokegao's Twitter Moments</a>
+| Website | Description |
+| :------ | :---------- |
+| <a href="https://docs.google.com/spreadsheets/d/1xNrwtHKVlXeWHYWZwHjTrgRHYhzaznUL0eetK_W9ZR4/" target="_blank"><img src="/img/ico_sheets.png" width="32" height="31"></a> | DEFENSE MECHANISM's LSDJ upgrade cheat sheet. Please refer to this if you're stumped on about upgrading from version 4 to 6 and onwards! |
+| <a href="https://docs.google.com/spreadsheets/d/1sFOvpa6f-OJHAPNBMN0nnz32NkUrG5MlThiQbrS_5-0/" target="_blank"><img src="/img/ico_sheets.png" width="32" height="31"></a> | Pu1sewave's Nintendo GameBoy DMG-01 Backlight and Bivert Troubleshooting Guide. Please refer to this if you're problems with working with backlight kits! |
+| <a href="https://joshwhelchel.com/wsf-module-packer-tools/" target="_blank"><img src="/img/ico_mpt.png" width="32" height="32"></a> | Josh Whelchel's WSF Module Packer Tools (.mod/.s3m/.xm/.it sample deduplicator/centraliser) |
+| <a href="https://github.com/Eiyeron/lsdpatch/releases/" target="_blank"><img src="/img/ico_java.png" width="32" height="32"></a> | Eiyeron's LSDPatcher fork. Highly recommended over the original LSDPatcher, as it supports the ability to import all your custom kits from an older version to a newer ROM with ease, and allows for patching in custom fonts & palettes! Also comes with command-line support. |
+| <a href="https://www.youtube.com/channel/UCktmlo88rV0Fpcay_uEdEWQ/videos" target="_blank"><img src="/img/yt.png"></a> | Hypnogram's YouTube channel |
+| <a href="http://milkcrate.com.au/_other/sega_comparisons/" target="_blank"><img src="/img/ico_genesis.png" title="Icon sourced from http://www.iconarchive.com/show/antiseptic-videogame-icons-by-starvingartist/sega-genesis-icon.html"></a> | little-scale's Sega Genesis sound comparison |
+| <a href="https://github.com/psgcabal/famitracker-palettes/" target="_blank">Link</a> | FamiTracker palettes repository. |
+| <a href="https://github.com/psgcabal/lsdfonts/" target="_blank">Link</a>  | LSDJ custom fonts repository. |
+| <a href="https://github.com/psgcabal/lsdpals/" target="_blank">Link</a> | LSDJ palettes repository. |
+| <a href="https://lsdsng-to-html.glitch.me/" target="_blank">Link</a>| LSDSNG HTML visualizer |
+| <a href="/lsdj/Speak'n'Spell replacement for LSDJ (with correct loop flags).zip">Link</a>| Miscellaneous source files from yours truly |
+| <a href="https://int10h.org/oldschool-pc-fonts/fontlist/" target="_blank">Link</a>| Oldschool PC fonts (like this IBM-PC font used for this site!) |
+| <a href="http://2a03.free.fr/?p=pub&dir=aquellex" target="_blank">Link</a>| Speak'n'Spell replacement for LSDJ (with correct loop flags). Replaces Instrument 40's SP0256-AL2 allophones with the TMC0280. |
+| <a href="https://twitter.com/to6okegao/moments" target="_blank"><img src="/img/tw.png"></a> | tobokegao's Twitter Moments. He catalogues exciting chiptune happenings! |
 
 #### Paul's Tech Talk
 

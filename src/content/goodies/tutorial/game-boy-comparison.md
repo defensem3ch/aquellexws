@@ -1,14 +1,14 @@
 ---
 layout: 'tutorial'
 title: "Game Boy sound comparison (better than Herbert Weixelbaum's version)"
-lastUpdated: '2019-06-17T03:31:06+11:00'
+lastUpdated: '2019-08-31T12:31:06+11:00'
 ---
 
-Page Version: 0.9.9
+Page Version: 1.0.0
 
 Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a>, <a href="https://soundcloud.com/odaxelagnia
-" target="_blank">odaxelagnia</a>, Jack L., <a href="https://soundcloud.com/vaultkid" target="_blank">Vault Kid</a>, <a href="https://www.cheapbeats.net/" target="_blank">cheapshot</a>, <a href="http://kabcorp.fr/" target="_blank">Kabcorp</a>, <a href="https://trash80.com/" target="_blank">Trash80</a>, <a href="https://twitter.com/ImATrackMan/" target="_blank">ImATrackMan</a>, <a href="https://gbhwdb.gekkio.fi/" target="_blank">gekkio</a>, <a href="https://eldred.fr/" target="_blank">ISSOtm</a> & <a href="https://github.com/LIJI32" target="_blank">LIJI32</a>
+" target="_blank">odaxelagnia</a>, Jack L., <a href="https://soundcloud.com/vaultkid" target="_blank">Vault Kid</a>, <a href="https://www.cheapbeats.net/" target="_blank">cheapshot</a>, <a href="http://kabcorp.fr/" target="_blank">Kabcorp</a>, <a href="https://trash80.com/" target="_blank">Trash80</a>, <a href="https://twitter.com/ImATrackMan/" target="_blank">ImATrackMan</a>, <a href="https://gbhwdb.gekkio.fi/" target="_blank">gekkio</a>, <a href="https://eldred.fr/" target="_blank">ISSOtm</a>, <a href="https://github.com/LIJI32" target="_blank">LIJI32</a> & <a href="https://twitter.com/mewl_me" target="_blank">mewl\_me</a><br>
 <br>Happy Hippo track by <a href="http://doussis.com" target="_blank">Stello Doussis</a>
 
 ### PREFACE
@@ -98,11 +98,30 @@ Use BGB or get yourself a throwaway DMG (or GBC/GBA/GBASP if you need the CPU fi
 
 If you really need to use one as a last resort, don't forget to turn up the bass on the EQ + remove unwanted resonances when post-processing.
 
-On the other hand, the sound is more tolerable than a vanilla Color unit.
+On a more positive note, the sound is more tolerable than a vanilla Color unit.
 
 | Image                                    | Variables        | Waveform, spectrogram & DC offset                                                       | Sound examples                                                                                                                                                                                                                                                                      |
 | :--------------------------------------- | :--------------- | :--------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![placeholder.png](/img/placeholder.png) | <li>MGB-LCPU-02</li> | ![wf_pocket.png](/img/wf_pocket.png)<br>![sg_pocket.png](/img/sg_pocket.png)<br>![dc_pocket.png](/img/dc_pocket.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_pocket.ogg"><a href="/snd/sndtest_pocket.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_pocket.ogg"><a href="/snd/happyhippo_pocket.ogg"> .ogg</a></audio> |
+
+#### Pocket (prosound)
+
+Thank you mewl_me for the recordings!
+
+Additional notes from them:<p> ```I did Internal ProSound mod for both.```<br>
+```And, I rewired the GND of the Volume to the Speaker GND.```<br>
+```Ie, the volume GND is connected to GND through a 100 μF capacitor.```<br>
+```1 V DC was flowing from headphone jack L to its GND, but this made it 0.1 mV.```
+
+| Image                                    | Variables        | Waveform, spectrogram & DC offset                                                       | Sound examples                                                                                                                                                                                                                                                                      |
+| :--------------------------------------- | :--------------- | :--------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![pho_pocket[ps].png](/img/pho_pocket[ps].png) | <li>MGB-CPU-01</li> <li>Internal prosound</li> <li>Rewired volume's ground</li> | ![wf_pocket[ps].png](/img/wf_pocket[ps].png)<br>![sg_pocket[ps].png](/img/sg_pocket[ps].png)<br>![dc_pocket.png](/img/dc_pocket.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_pocket[ps].ogg"><a href="/snd/sndtest_pocket[ps].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_pocket[ps].ogg"><a href="/snd/happyhippo_pocket[ps].ogg"> .ogg</a></audio> |
+
+#### Pocket (capacitor mod)
+
+| Image                                    | Variables        | Waveform, spectrogram & DC offset                                                       | Sound examples                                                                                                                                                                                                                                                                      |
+| :--------------------------------------- | :--------------- | :--------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![pho_pocket[ps+c].png](/img/pho_pocket[ps+c].png) | <li>MGB-LCPU-01</li> <li>4.7 µF capacitor</li> <li>Internal prosound</li> <li>Rewired volume's ground</li> | ![wf_pocket[ps+c].png](/img/wf_pocket[ps+c].png)<br>![sg_pocket[ps+c].png](/img/sg_pocket[ps+c].png)<br>![dc_pocket.png](/img/dc_pocket.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_pocket[ps+c].ogg"><a href="/snd/sndtest_pocket[ps+c].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_pocket[ps+c].ogg"><a href="/snd/happyhippo_pocket[ps+c].ogg"> .ogg</a></audio> |
 
 #### Light
 
@@ -365,6 +384,11 @@ Excellent bass, but is ruined by poor PCM emulation with the two best emulator c
 | :--------------------------------------- | :---------------------------------------- | :--------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![pho_psp3000.jpg](/img/pho_psp3000.jpg) | <li>MasterBoy v2.10</li><li>TA-090v2</li> | ![wf_psp.png](/img/wf_psp.png)<br>![sg_psp.png](/img/sg_psp.png)<br>![dc_psp.png](/img/dc_psp.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_psp.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_psp.ogg"><a href="/snd/happyhippo_psp.ogg"> .ogg</a></audio> |
 | ![pho_psp1000.jpg](/img/pho_psp1000.jpg) | <li>Homer's RIN</li><li>TA-081</li> | ![wf_psp1000.png](/img/wf_psp1000.png)<br>![sg_psp1000.png](/img/sg_psp1000.png)<br>![dc_psp1000.png](/img/dc_psp1000.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_psp1000.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_psp1000.ogg"><a href="/snd/happyhippo_psp1000.ogg"> .ogg</a></audio> |
+
+### CONCLUSION
+
+This page as a reference is already helpful enough to give you a good idea on what units are desirable, especially if you don't have access to such units in the first place, but at the end of the day, it is imperative that you do not trust this page (or any other for that matter) in blind faith. I highly recommend that you test your sound setups yourself. Even if you don't have the physical units, you can use the recordings provided. **Verify that what you see is what you get**. **Gauge whether the recordings (or your own hardware) sound fine or not on loudspeakers for your needs**. If you end up with different results compared to what I have on my page (this will be especially be noticeable with capacitor mods), please get in touch with me! <a href="/lsdj/gbhwsoundrec.zip">Source files required for hardware recordings</a>
+
 ### NOTES
 
 If you would like to help contribute more sound data, please do not hesitate to get in touch with me via <a href="mailto:aquellex@f0xpa.ws" target="_blank">e-mail</a>, <a href="https://twitter.com/Aquellex" target="_blank">Twitter</a>, or join the discussion in <a href="https://discord.io/psgcabal" target="_blank">The PSG Cabal</a> Discord server in #technical for more details.
@@ -384,14 +408,14 @@ Further instructions are provided in the README.txt within the .zip file provide
 - Note down mainboard revisions used from some of DEFENSE MECHANISM's recordings
 - If possible, note down specific CPU versions used (tricker to access physically, but these give out a bigger story than mainboard revisions do)
 - Lights on/off variables for GBASP series
-- Pocket (prosound, capacitor upgrade)
 - Light (prosound, capacitor upgrade)
 - Advance (prosound, capacitor upgrade)
 - SP (both models) (capacitor upgrade if possible)
 - Kong Feng GB Boy Colour (carries the pitch bend envelope bug)
 - Investigate non-GB mode for GBA devices
 - Add pros/cons/verdict segments
-- Pinpoint more resonances (especially GBASP prosound)
+- Add easy-to-read comparison chart
+- Get resonances of SP-101 prosound
 
 ### DOCUMENT CHANGELOG
 
@@ -410,3 +434,4 @@ Further instructions are provided in the README.txt within the .zip file provide
 - 0.9.7c - Added a sentence notifying readers to inform me of any misinformation to correct as soon as possible.
 - 0.9.8 - Changed the preface to be much less antagonistic-sounding and appended: Game Boy Light (thanks ImATrackMan!), VisualBoyAdvance.
 - 0.9.9 - Corrected information regarding mainboard revisions and physical CPU versions. Thanks gekkio, ISSOtm & LIJI32 of gbdev! Also added photos of Game Boy Advance, Game Boy Color (prosound) and PSP-3000. Added resonances to look out for with the Game Boy Light.
+- 1.0.0 - Added Pocket prosound & capacitor mod. Thank you mewl_me! Also wrote a conclusion.
