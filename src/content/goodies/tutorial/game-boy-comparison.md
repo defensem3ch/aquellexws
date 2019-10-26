@@ -1,14 +1,14 @@
 ---
 layout: 'tutorial'
 title: "Game Boy sound comparison (better than Herbert Weixelbaum's version)"
-lastUpdated: '2019-08-31T12:31:06+11:00'
+lastUpdated: '2019-10-26T21:21:13+11:00'
 ---
 
-Page Version: 1.0.0
+Page Version: 1.0.1
 
 Written by Aquellex<br>
 Contributions from <a href="http://defensemech.com" target="_blank">DEFENSE MECHANISM</a>, <a href="https://soundcloud.com/pain-perdu" target="_blank">Pain Perdu</a>, <a href="https://soundcloud.com/odaxelagnia
-" target="_blank">odaxelagnia</a>, Jack L., <a href="https://soundcloud.com/vaultkid" target="_blank">Vault Kid</a>, <a href="https://www.cheapbeats.net/" target="_blank">cheapshot</a>, <a href="http://kabcorp.fr/" target="_blank">Kabcorp</a>, <a href="https://trash80.com/" target="_blank">Trash80</a>, <a href="https://twitter.com/ImATrackMan/" target="_blank">ImATrackMan</a>, <a href="https://gbhwdb.gekkio.fi/" target="_blank">gekkio</a>, <a href="https://eldred.fr/" target="_blank">ISSOtm</a>, <a href="https://github.com/LIJI32" target="_blank">LIJI32</a> & <a href="https://twitter.com/mewl_me" target="_blank">mewl\_me</a><br>
+" target="_blank">odaxelagnia</a>, Jack L., <a href="https://soundcloud.com/vaultkid" target="_blank">Vault Kid</a>, <a href="https://www.cheapbeats.net/" target="_blank">cheapshot</a>, <a href="http://kabcorp.fr/" target="_blank">Kabcorp</a>, <a href="https://trash80.com/" target="_blank">Trash80</a>, <a href="https://twitter.com/ImATrackMan/" target="_blank">ImATrackMan</a>, <a href="https://gbhwdb.gekkio.fi/" target="_blank">gekkio</a>, <a href="https://eldred.fr/" target="_blank">ISSOtm</a>, <a href="https://github.com/LIJI32" target="_blank">LIJI32</a>, <a href="https://twitter.com/mewl_me" target="_blank">mewl\_me</a> & <a href="https://soundcloud.com/skybox" target="_blank">skybox</a><br>
 <br>Happy Hippo track by <a href="http://doussis.com" target="_blank">Stello Doussis</a>
 
 ### PREFACE
@@ -251,6 +251,16 @@ Thank you Cheapshot for the recordings!
 | :--------------------------------------- | :--------------- | :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![pho_gbasp[ps].png](/img/pho_gbasp[ps].png) | <li>3.5mm prosound</li>  <li>AGS-101</li> | ![wf_gbasp[ps].png](/img/wf_gbasp[ps].png)<br>![sg_gbasp[ps].png](/img/sg_gbasp[ps].png)<br>![dc_gbasp[ps].png](/img/dc_gbasp[ps].png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_gbasp[ps].ogg"><a href="/snd/sndtest_gbasp[ps].ogg"> .ogg</a></audio> |
 
+#### GBBoy
+
+Thank you Kabcorp for the recordings!
+
+The original Chinese 5mhz Quartz Oscillator was replaced with a 4mhz one. More information to come.
+
+| Image                            | Variables                            | Waveform, spectrogram & DC offset                                              | Sound examples                                                                                                                                                                                                                                                          |
+| :------------------------------- | :----------------------------------- | :------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![pho_gbboy.jpg](/img/pho_gbboy.jpg) | <li>4mhz quartz oscillator</li> | ![wf_gbboy.png](/img/wf_gbboy.png)<br>![sg_gbboy.png](/img/sg_gbboy.png)<br>![dc_gbboy.png](/img/dc_dmg.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_GBBOY_4mhz.ogg"><a href="/snd/sndtest_GBBOY_4mhz.ogg"> .ogg</a></audio> |
+
 ### HOME
 
 #### Super Game Boy
@@ -278,7 +288,7 @@ See above for resonances, they're still the same.
 
 | Image                                    | Variables    | Waveform, spectrogram & DC offset                                                           | Sound examples                                                                                                                                                                                                                                                                              |
 | :--------------------------------------- | :----------- | :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![sgbps_1.jpg](/img/sgbps_1.jpg) | <li>???</li> | ![wf_sgb[ps].png](/img/wf_sgb[ps].png)<br>![sg_sgb[ps].png](/img/sg_sgb[ps].png)<br>![dc_sgb[ps].png](/img/dc_sgb[ps].png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sgb_[ps].ogg"><a href="/snd/sndtest_sgb_[ps}.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sgb_[ps].ogg"><a href="/snd/happyhippo_sgb_[ps].ogg"> .ogg</a></audio> |
+| ![sgbps_1.jpg](/img/sgbps_1.jpg) | <li>???</li> | ![wf_sgb[ps].png](/img/wf_sgb[ps].png)<br>![sg_sgb[ps].png](/img/sg_sgb[ps].png)<br>![dc_sgb[ps].png](/img/dc_sgb[ps].png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_sgb_[ps].ogg"><a href="/snd/sndtest_sgb_[ps].ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_sgb_[ps].ogg"><a href="/snd/happyhippo_sgb_[ps].ogg"> .ogg</a></audio> |
 
 #### Super Game Boy 2
 
@@ -385,6 +395,16 @@ Excellent bass, but is ruined by poor PCM emulation with the two best emulator c
 | ![pho_psp3000.jpg](/img/pho_psp3000.jpg) | <li>MasterBoy v2.10</li><li>TA-090v2</li> | ![wf_psp.png](/img/wf_psp.png)<br>![sg_psp.png](/img/sg_psp.png)<br>![dc_psp.png](/img/dc_psp.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_psp.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_psp.ogg"><a href="/snd/happyhippo_psp.ogg"> .ogg</a></audio> |
 | ![pho_psp1000.jpg](/img/pho_psp1000.jpg) | <li>Homer's RIN</li><li>TA-081</li> | ![wf_psp1000.png](/img/wf_psp1000.png)<br>![sg_psp1000.png](/img/sg_psp1000.png)<br>![dc_psp1000.png](/img/dc_psp1000.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_psp1000.ogg"><a href="/snd/sndtest_psp.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_psp1000.ogg"><a href="/snd/happyhippo_psp1000.ogg"> .ogg</a></audio> |
 
+#### NINTENDO SWITCH
+
+Thank you skybox for the recordings!
+
+More information to come.
+
+| Image                            | Variables                            | Waveform, spectrogram & DC offset                                              | Sound examples                                                                                                                                                                                                                                                          |
+| :------------------------------- | :----------------------------------- | :------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![placeholder.png](/img/placeholder.png) | <li>???</li> | ![wf_switch.png](/img/wf_switch.png)<br>![sg_switch.png](/img/sg_switch.png)<br>![dc_switch.png](/img/dc_switch.png) | SNDTEST.lsdsng<audio controls preload="none"><source src="/snd/sndtest_switch.ogg"><a href="/snd/sndtest_switch.ogg"> .ogg</a></audio><br>Happy Hippo<audio controls preload="none"><source src="/snd/happyhippo_switch.ogg"><a href="/snd/happyhippo_switch.ogg"> .ogg</a></audio> |
+
 ### CONCLUSION
 
 This page as a reference is already helpful enough to give you a good idea on what units are desirable, especially if you don't have access to such units in the first place, but at the end of the day, it is imperative that you do not trust this page (or any other for that matter) in blind faith. I highly recommend that you test your sound setups yourself. Even if you don't have the physical units, you can use the recordings provided. **Verify that what you see is what you get**. **Gauge whether the recordings (or your own hardware) sound fine or not on loudspeakers for your needs**. If you end up with different results compared to what I have on my page (this will be especially be noticeable with capacitor mods), please get in touch with me! <a href="/lsdj/gbhwsoundrec.zip">Source files required for hardware recordings</a>
@@ -435,3 +455,4 @@ Further instructions are provided in the README.txt within the .zip file provide
 - 0.9.8 - Changed the preface to be much less antagonistic-sounding and appended: Game Boy Light (thanks ImATrackMan!), VisualBoyAdvance.
 - 0.9.9 - Corrected information regarding mainboard revisions and physical CPU versions. Thanks gekkio, ISSOtm & LIJI32 of gbdev! Also added photos of Game Boy Advance, Game Boy Color (prosound) and PSP-3000. Added resonances to look out for with the Game Boy Light.
 - 1.0.0 - Added Pocket prosound & capacitor mod. Thank you mewl_me! Also wrote a conclusion.
+- 1.0.1 - Added Nintendo Switch and GBBoy. Thank you skybox and Kabcorp!
