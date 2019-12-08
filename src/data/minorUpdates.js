@@ -4,6 +4,12 @@ import React, { Fragment } from 'react';
 // Look into Netlify CMS: https://www.netlifycms.org/
 const minorUpdates = [
   {
+    date: '08.12.2019',//
+    content: (
+      <Fragment>Added a local gig in Canberra at <a href="https://www.facebook.com/events/818118385273949/" target="_blank">Smith's Alternative!</a></Fragment>
+    ),
+  },
+  {
     date: '24.11.2019',//
     content: (
       <Fragment>Icons changed to <a href="https://www.pixiv.net/member.php?id=36908366" target="_blank" title="Yomieda's pixiv art page">Yomieda</a>'s set! Goodies page added with more collections.</Fragment>

@@ -1,5 +1,11 @@
 [
   {
+    "date": "11.12.2019",
+    "upcoming": true,
+    "event": "Smith's Varietal #170",
+    "url": "https://www.facebook.com/events/818118385273949/"
+  },
+  {
     "date": "23.03.2019",
     "upcoming": false,
     "event": "Retrotastic #2",
