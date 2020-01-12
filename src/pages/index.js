@@ -22,7 +22,7 @@ const IndexPage = ({ data }) => (
       <meta property="og:description" content={data.site.siteMetadata.description} />
     </Helmet>
     <Page title="NEWS" />
-    <Updates title="Gigs (green for upcoming, red for occurring/occurred + DD.MM.YYYY):">
+    <Updates title="Gigs (green for upcoming, red for occurred + DD.MM.YYYY):">
       {data.gigs.edges.map(({ node }) => (
         <Event key={node.id} event={node} />
       ))}

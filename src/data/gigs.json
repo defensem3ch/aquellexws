@@ -1,9 +1,9 @@
 [
   {
     "date": "11.12.2019",
-    "upcoming": true,
-    "event": "Smith's Varietal #170",
-    "url": "https://www.facebook.com/events/818118385273949/"
+    "upcoming": false,
+    "event": "Smith's Varietal #170 [video]",
+    "url": "https://www.youtube.com/watch?v=eJWknI169ns"
   },
   {
     "date": "23.03.2019",
@@ -20,8 +20,8 @@
   {
     "date": "17.09.2018",
     "upcoming": false,
-    "event": "Square Sounds Tokyo 2018 Post-Party",
-    "url": "https://www.facebook.com/events/2269368509949414/"
+    "event": "Square Sounds Tokyo 2018 Post-Party [video]",
+    "url": "https://www.youtube.com/watch?v=wpoc1Eq6TB4"
   },
   {
     "date": "04.05.2018",

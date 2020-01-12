@@ -9,6 +9,55 @@
  * 1. Apply the `box-sizing` reset.
  */
 
+/**
+ * OH GOD HELP https://codepen.io/ScottMarshall/pen/fnmtx
+ */
+/*
+ .overlay{
+  position:fixed;
+   background:url(/img/aqxbg-cupcakecreature.png);
+  -webkit-animation:100s scroll infinite linear;
+  -moz-animation:100s scroll infinite linear;
+  -o-animation:100s scroll infinite linear;
+  -ms-animation:100s scroll infinite linear;
+  animation:100s scroll infinite linear;
+  top:0;
+  left:0;
+  width:100%;
+ height:100%;
+}*/
+
+@-webkit-keyframes scroll{
+  100%{
+    background-position:-3000px -3000px;
+  }
+}
+
+@-moz-keyframes scroll{
+  100%{
+    background-position:-3000px -3000px;
+  }
+}
+
+@-o-keyframes scroll{
+  100%{
+    background-position:-3000px -3000px;
+  }
+}
+
+@-ms-keyframes scroll{
+  100%{
+    background-position:-3000px -3000px;
+  }
+}
+
+@keyframes scroll{
+  100%{
+    background-position:-3000px -3000px;
+  }
+}
+
+
 html {
   box-sizing: border-box; /* 1 */
 }
@@ -21,10 +70,23 @@ html,
 body {
   margin: 0;
   padding: 0;
+
+  background:url(/img/aqxbg-cupcakecreature-50.png);
+ -webkit-animation:100s scroll infinite linear;
+ -moz-animation:100s scroll infinite linear;
+ -o-animation:100s scroll infinite linear;
+ -ms-animation:100s scroll infinite linear;
+ animation:100s scroll infinite linear;
+ top:0;
+ left:0;
+ width:100%;
+height:auto;
+background-color: #000;
 }
 
 body {
-  background-color: #000;
+  /*background:url(/img/aqxbg-cupcakecreature.png);*/
+
   color: white;
   font-size: 16px;
   overflow-y: auto;
