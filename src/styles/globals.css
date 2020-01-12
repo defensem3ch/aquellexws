@@ -29,31 +29,31 @@
 
 @-webkit-keyframes scroll{
   100%{
-    background-position:-3000px -3000px;
+    background-position:-1890px -1388px;
   }
 }
 
 @-moz-keyframes scroll{
   100%{
-    background-position:-3000px -3000px;
+    background-position:-1890px -1388px;
   }
 }
 
 @-o-keyframes scroll{
   100%{
-    background-position:-3000px -3000px;
+    background-position:-1890px -1388px;
   }
 }
 
 @-ms-keyframes scroll{
   100%{
-    background-position:-3000px -3000px;
+    background-position:-1890px -1388px;
   }
 }
 
 @keyframes scroll{
   100%{
-    background-position:-3000px -3000px;
+    background-position:-1890px -1388px;
   }
 }
 

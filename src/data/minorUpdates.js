@@ -4,7 +4,7 @@ import React, { Fragment } from 'react';
 // Look into Netlify CMS: https://www.netlifycms.org/
 const minorUpdates = [
   {
-    date: '12.01.2019',//
+    date: '12.01.2020',//
     content: (
       <Fragment>Added videos to past gigs. Also added an awesome scrolling background! Thanks, <a href="https://www.cupcakecreature.com/" target="_blank" title="CupcakeCreature">CupcakeCreature!</a></Fragment>
     ),
