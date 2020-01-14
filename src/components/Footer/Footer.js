@@ -29,6 +29,9 @@ const Footer = ({ updated }) => {
         <p>
           My E-mail: <a href="mailto:aquellex@f0xpa.ws">aquellex@f0xpa.ws</a>
         </p>
+        <p>
+          ABN: 38 843 406 545
+        </p>
       </div>
     </footer>
   );
