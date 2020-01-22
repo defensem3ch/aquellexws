@@ -1,5 +1,11 @@
 [
   {
+    "date": "22.01.2020",
+    "upcoming": true,
+    "event": "Soundscapes #40",
+    "url": "https://www.facebook.com/events/825796334906331/"
+  },
+  {
     "date": "11.12.2019",
     "upcoming": false,
     "event": "Smith's Varietal #170 [video]",
