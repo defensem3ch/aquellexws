@@ -4,6 +4,12 @@ import React, { Fragment } from 'react';
 // Look into Netlify CMS: https://www.netlifycms.org/
 const minorUpdates = [
   {
+    date: '11.02.2020',//
+    content: (
+      <Fragment>Footer updated to be a part of FurRing!</Fragment>
+    ),
+  },
+  {
     date: '22.01.2020',//
     content: (
       <Fragment>Updated <a href="https://www.pixiv.net/member.php?id=36908366" target="_blank" title="Yomieda's pixiv art page">Yomieda</a>'s icons on the top bar! Thank her so much! Also added a new gig in Canberra!</Fragment>
