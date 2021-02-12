@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://defensem3ch.github.io/aquellexws/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/goodies/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/updates/2017-08-25-1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/goodies/anamanaguchi-review/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/updates/2017-08-25/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/updates/2017-10-07/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/updates/2018-02-07/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/updates/2018-09-12/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/updates/2019-02-12/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/updates/2019-10-26/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/goodies/tutorial/famitracker-dubstep.1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/goodies/tutorial/famitracker-dubstep/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/goodies/tutorial/game-boy-comparison/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://defensem3ch.github.io/aquellexws/music/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/goodies/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/updates/2017-08-25-1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/goodies/anamanaguchi-review/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/updates/2017-08-25/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/updates/2017-10-07/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/updates/2018-02-07/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/updates/2018-09-12/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/updates/2019-02-12/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/updates/2019-10-26/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/goodies/tutorial/famitracker-dubstep.1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/goodies/tutorial/famitracker-dubstep/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/goodies/tutorial/game-boy-comparison/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://defensem3ch.github.io/aquellexws/aquellexws/music/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
