@@ -53,6 +53,15 @@
   Link: </aquellexws/component---src-templates-goodies-js-c7adaa724e20cf0aeb7b.js>; rel=preload; as=script
   Link: </aquellexws/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </aquellexws/page-data/goodies/page-data.json>; rel=preload; as=fetch; crossorigin
+/aquellexws/goodies/anamanaguchi-review/
+  Link: </aquellexws/webpack-runtime-7d084bd40794b1c31f4f.js>; rel=preload; as=script
+  Link: </aquellexws/framework-1bcdbcdd30f43763a25c.js>; rel=preload; as=script
+  Link: </aquellexws/app-7d409df27e01f77c48dd.js>; rel=preload; as=script
+  Link: </aquellexws/styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </aquellexws/commons-95714975e42611795420.js>; rel=preload; as=script
+  Link: </aquellexws/component---src-templates-page-js-c437fe86efb21ed536ca.js>; rel=preload; as=script
+  Link: </aquellexws/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </aquellexws/page-data/goodies/anamanaguchi-review/page-data.json>; rel=preload; as=fetch; crossorigin
 /aquellexws/updates/2017-08-25-1/
   Link: </aquellexws/webpack-runtime-7d084bd40794b1c31f4f.js>; rel=preload; as=script
   Link: </aquellexws/framework-1bcdbcdd30f43763a25c.js>; rel=preload; as=script
@@ -71,24 +80,6 @@
   Link: </aquellexws/component---src-templates-post-js-9ef5abd70f866059ec10.js>; rel=preload; as=script
   Link: </aquellexws/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </aquellexws/page-data/updates/2017-08-25/page-data.json>; rel=preload; as=fetch; crossorigin
-/aquellexws/goodies/anamanaguchi-review/
-  Link: </aquellexws/webpack-runtime-7d084bd40794b1c31f4f.js>; rel=preload; as=script
-  Link: </aquellexws/framework-1bcdbcdd30f43763a25c.js>; rel=preload; as=script
-  Link: </aquellexws/app-7d409df27e01f77c48dd.js>; rel=preload; as=script
-  Link: </aquellexws/styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
-  Link: </aquellexws/commons-95714975e42611795420.js>; rel=preload; as=script
-  Link: </aquellexws/component---src-templates-page-js-c437fe86efb21ed536ca.js>; rel=preload; as=script
-  Link: </aquellexws/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </aquellexws/page-data/goodies/anamanaguchi-review/page-data.json>; rel=preload; as=fetch; crossorigin
-/aquellexws/updates/2017-10-07/
-  Link: </aquellexws/webpack-runtime-7d084bd40794b1c31f4f.js>; rel=preload; as=script
-  Link: </aquellexws/framework-1bcdbcdd30f43763a25c.js>; rel=preload; as=script
-  Link: </aquellexws/app-7d409df27e01f77c48dd.js>; rel=preload; as=script
-  Link: </aquellexws/styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
-  Link: </aquellexws/commons-95714975e42611795420.js>; rel=preload; as=script
-  Link: </aquellexws/component---src-templates-post-js-9ef5abd70f866059ec10.js>; rel=preload; as=script
-  Link: </aquellexws/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </aquellexws/page-data/updates/2017-10-07/page-data.json>; rel=preload; as=fetch; crossorigin
 /aquellexws/updates/2018-02-07/
   Link: </aquellexws/webpack-runtime-7d084bd40794b1c31f4f.js>; rel=preload; as=script
   Link: </aquellexws/framework-1bcdbcdd30f43763a25c.js>; rel=preload; as=script
@@ -98,6 +89,15 @@
   Link: </aquellexws/component---src-templates-post-js-9ef5abd70f866059ec10.js>; rel=preload; as=script
   Link: </aquellexws/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </aquellexws/page-data/updates/2018-02-07/page-data.json>; rel=preload; as=fetch; crossorigin
+/aquellexws/updates/2017-10-07/
+  Link: </aquellexws/webpack-runtime-7d084bd40794b1c31f4f.js>; rel=preload; as=script
+  Link: </aquellexws/framework-1bcdbcdd30f43763a25c.js>; rel=preload; as=script
+  Link: </aquellexws/app-7d409df27e01f77c48dd.js>; rel=preload; as=script
+  Link: </aquellexws/styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </aquellexws/commons-95714975e42611795420.js>; rel=preload; as=script
+  Link: </aquellexws/component---src-templates-post-js-9ef5abd70f866059ec10.js>; rel=preload; as=script
+  Link: </aquellexws/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </aquellexws/page-data/updates/2017-10-07/page-data.json>; rel=preload; as=fetch; crossorigin
 /aquellexws/updates/2018-09-12/
   Link: </aquellexws/webpack-runtime-7d084bd40794b1c31f4f.js>; rel=preload; as=script
   Link: </aquellexws/framework-1bcdbcdd30f43763a25c.js>; rel=preload; as=script
