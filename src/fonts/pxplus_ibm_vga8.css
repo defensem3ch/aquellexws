@@ -1,8 +1,0 @@
-@font-face {
-  font-display: swap;
-  font-family: 'pxplus_ibm_vga8regular';
-  src: url('./pxplus_ibm_vga8-webfont.woff2') format('woff2'),
-    url('./pxplus_ibm_vga8-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
