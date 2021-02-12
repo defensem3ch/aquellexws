@@ -8,7 +8,7 @@ const NewsItem = ({ node }) => (
   <div className={styles.root}>
     <h3 className={styles.title}>
       <span>
-        {format(new Date(node.fields.date), 'DD.MM.YYYY')}
+        {format(new Date(node.fields.date), 'dd.MM.yyyy')}
         {' // '}
         {node.frontmatter.title}
       </span>

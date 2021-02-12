@@ -5,7 +5,7 @@ import format from 'date-fns/format';
 import styles from './PageFooter.module.css';
 
 const PageFooter = ({ updated }) => {
-  const updateTime = format(new Date(updated), 'DD/MM/YYYY, HH:MM:SS ZZ');
+  const updateTime = format(new Date(updated), 'dd/MM/yyyy, hh:mm:ss zz');
 
   return (
     <footer className={styles.pageFooter}>

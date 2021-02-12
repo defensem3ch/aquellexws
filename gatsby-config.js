@@ -28,7 +28,6 @@ module.exports = {
         path: `${__dirname}/src/data`,
       },
     },
-    'gatsby-transformer-sharp',
     'gatsby-transformer-json',
     {
       resolve: 'gatsby-transformer-remark',
