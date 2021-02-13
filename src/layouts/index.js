@@ -55,7 +55,7 @@ function TemplateWrapper({ children }) {
                   <meta property="og:description" content={siteMetadata.description} />
                   <meta
                     property="og:image"
-                    content={siteMetadata.siteUrl + withPrefix('/img/highres1000.png')}
+                    content={siteMetadata.siteUrl + withPrefix('/aquellexws/img/highres1000.png')}
                   />
                 </Helmet>
                 <Konami
@@ -65,7 +65,7 @@ function TemplateWrapper({ children }) {
                 <Konami
                   konami={[65, 78, 65, 77, 65, 78, 65, 71, 85, 67, 72, 73]}
                   easterEgg={() => {
-                    window.location.href = 'https://aquellex.ws/goodies/anamanaguchi-review';
+                    window.location.href = 'https://defensem3ch.github.io/aquellexws/goodies/anamanaguchi-review';
                   }}
                 />
                 <SecretsModal />

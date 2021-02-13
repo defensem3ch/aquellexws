@@ -38,7 +38,7 @@ export default class HTML extends React.Component {
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-          <link rel="shortcut icon" href={`${process.env.__PATH_PREFIX__ || ''}/img/yomieda/favicon.png`} />
+          <link rel="shortcut icon" href={`${process.env.__PATH_PREFIX__ || ''}/aquellexws/img/yomieda/favicon.png`} />
           {headComponents}
         </head>
         <body {...bodyAttributes}>

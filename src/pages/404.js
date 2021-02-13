@@ -18,7 +18,7 @@ const NotFoundPage = ({ data }) => (
     </Helmet>
     <h1>404: NOT FOUND</h1>
     <p>
-      <img alt="tenshi" src="/img/tenshi.gif" />
+      <img alt="tenshi" src="/aquellexws/img/tenshi.gif" />
     </p>
   </TemplateWrapper>
 );

@@ -193,15 +193,15 @@ It's very similar to how the DPCM pitch levels work, in that the bigger the sequ
 ### EXAMPLES
 <br>
 <video controls width="320" height="240">
-  <source src="/vid/2019-06-25_14-23-03.mp4" type="video/mp4">
+  <source src="/aquellexws/vid/2019-06-25_14-23-03.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
 | Track name      | Composer        | Audio                                                                                                                                 | Source files                                                                                             |
 | :-------------- | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------- |
-| Adrenaline Rush | Thomas Palensky | <audio controls preload="none"><source src="/snd/Adrenaline_Rush_224hz.ogg"><a href="/snd/Adrenaline_Rush_224hz.ogg">.ogg</a></audio> | <a href="/fami_other/adrenaline_rush.ftm">.ftm</a><br><a href="/fami_other/adrenaline_rush.nsf">.nsf</a> |
-| Blitter Spitter | Strobe (TiTAN)  | <audio controls preload="none"><source src="/snd/blitterspitter.ogg"><a href="/snd/blitterspitter.ogg">.ogg</a></audio>               | <a href="/fami_other/blitterspitter.ftm">.ftm</a><br><a href="/fami_other/blitterspitter.nsf">.nsf</a>   |
-| Wub Club        | Thomas Palensky | <audio controls preload="none"><source src="/snd/wub_club.ogg"><a href="/snd/wub_club.ogg">.ogg</a></audio>                           | <a href="/fami_other/wub_club.ftm">.ftm</a><br><a href="/fami_other/wub_club.nsf">.nsf</a>               |
+| Adrenaline Rush | Thomas Palensky | <audio controls preload="none"><source src="/aquellexws/snd/Adrenaline_Rush_224hz.ogg"><a href="/aquellexws/snd/Adrenaline_Rush_224hz.ogg">.ogg</a></audio> | <a href="/aquellexws/fami_other/adrenaline_rush.ftm">.ftm</a><br><a href="/aquellexws/fami_other/adrenaline_rush.nsf">.nsf</a> |
+| Blitter Spitter | Strobe (TiTAN)  | <audio controls preload="none"><source src="/aquellexws/snd/blitterspitter.ogg"><a href="/aquellexws/snd/blitterspitter.ogg">.ogg</a></audio>               | <a href="/aquellexws/fami_other/blitterspitter.ftm">.ftm</a><br><a href="/aquellexws/fami_other/blitterspitter.nsf">.nsf</a>   |
+| Wub Club        | Thomas Palensky | <audio controls preload="none"><source src="/aquellexws/snd/wub_club.ogg"><a href="/aquellexws/snd/wub_club.ogg">.ogg</a></audio>                           | <a href="/aquellexws/fami_other/wub_club.ftm">.ftm</a><br><a href="/aquellexws/fami_other/wub_club.nsf">.nsf</a>               |
 
 ### DOCUMENT CHANGELOG
 

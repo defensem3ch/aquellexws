@@ -161,13 +161,13 @@ To keep your carrier sounds clean, I recommend using pitches that are in the ove
 Unfortunately, the triangle does not have the same potential as the pulses, and is much harder to use due to FT's poor emulation of it. However, it does have its own set of tricks that sound great when done right. For starters, volume sequences will not work for achieving carrier tones like with the pulses, even when strictly using the overtone pitch series. However, it can be used to get nice growling sound. If you've ever heard the game over theme in Journey to Silius, there's a distinct 240 Hz growling effect done at the end with the triangle channel. A similar effect can be achieved with looped volume sequences, but with more variability and finer control, depending on the refresh rate being used. Basically, looped volume sequences on the triangle are best served for FX rather than melodic applications.
 
 <video controls preload="none">
-  <source src="/vid/silius.mp4" type="video/mp4">
+  <source src="/aquellexws/vid/silius.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
 | APU1+APU2 | APU1 only | APU2 only | Source file |
 | --------- | --------- | --------- | ----------- |
-| <audio controls preload="none"><source src="/snd/silius.ogg"><a href="/snd/silius.ogg">.ogg</a></audio> | <audio controls preload="none"><source src="/snd/silius_apu1.ogg"><a href="/snd/silius_apu1.ogg">.ogg</a></audio> | <audio controls preload="none"><source src="/snd/silius_apu2.ogg"><a href="/snd/silius_apu2.ogg">.ogg</a></audio> | <a href="/fami_other/silius.0cc">.0cc</a> |
+| <audio controls preload="none"><source src="/aquellexws/snd/silius.ogg"><a href="/aquellexws/snd/silius.ogg">.ogg</a></audio> | <audio controls preload="none"><source src="/aquellexws/snd/silius_apu1.ogg"><a href="/aquellexws/snd/silius_apu1.ogg">.ogg</a></audio> | <audio controls preload="none"><source src="/aquellexws/snd/silius_apu2.ogg"><a href="/aquellexws/snd/silius_apu2.ogg">.ogg</a></audio> | <a href="/aquellexws/fami_other/silius.0cc">.0cc</a> |
 
 However, pitch and arp sequences still have viable melodic use. The sequence sizing works in the same way as with the pulses, but the shapes and tones you will hear will be vastly different than that of the pulses. Since the triangle's phase never resets, it's capable of FM synthesis! Though it isn't exactly like the FM synthesis you're probably used to, as we're using a triangle instead of a sine, and you have much more control of the shaping. Don't get too overjoyed though, because this still requires a lot of testing on the hardware end to ensure it will sound good, and the output will be strongly affected by potential slowdowns (explained in Section 10). Typically, higher frequencies will play nicer on hardware, so try to use those as often as possible!
 
@@ -186,15 +186,15 @@ The DPCM channel surprisingly doesn't change much with higher refresh rates. All
 There's a very simple trick that can be done to unlock a whole new flavor of sounds at your disposal, and can also save you some space on instrument sequences as well. If you're using both 2A03 pulses to do refresh rate tricks, you may want to use a sequence from one pulse channel on another, but offset slightly. If you don't know, the Gxx effect normally works by delaying the data of the row it's on by the number of ticks set by the refresh rate. At 60 Hz, a G01 effect would represent a delay of 1/60th of a second, or a 16.66 ms delay, A G02 would be a 33.33 ms delay, and so on. Now, what if we had something like 220 Hz? That would give a G01 effect a delay of 1/220th of a second. This also means that at 120 Hz and 150 BPM, the tick resolution is double of what it normally is, because 120 Hz is 60 Hz doubled.
 
 For example, using Gxx for triplets at speed 6 is normally done like this:<br>
-![ft_s7_1.png](/img/ft_s7_1.png)
+![ft_s7_1.png](/aquellexws/img/ft_s7_1.png)
 
 But at 120 Hz, it would look like this instead:<br>
-![ft_s7_2.png](/img/ft_s7_2.png)
+![ft_s7_2.png](/aquellexws/img/ft_s7_2.png)
 
 But if you were to use something like 321 Hz at 150 BPM, neither of these would work, as the ticks per row would be different, and most likely uneven.
 
 Now, the Gxx effect isn't just useful for triplets. Let's say you want to have a sequence like this:<br>
-![ft_s7_3.png](/img/ft_s7_3.png)
+![ft_s7_3.png](/aquellexws/img/ft_s7_3.png)
 
 With the following volume sequences per instrument:<p>
 `Instrument 00: {| 15 0 0 0}`<br>
@@ -205,7 +205,7 @@ And the resulting output:<p>
 `Pulse 2: 0 15 0 0 0 15 0 0 0 15 0 0 ...`
 
 Instead of using a whole new volume sequence and instrument, you can just set a G01 effect on one of the channels (pulse 2 in this case), and you get this:<br>
-![ft_s7_4.png](/img/ft_s7_4.png)
+![ft_s7_4.png](/aquellexws/img/ft_s7_4.png)
 
 Assuming the same volume sequence as above, the resulting output would be this:<p>
 `Pulse 1: 15 0 0 0 15 0 0 0 15 0 0 0 ...`<br>
@@ -220,10 +220,10 @@ You've probably been tinkering around with the 2A03 pulses long enough to realiz
 The 2A03 pulses have a special feature called "hardware sweeps". It works much like the software pitch sweep effects (1xx and 2xx), but it's controlled directly from the 2A03 chip, so it works on its own clock. This feature can be accessed through the Hxy (sweep up) and Ixy (sweep down) effects in FT and 0CC, and can only be used on the 2A03 pulse channels. However, if you leave the x and y values as zeros and put it after a note begins playing, you will hear a very subtle click in the output. What happens here is the waveform's phase is being forcibly reset, and if you hear a click, that means it was reset before completing a full phase.
 
 Remember when I mentioned the importance of using fixed/calculated tempo? Doing so ensures that all ticks per row are equal. With that in mind, if you input a column of H00's or I00's starting from the initial note and listen to the output, you will hear a buzzing tone with a constant pitch on top of the tone produced by the note. If you combine this with an instrument containing a sequence that matches the global speed (for example, in 0CC, this would be a sequence that's four frames long, with a global speed of 4), you get a much cleaner sounding output than what you were probably getting before. It pretty much eliminates the need to stick to the overtone series, and makes fine pitch slides much more viable. This all would look something like this:<br>
-![ft_s8_1.png](/img/ft_s8_1.png)
+![ft_s8_1.png](/aquellexws/img/ft_s8_1.png)
 
 Now, let's back up a bit. Remember what we learned about the Gxx effect? It can be applied in the exact same way here:<br>
-![ft_s8_2.png](/img/ft_s8_2.png)
+![ft_s8_2.png](/aquellexws/img/ft_s8_2.png)
 
 If you don't quite understand, the reason it's necessary to also trail Gxx effects here is so that the trailing I00's trigger at the exact same interval as the initial note, which has a G01 effect on it. This means all subsequent I00's also need a G01 effect.
 
@@ -328,7 +328,7 @@ Aquellex: <a href="https://twitter.com/Aquellex" target="_blank">@Aquellex</a> |
 
 | Track name      | Composer        | Audio                                                                                                                                 | Source files                                                                                             |
 | :-------------- | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------- |
-| Adrenaline Rush | Dimeback | <audio controls preload="none"><source src="/snd/Adrenaline_Rush_224hz.ogg"><a href="/snd/Adrenaline_Rush_224hz.ogg">.ogg</a></audio> | <a href="/fami_other/adrenaline_rush.ftm">.ftm</a><br><a href="/fami_other/adrenaline_rush.nsf">.nsf</a> |
-| Blitter Spitter | Strobe (TiTAN)  | <audio controls preload="none"><source src="/snd/blitterspitter.ogg"><a href="/snd/blitterspitter.ogg">.ogg</a></audio>               | <a href="/fami_other/blitterspitter.ftm">.ftm</a><br><a href="/fami_other/blitterspitter.nsf">.nsf</a>   |
-| Spacial Smoothie | kipptune | <audio controls preload="none"><source src="/snd/Spacial_Smoothie.ogg"><a href="/snd/Spacial_Smoothie.ogg">.ogg</a></audio> | <a href="/fami_other/Spacial_Smoothie.ftm">.ftm</a><br><a href="/fami_other/Spacial_Smoothie.nsf">.nsf</a>  |
-| Wub Club        | Dimeback  | <audio controls preload="none"><source src="/snd/wub_club.ogg"><a href="/snd/wub_club.ogg">.ogg</a></audio>                           | <a href="/fami_other/wub_club.ftm">.ftm</a><br><a href="/fami_other/wub_club.nsf">.nsf</a>               |
+| Adrenaline Rush | Dimeback | <audio controls preload="none"><source src="/aquellexws/snd/Adrenaline_Rush_224hz.ogg"><a href="/aquellexws/snd/Adrenaline_Rush_224hz.ogg">.ogg</a></audio> | <a href="/aquellexws/fami_other/adrenaline_rush.ftm">.ftm</a><br><a href="/aquellexws/fami_other/adrenaline_rush.nsf">.nsf</a> |
+| Blitter Spitter | Strobe (TiTAN)  | <audio controls preload="none"><source src="/aquellexws/snd/blitterspitter.ogg"><a href="/aquellexws/snd/blitterspitter.ogg">.ogg</a></audio>               | <a href="/aquellexws/fami_other/blitterspitter.ftm">.ftm</a><br><a href="/aquellexws/fami_other/blitterspitter.nsf">.nsf</a>   |
+| Spacial Smoothie | kipptune | <audio controls preload="none"><source src="/aquellexws/snd/Spacial_Smoothie.ogg"><a href="/aquellexws/snd/Spacial_Smoothie.ogg">.ogg</a></audio> | <a href="/aquellexws/fami_other/Spacial_Smoothie.ftm">.ftm</a><br><a href="/aquellexws/fami_other/Spacial_Smoothie.nsf">.nsf</a>  |
+| Wub Club        | Dimeback  | <audio controls preload="none"><source src="/aquellexws/snd/wub_club.ogg"><a href="/aquellexws/snd/wub_club.ogg">.ogg</a></audio>                           | <a href="/aquellexws/fami_other/wub_club.ftm">.ftm</a><br><a href="/aquellexws/fami_other/wub_club.nsf">.nsf</a>               |

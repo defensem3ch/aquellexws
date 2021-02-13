@@ -6,8 +6,8 @@ lastUpdated: '2019-10-26T21:21:13+11:00'
 
 ### THE PERSON
 
-<img src="/img/melb2018.jpg" />*Source: Square Sounds Melbourne 2018, 24 Moons* (I'm the one with the Rubik's Cube and purple shirt!)
-<img src="/img/tokyo2018.jpg" />*Source: Square Sounds Tokyo 2018, Sacabo Cafe*
+<img src="/aquellexws/img/melb2018.jpg" />*Source: Square Sounds Melbourne 2018, 24 Moons* (I'm the one with the Rubik's Cube and purple shirt!)
+<img src="/aquellexws/img/tokyo2018.jpg" />*Source: Square Sounds Tokyo 2018, Sacabo Cafe*
 <br>
 
 Hello, everybody! I'm William (b. 1998). I go by the moniker 'Aquellex' in all my online circles, and it also serves as my own music project of sorts. I'm based in the capital city of Australia. I specialise in writing music for low-level hardware. I'm a Game Boy connoisseur of sorts. &#9786;
@@ -22,7 +22,7 @@ I'll catch you later in the cyberspace! You can contact me [here](mailto:aquelle
 
 ### THE MASCOT
 
-![AQUPDATEDREF.png](/img/AQUPDATEDREF.png)
+![AQUPDATEDREF.png](/aquellexws/img/AQUPDATEDREF.png)
 
 Find her gallery <a href="https://refsheet.net/aquellex/lindenmorsen" target="_blank">here</a>.
 
